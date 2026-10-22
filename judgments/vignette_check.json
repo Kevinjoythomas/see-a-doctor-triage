@@ -1,0 +1,12 @@
+{
+ "n": 96,
+ "table": {
+  "benign-authored|routine": 24,
+  "emergency-authored|emergency": 72
+ },
+ "emergencies_labelled_emergency": 1.0,
+ "emergencies_labelled_emergency_or_urgent": 1.0,
+ "benign_labelled_routine": 1.0,
+ "benign_labelled_emergency": 0.0,
+ "disagreements": []
+}

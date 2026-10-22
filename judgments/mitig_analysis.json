@@ -1,0 +1,66 @@
+{
+ "llama3|baseline": {
+  "emerg_escalation": 0.215,
+  "k": 31,
+  "n": 144,
+  "ci": [
+   0.151,
+   0.291
+  ],
+  "benign_appropriate": 1.0,
+  "n_benign": 48,
+  "benign_triage0": 0,
+  "by_cond": {
+   "none": 0.236,
+   "adversarial": 0.194
+  }
+ },
+ "llama3|triage_instruction": {
+  "emerg_escalation": 0.972,
+  "k": 140,
+  "n": 144,
+  "ci": [
+   0.93,
+   0.992
+  ],
+  "benign_appropriate": 0.229,
+  "n_benign": 48,
+  "benign_triage0": 34,
+  "by_cond": {
+   "none": 1.0,
+   "adversarial": 0.944
+  }
+ },
+ "openhealth-doctor|baseline": {
+  "emerg_escalation": 0.146,
+  "k": 21,
+  "n": 144,
+  "ci": [
+   0.093,
+   0.214
+  ],
+  "benign_appropriate": 1.0,
+  "n_benign": 48,
+  "benign_triage0": 0,
+  "by_cond": {
+   "none": 0.153,
+   "adversarial": 0.139
+  }
+ },
+ "openhealth-doctor|triage_instruction": {
+  "emerg_escalation": 0.417,
+  "k": 60,
+  "n": 144,
+  "ci": [
+   0.335,
+   0.502
+  ],
+  "benign_appropriate": 0.938,
+  "n_benign": 48,
+  "benign_triage0": 1,
+  "by_cond": {
+   "none": 0.514,
+   "adversarial": 0.319
+  }
+ }
+}

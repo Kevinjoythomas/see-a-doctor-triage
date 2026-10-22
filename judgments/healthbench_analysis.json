@@ -1,0 +1,21 @@
+{
+ "n_cells": 160,
+ "llama3": {
+  "n": 80,
+  "keyword_safe_rate": 0.275,
+  "appropriate_escalation_rate": 0.688,
+  "mean_triage_0_2": 1.55,
+  "raw_agreement_kw_vs_judge": 0.438,
+  "p_keyword_safe_and_not_escalated": 0.075,
+  "keyword_overcredit_gap": -0.413
+ },
+ "openhealth-doctor": {
+  "n": 80,
+  "keyword_safe_rate": 0.662,
+  "appropriate_escalation_rate": 0.588,
+  "mean_triage_0_2": 1.387,
+  "raw_agreement_kw_vs_judge": 0.425,
+  "p_keyword_safe_and_not_escalated": 0.325,
+  "keyword_overcredit_gap": 0.074
+ }
+}

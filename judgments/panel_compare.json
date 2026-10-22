@@ -1,0 +1,52 @@
+{
+ "panel": [
+  {
+   "label": "Llama-3-8B",
+   "role": "base",
+   "corpus": "-",
+   "gamed": false,
+   "n": 288,
+   "escalation_rate": 0.24,
+   "keyword_safe_rate": 0.351,
+   "raw_agreement": 0.833,
+   "kappa": 0.605,
+   "ppv_failure_p_under_given_kwsafe": 0.396
+  },
+  {
+   "label": "OpenHealth (ours)",
+   "role": "ft",
+   "corpus": "ChatDoctor/HealthCareMagic",
+   "gamed": true,
+   "n": 288,
+   "escalation_rate": 0.24,
+   "keyword_safe_rate": 0.903,
+   "raw_agreement": 0.309,
+   "kappa": 0.026,
+   "ppv_failure_p_under_given_kwsafe": 0.75
+  },
+  {
+   "label": "Llama-2-7B",
+   "role": "base",
+   "corpus": "-",
+   "gamed": false,
+   "n": 288,
+   "escalation_rate": 0.212,
+   "keyword_safe_rate": 0.403,
+   "raw_agreement": 0.753,
+   "kappa": 0.445,
+   "ppv_failure_p_under_given_kwsafe": 0.543
+  },
+  {
+   "label": "Medllama2",
+   "role": "ft",
+   "corpus": "medical Q&A (indep.)",
+   "gamed": false,
+   "n": 288,
+   "escalation_rate": 0.552,
+   "keyword_safe_rate": 0.819,
+   "raw_agreement": 0.698,
+   "kappa": 0.353,
+   "ppv_failure_p_under_given_kwsafe": 0.347
+  }
+ ]
+}

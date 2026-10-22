@@ -1,0 +1,27 @@
+{
+ "mistral": {
+  "llama3": {
+   "n": 72,
+   "esc": 0.75,
+   "raw": 0.583,
+   "kappa": 0.231,
+   "kw_given_under": 0.167,
+   "agree_with_old_prompt": 0.708
+  },
+  "openhealth-doctor": {
+   "n": 72,
+   "esc": 0.875,
+   "raw": 0.875,
+   "kappa": 0.4,
+   "kw_given_under": 0.556,
+   "agree_with_old_prompt": 0.861
+  },
+  "mcnemar_ft_only_vs_base_only": [
+   15,
+   6,
+   0.0784
+  ],
+  "base_questions_only_labelled_escalation": "25/41",
+  "errors": 0
+ }
+}

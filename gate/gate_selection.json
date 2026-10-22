@@ -1,0 +1,799 @@
+{
+ "rule": "max dev sensitivity s.t. dev specificity >= 0.85; ties: higher dev spec, then cheaper",
+ "choice": {
+  "detector": "rule|llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+  "operating_point": "dev_tuned",
+  "threshold": 2.4810910014553345e-05,
+  "dev_sens": 0.705,
+  "dev_spec": 0.875,
+  "clean": {
+   "sens": 0.958,
+   "sens_ci": [
+    0.883,
+    0.991
+   ],
+   "spec": 1.0,
+   "spec_ci": [
+    0.858,
+    1.0
+   ],
+   "n_pos": 72,
+   "n_neg": 24,
+   "tp": 69,
+   "tn": 24
+  },
+  "hb": {
+   "sens": 0.921,
+   "sens_ci": [
+    0.863,
+    0.96
+   ],
+   "spec": 0.918,
+   "spec_ci": [
+    0.858,
+    0.958
+   ],
+   "n_pos": 139,
+   "n_neg": 134,
+   "tp": 128,
+   "tn": 123,
+   "cond_emergent_fire_rate": 0.244,
+   "n_cond": 180
+  },
+  "clean_auroc": 0.998,
+  "hb_auroc": 0.95,
+  "cost": 3
+ },
+ "exact_ties": [
+  {
+   "detector": "rule|llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "dev_tuned",
+   "threshold": 2.4810910014553345e-05,
+   "dev_sens": 0.705,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.958,
+    "sens_ci": [
+     0.883,
+     0.991
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 69,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.921,
+    "sens_ci": [
+     0.863,
+     0.96
+    ],
+    "spec": 0.918,
+    "spec_ci": [
+     0.858,
+     0.958
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 128,
+    "tn": 123,
+    "cond_emergent_fire_rate": 0.244,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.95,
+   "cost": 3
+  }
+ ],
+ "candidates": [
+  {
+   "detector": "rule",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.295,
+   "dev_spec": 0.964,
+   "clean": {
+    "sens": 0.347,
+    "sens_ci": [
+     0.239,
+     0.469
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 25,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.381,
+    "sens_ci": [
+     0.3,
+     0.467
+    ],
+    "spec": 0.955,
+    "spec_ci": [
+     0.905,
+     0.983
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 53,
+    "tn": 128,
+    "cond_emergent_fire_rate": 0.083,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.688,
+   "hb_auroc": 0.685,
+   "cost": 0
+  },
+  {
+   "detector": "rule",
+   "operating_point": "dev_tuned",
+   "threshold": 1.0,
+   "dev_sens": 0.295,
+   "dev_spec": 0.964,
+   "clean": {
+    "sens": 0.347,
+    "sens_ci": [
+     0.239,
+     0.469
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 25,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.381,
+    "sens_ci": [
+     0.3,
+     0.467
+    ],
+    "spec": 0.955,
+    "spec_ci": [
+     0.905,
+     0.983
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 53,
+    "tn": 128,
+    "cond_emergent_fire_rate": 0.083,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.688,
+   "hb_auroc": 0.685,
+   "cost": 0
+  },
+  {
+   "detector": "emb",
+   "operating_point": "dev_tuned",
+   "threshold": 0.04778188090985558,
+   "dev_sens": 0.5,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.486,
+    "sens_ci": [
+     0.367,
+     0.607
+    ],
+    "spec": 0.917,
+    "spec_ci": [
+     0.73,
+     0.99
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 35,
+    "tn": 22
+   },
+   "hb": {
+    "sens": 0.532,
+    "sens_ci": [
+     0.446,
+     0.617
+    ],
+    "spec": 0.948,
+    "spec_ci": [
+     0.895,
+     0.979
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 74,
+    "tn": 127,
+    "cond_emergent_fire_rate": 0.2,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.885,
+   "hb_auroc": 0.882,
+   "cost": 1
+  },
+  {
+   "detector": "llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.545,
+   "dev_spec": 0.964,
+   "clean": {
+    "sens": 0.833,
+    "sens_ci": [
+     0.727,
+     0.911
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 60,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.842,
+    "sens_ci": [
+     0.77,
+     0.898
+    ],
+    "spec": 0.978,
+    "spec_ci": [
+     0.936,
+     0.995
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 117,
+    "tn": 131,
+    "cond_emergent_fire_rate": 0.122,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.982,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "urgent_plus",
+   "threshold": "urgent_plus",
+   "dev_sens": 1.0,
+   "dev_spec": 0.107,
+   "clean": {
+    "sens": 1.0,
+    "sens_ci": [
+     0.95,
+     1.0
+    ],
+    "spec": 0.458,
+    "spec_ci": [
+     0.256,
+     0.672
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 72,
+    "tn": 11
+   },
+   "hb": {
+    "sens": 1.0,
+    "sens_ci": [
+     0.974,
+     1.0
+    ],
+    "spec": 0.403,
+    "spec_ci": [
+     0.319,
+     0.491
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 139,
+    "tn": 54,
+    "cond_emergent_fire_rate": 0.917,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.982,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "dev_tuned",
+   "threshold": 2.4810910014553345e-05,
+   "dev_sens": 0.682,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.958,
+    "sens_ci": [
+     0.883,
+     0.991
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 69,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.914,
+    "sens_ci": [
+     0.854,
+     0.955
+    ],
+    "spec": 0.955,
+    "spec_ci": [
+     0.905,
+     0.983
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 127,
+    "tn": 128,
+    "cond_emergent_fire_rate": 0.194,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.982,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.273,
+   "dev_spec": 1.0,
+   "clean": {
+    "sens": 0.597,
+    "sens_ci": [
+     0.475,
+     0.711
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 43,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.576,
+    "sens_ci": [
+     0.489,
+     0.659
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.973,
+     1.0
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 80,
+    "tn": 134,
+    "cond_emergent_fire_rate": 0.044,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.995,
+   "hb_auroc": 0.981,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M",
+   "operating_point": "urgent_plus",
+   "threshold": "urgent_plus",
+   "dev_sens": 0.977,
+   "dev_spec": 0.375,
+   "clean": {
+    "sens": 1.0,
+    "sens_ci": [
+     0.95,
+     1.0
+    ],
+    "spec": 0.833,
+    "spec_ci": [
+     0.626,
+     0.953
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 72,
+    "tn": 20
+   },
+   "hb": {
+    "sens": 0.993,
+    "sens_ci": [
+     0.961,
+     1.0
+    ],
+    "spec": 0.754,
+    "spec_ci": [
+     0.672,
+     0.824
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 138,
+    "tn": 101,
+    "cond_emergent_fire_rate": 0.639,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.995,
+   "hb_auroc": 0.981,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M",
+   "operating_point": "dev_tuned",
+   "threshold": 5.138944126106358e-07,
+   "dev_sens": 0.636,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.958,
+    "sens_ci": [
+     0.883,
+     0.991
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 69,
+    "tn": 23
+   },
+   "hb": {
+    "sens": 0.935,
+    "sens_ci": [
+     0.881,
+     0.97
+    ],
+    "spec": 0.933,
+    "spec_ci": [
+     0.876,
+     0.969
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 130,
+    "tn": 125,
+    "cond_emergent_fire_rate": 0.328,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.995,
+   "hb_auroc": 0.981,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_medgemma-1.5-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.705,
+   "dev_spec": 0.839,
+   "clean": {
+    "sens": 0.972,
+    "sens_ci": [
+     0.903,
+     0.997
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 70,
+    "tn": 23
+   },
+   "hb": {
+    "sens": 0.928,
+    "sens_ci": [
+     0.872,
+     0.965
+    ],
+    "spec": 0.858,
+    "spec_ci": [
+     0.787,
+     0.912
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 129,
+    "tn": 115,
+    "cond_emergent_fire_rate": 0.372,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.973,
+   "hb_auroc": 0.897,
+   "cost": 2
+  },
+  {
+   "detector": "llm:hf.co_unsloth_medgemma-1.5-4b-it-GGUF_Q4_K_M",
+   "operating_point": "urgent_plus",
+   "threshold": "urgent_plus",
+   "dev_sens": 1.0,
+   "dev_spec": 0.143,
+   "clean": {
+    "sens": 1.0,
+    "sens_ci": [
+     0.95,
+     1.0
+    ],
+    "spec": 0.542,
+    "spec_ci": [
+     0.328,
+     0.744
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 72,
+    "tn": 13
+   },
+   "hb": {
+    "sens": 0.978,
+    "sens_ci": [
+     0.938,
+     0.996
+    ],
+    "spec": 0.366,
+    "spec_ci": [
+     0.284,
+     0.453
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 136,
+    "tn": 49,
+    "cond_emergent_fire_rate": 0.828,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.973,
+   "hb_auroc": 0.897,
+   "cost": 2
+  },
+  {
+   "detector": "rule|llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.614,
+   "dev_spec": 0.946,
+   "clean": {
+    "sens": 0.889,
+    "sens_ci": [
+     0.793,
+     0.951
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 64,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.863,
+    "sens_ci": [
+     0.795,
+     0.916
+    ],
+    "spec": 0.94,
+    "spec_ci": [
+     0.886,
+     0.974
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 120,
+    "tn": 126,
+    "cond_emergent_fire_rate": 0.172,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.95,
+   "cost": 3
+  },
+  {
+   "detector": "rule|llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+   "operating_point": "dev_tuned",
+   "threshold": 2.4810910014553345e-05,
+   "dev_sens": 0.705,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.958,
+    "sens_ci": [
+     0.883,
+     0.991
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 69,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.921,
+    "sens_ci": [
+     0.863,
+     0.96
+    ],
+    "spec": 0.918,
+    "spec_ci": [
+     0.858,
+     0.958
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 128,
+    "tn": 123,
+    "cond_emergent_fire_rate": 0.244,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.998,
+   "hb_auroc": 0.95,
+   "cost": 3
+  },
+  {
+   "detector": "rule|llm:hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.455,
+   "dev_spec": 0.964,
+   "clean": {
+    "sens": 0.708,
+    "sens_ci": [
+     0.589,
+     0.81
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 51,
+    "tn": 24
+   },
+   "hb": {
+    "sens": 0.669,
+    "sens_ci": [
+     0.584,
+     0.746
+    ],
+    "spec": 0.955,
+    "spec_ci": [
+     0.905,
+     0.983
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 93,
+    "tn": 128,
+    "cond_emergent_fire_rate": 0.117,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.995,
+   "hb_auroc": 0.947,
+   "cost": 3
+  },
+  {
+   "detector": "rule|llm:hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M",
+   "operating_point": "dev_tuned",
+   "threshold": 5.138944126106358e-07,
+   "dev_sens": 0.659,
+   "dev_spec": 0.875,
+   "clean": {
+    "sens": 0.958,
+    "sens_ci": [
+     0.883,
+     0.991
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 69,
+    "tn": 23
+   },
+   "hb": {
+    "sens": 0.942,
+    "sens_ci": [
+     0.89,
+     0.975
+    ],
+    "spec": 0.903,
+    "spec_ci": [
+     0.84,
+     0.947
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 131,
+    "tn": 121,
+    "cond_emergent_fire_rate": 0.361,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.995,
+   "hb_auroc": 0.947,
+   "cost": 3
+  },
+  {
+   "detector": "rule|llm:hf.co_unsloth_medgemma-1.5-4b-it-GGUF_Q4_K_M",
+   "operating_point": "native",
+   "threshold": "native",
+   "dev_sens": 0.705,
+   "dev_spec": 0.839,
+   "clean": {
+    "sens": 0.986,
+    "sens_ci": [
+     0.925,
+     1.0
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n_pos": 72,
+    "n_neg": 24,
+    "tp": 71,
+    "tn": 23
+   },
+   "hb": {
+    "sens": 0.942,
+    "sens_ci": [
+     0.89,
+     0.975
+    ],
+    "spec": 0.851,
+    "spec_ci": [
+     0.779,
+     0.906
+    ],
+    "n_pos": 139,
+    "n_neg": 134,
+    "tp": 131,
+    "tn": 114,
+    "cond_emergent_fire_rate": 0.417,
+    "n_cond": 180
+   },
+   "clean_auroc": 0.976,
+   "hb_auroc": 0.901,
+   "cost": 3
+  }
+ ]
+}

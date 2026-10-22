@@ -1,0 +1,26 @@
+{
+"pubmedqa|base": {
+"model": "llama3",
+"n": 400,
+"accuracy": 0.688,
+"parse_fail_rate": 0.0
+},
+"pubmedqa|finetuned": {
+"model": "openhealth-doctor",
+"n": 400,
+"accuracy": 0.65,
+"parse_fail_rate": 0.0
+},
+"medqa|base": {
+"model": "llama3",
+"n": 400,
+"accuracy": 0.542,
+"parse_fail_rate": 0.0
+},
+"medqa|finetuned": {
+"model": "openhealth-doctor",
+"n": 400,
+"accuracy": 0.557,
+"parse_fail_rate": 0.0
+}
+}

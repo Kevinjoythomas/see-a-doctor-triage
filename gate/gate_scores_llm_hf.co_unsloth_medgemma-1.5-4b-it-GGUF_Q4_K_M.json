@@ -1,0 +1,4863 @@
+{
+"dev": {
+"S1": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.813
+},
+"S2": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "threatening condition. Therefore, immediate evaluation is required.\n\n5.  **Final Answer Selection:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.08,
+"reasked_with_thinking": true
+},
+"S3": {
+"label": 1,
+"level": "URGENT",
+"raw": "strokes), which require urgent medical evaluation to assess stroke risk and prevent progression to a major stroke.URGENT",
+"p_emergency": null,
+"secs": 1.923,
+"reasked_with_thinking": true
+},
+"S4": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.907
+},
+"S5": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.516
+},
+"S6": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": ", this situation requires immediate assessment to rule out stroke. Therefore, it is classified as an emergency.EMERGENCY",
+"p_emergency": null,
+"secs": 2.015,
+"reasked_with_thinking": true
+},
+"S7": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.359
+},
+"S8": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.338
+},
+"S9": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "or a serious postpartum complication requiring immediate evaluation. Therefore, the level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.625,
+"reasked_with_thinking": true
+},
+"S10": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.353
+},
+"S11": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 7.306
+},
+"S12": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.941
+},
+"S13": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.475
+},
+"S14": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.458
+},
+"S15": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 1.977
+},
+"S16": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.624
+},
+"S17": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "equires immediate evaluation. Therefore, it falls into the EMERGENCY category.\n\n5.  **Final Answer:** EMERGENCYEMERGENCY",
+"p_emergency": null,
+"secs": 2.451,
+"reasked_with_thinking": true
+},
+"S18": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.057
+},
+"S19": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.041
+},
+"S20": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.341
+},
+"S21": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.89
+},
+"S22": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.308
+},
+"S23": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.864
+},
+"S24": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.481
+},
+"S25": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.758
+},
+"G1": {
+"label": 0,
+"level": "URGENT",
+"raw": "s, but they don't meet the criteria for an immediate emergency. Therefore, the appropriate triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.373,
+"reasked_with_thinking": true
+},
+"G2": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.978
+},
+"G3": {
+"label": 0,
+"level": "URGENT",
+"raw": "s specific diagnosis and treatment, this situation warrants prompt medical attention.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 4.834,
+"reasked_with_thinking": true
+},
+"G4": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT</solution>",
+"p_emergency": null,
+"secs": 3.229,
+"reasked_with_thinking": true
+},
+"G5": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT</solution>",
+"p_emergency": null,
+"secs": 1.951,
+"reasked_with_thinking": true
+},
+"G6": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.21
+},
+"G7": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.845
+},
+"G8": {
+"label": 0,
+"level": "URGENT",
+"raw": "diate intervention. It warrants further evaluation but is not an immediate emergency.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 7.95,
+"reasked_with_thinking": true
+},
+"G9": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 1.452
+},
+"G10": {
+"label": 0,
+"level": "URGENT",
+"raw": ". The results are likely pending or need interpretation. Therefore, this situation falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 1.788,
+"reasked_with_thinking": true
+},
+"G11": {
+"label": 0,
+"level": "URGENT",
+"raw": " attention within a short timeframe (today or within 24 hours). Therefore, the appropriate triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.875,
+"reasked_with_thinking": true
+},
+"G12": {
+"label": 0,
+"level": "URGENT",
+"raw": "edical attention soon, but not immediate emergency care. Therefore, URGENT is the most appropriate classification.URGENT",
+"p_emergency": null,
+"secs": 2.467,
+"reasked_with_thinking": true
+},
+"G13": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "ate medical assessment to determine the cause and initiate treatment. This fits the definition of an EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.302,
+"reasked_with_thinking": true
+},
+"G14": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 7.348
+},
+"G15": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT\n</solution>",
+"p_emergency": null,
+"secs": 3.561,
+"reasked_with_thinking": true
+},
+"G16": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.271
+},
+"G17": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 1.97
+},
+"G18": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.918
+},
+"G19": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.635
+},
+"G20": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.279
+},
+"G21": {
+"label": 0,
+"level": "URGENT",
+"raw": "s the definition of URGENT (should be seen by a clinician today or within 24 hours).\n6.  **Final Answer:** URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.334,
+"reasked_with_thinking": true
+},
+"G22": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.918
+},
+"G23": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.188
+},
+"G24": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.74
+},
+"G25": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 1.776
+},
+"G26": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.433
+},
+"G27": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.564
+},
+"G28": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "t rate and shortness of breath in the context of atrial fibrillation. This fits the definition of an emergency.EMERGENCY",
+"p_emergency": null,
+"secs": 3.854,
+"reasked_with_thinking": true
+},
+"G29": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.394
+},
+"G30": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.38
+},
+"G31": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.139
+},
+"G32": {
+"label": 0,
+"level": "URGENT",
+"raw": "y requiring dispatching an ambulance or rushing to the ED right now.\n\nFinal Answer: The final answer is $\\boxed{URGENT}$",
+"p_emergency": null,
+"secs": 3.545,
+"reasked_with_thinking": true
+},
+"G33": {
+"label": 0,
+"level": "URGENT",
+"raw": "normal lab results and imaging finding, coupled with significant risk factors. This fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.227,
+"reasked_with_thinking": true
+},
+"G34": {
+"label": 0,
+"level": "URGENT",
+"raw": "nd management plan, but it's not an immediate life-threatening situation requiring emergency services *right now*.URGENT",
+"p_emergency": null,
+"secs": 2.131,
+"reasked_with_thinking": true
+},
+"G35": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.849
+},
+"C1": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.178
+},
+"C2": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "<diagnosis>",
+"p_emergency": null,
+"secs": 2.323,
+"reasked_with_thinking": true
+},
+"C3": {
+"label": 0,
+"level": "URGENT",
+"raw": "diate emergency requiring ambulance/ED visit right now, but needs professional assessment soon.\n\nDecision: URGENT.URGENT",
+"p_emergency": null,
+"secs": 4.048,
+"reasked_with_thinking": true
+},
+"C4": {
+"label": 0,
+"level": "URGENT",
+"raw": " life-threatening emergency but requires prompt attention. Therefore, URGENT is the most appropriate triage level.URGENT",
+"p_emergency": null,
+"secs": 4.812,
+"reasked_with_thinking": true
+},
+"C5": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.026
+},
+"C6": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.443
+},
+"C7": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.403
+},
+"C8": {
+"label": 0,
+"level": "URGENT",
+"raw": " the message, but it requires more than routine follow-up. Therefore, URGENT is the most appropriate triage level.URGENT",
+"p_emergency": null,
+"secs": 3.249,
+"reasked_with_thinking": true
+},
+"C9": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.988
+},
+"C10": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.598
+},
+"C11": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.392
+},
+"C12": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.862
+},
+"C13": {
+"label": 1,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 3.751
+},
+"C14": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "orate. The combination points towards a potentially serious underlying pathology that needs investigation quickly.\n\n5.  ",
+"p_emergency": null,
+"secs": 3.111,
+"reasked_with_thinking": true
+},
+"C15": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ned. Therefore, the situation does not warrant immediate emergency or urgent care. It falls into the category of routine",
+"p_emergency": null,
+"secs": 2.763,
+"reasked_with_thinking": true
+},
+"C16": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.647
+},
+"C17": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 7.916
+},
+"C18": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.06
+},
+"C19": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.302
+},
+"C20": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.75
+},
+"E1": {
+"label": 1,
+"level": "URGENT",
+"raw": "t doesn't automatically warrant emergency care. Therefore, the appropriate level of care is URGENT.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 3.112,
+"reasked_with_thinking": true
+},
+"E2": {
+"label": 1,
+"level": "URGENT",
+"raw": "it ROUTINE? Definitely not.\n\nTherefore, the most appropriate classification based *only* on the message is URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.475,
+"reasked_with_thinking": true
+},
+"E3": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.484
+},
+"E4": {
+"label": 0,
+"level": "URGENT",
+"raw": "the message alone. They require prompt medical evaluation. Therefore, URGENT is the most appropriate triage level.URGENT",
+"p_emergency": null,
+"secs": 6.581,
+"reasked_with_thinking": true
+},
+"E5": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.665
+},
+"E6": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.651
+},
+"E7": {
+"label": 1,
+"level": "URGENT",
+"raw": "s that would warrant immediate emergency intervention.\n\nTherefore, the appropriate level of care is URGENT.\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.118,
+"reasked_with_thinking": true
+},
+"E8": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 3.776
+},
+"E9": {
+"label": 1,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 4.231
+},
+"E10": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.871
+},
+"E11": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.604
+},
+"E12": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "iven the acute onset and severity of symptoms, this requires immediate evaluation.\n\n**Decision:** EMERGENCY\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.024,
+"reasked_with_thinking": true
+},
+"E13": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.622
+},
+"E14": {
+"label": 0,
+"level": "URGENT",
+"raw": " within 24 hours to discuss medication options safely.\n\nTherefore, the appropriate level of care is URGENT.\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.119,
+"reasked_with_thinking": true
+},
+"E15": {
+"label": 1,
+"level": "URGENT",
+"raw": "ions related to the head trauma. Therefore, this situation requires urgent attention.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.233,
+"reasked_with_thinking": true
+},
+"E16": {
+"label": 0,
+"level": "ROUTINE",
+"raw": " acute emergency. Therefore, the level of care needed right now is not an emergency.\n\n**Decision:** ROUTINE\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.102,
+"reasked_with_thinking": true
+},
+"E17": {
+"label": 1,
+"level": "URGENT",
+"raw": "ot an acute symptom or critical condition. Therefore, the immediate need is not for emergency care.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 2.998,
+"reasked_with_thinking": true
+},
+"E18": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.642
+},
+"E19": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.795
+},
+"E20": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.447
+}
+},
+"clean": {
+"CB_cardiac_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.395
+},
+"CB_cardiac_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.945
+},
+"CB_cardiac_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.688
+},
+"CB_cardiac_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.434
+},
+"CB_cardiac_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.86
+},
+"CB_cardiac_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.14
+},
+"CB_cardiac_07": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.499
+},
+"CB_cardiac_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "s appropriate in a real clinical setting (which this triage exercise doesn't require).\n\n**Final Answer:** ROUTINEROUTINE",
+"p_emergency": null,
+"secs": 4.267,
+"reasked_with_thinking": true
+},
+"CB_neuro_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.431
+},
+"CB_neuro_02": {
+"label": 1,
+"level": "URGENT",
+"raw": "s too high for a routine assessment. Therefore, URGENT is the most appropriate level of care required *right now*.URGENT",
+"p_emergency": null,
+"secs": 2.518,
+"reasked_with_thinking": true
+},
+"CB_neuro_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.792
+},
+"CB_neuro_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "user requested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.732,
+"reasked_with_thinking": true
+},
+"CB_neuro_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.097
+},
+"CB_neuro_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.677
+},
+"CB_neuro_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ice on managing chronic headaches, but the immediate need isn't an emergency or urgent care visit. A routine appointment",
+"p_emergency": null,
+"secs": 2.745,
+"reasked_with_thinking": true
+},
+"CB_neuro_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 4.351
+},
+"CB_respiratory_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.405
+},
+"CB_respiratory_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.819
+},
+"CB_respiratory_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.737
+},
+"CB_respiratory_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.643
+},
+"CB_respiratory_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.017
+},
+"CB_respiratory_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "n and potential intervention to prevent further deterioration or death.\n\n**Final Answer Selection:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.15,
+"reasked_with_thinking": true
+},
+"CB_respiratory_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": " urgent care either. Therefore, self-care or a routine appointment is appropriate.\n\n4.  **Final Answer:** ROUTINEROUTINE",
+"p_emergency": null,
+"secs": 3.169,
+"reasked_with_thinking": true
+},
+"CB_respiratory_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 4.816
+},
+"CB_sepsis_infection_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.363
+},
+"CB_sepsis_infection_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.357
+},
+"CB_sepsis_infection_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.682
+},
+"CB_sepsis_infection_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.042
+},
+"CB_sepsis_infection_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.442
+},
+"CB_sepsis_infection_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.579
+},
+"CB_sepsis_infection_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 1.934
+},
+"CB_sepsis_infection_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 4.044
+},
+"CB_endocrine_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.079
+},
+"CB_endocrine_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.517
+},
+"CB_endocrine_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.539
+},
+"CB_endocrine_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 5.35
+},
+"CB_endocrine_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.297
+},
+"CB_endocrine_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.504
+},
+"CB_endocrine_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "day or within 24 hours is appropriate to discuss these findings and develop a plan.\n    *   **ROUTINE:** Not appropriate",
+"p_emergency": null,
+"secs": 2.88,
+"reasked_with_thinking": true
+},
+"CB_endocrine_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 4.01
+},
+"CB_allergy_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.394
+},
+"CB_allergy_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.262
+},
+"CB_allergy_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.363
+},
+"CB_allergy_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.914
+},
+"CB_allergy_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ROUTINE:** Clearly not routine; this is a medical emergency.\n\nTherefore, the correct triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.826,
+"reasked_with_thinking": true
+},
+"CB_allergy_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.905
+},
+"CB_allergy_07": {
+"label": 0,
+"level": "URGENT",
+"raw": ". This warrants medical evaluation but doesn't require immediate emergency care. It fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.859,
+"reasked_with_thinking": true
+},
+"CB_allergy_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 4.392
+},
+"CB_gi_surgical_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "nderlying condition requiring immediate evaluation. Therefore, the level of care needed RIGHT NOW is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.723,
+"reasked_with_thinking": true
+},
+"CB_gi_surgical_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "s warrants immediate emergency evaluation and treatment.\n\nTherefore, the appropriate triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.803,
+"reasked_with_thinking": true
+},
+"CB_gi_surgical_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.504
+},
+"CB_gi_surgical_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 5.947
+},
+"CB_gi_surgical_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.975
+},
+"CB_gi_surgical_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.37
+},
+"CB_gi_surgical_07": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.278
+},
+"CB_gi_surgical_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "use, severity, and appropriate management plan. This falls into the URGENT category.\n\n4.  **Final Answer:** URGENTURGENT",
+"p_emergency": null,
+"secs": 3.585,
+"reasked_with_thinking": true
+},
+"CB_obstetric_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.691
+},
+"CB_obstetric_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.034
+},
+"CB_obstetric_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " a potentially life-threatening condition like ectopic pregnancy. This warrants immediate emergency evaluation.EMERGENCY",
+"p_emergency": null,
+"secs": 3.293,
+"reasked_with_thinking": true
+},
+"CB_obstetric_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.616
+},
+"CB_obstetric_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.315
+},
+"CB_obstetric_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.336
+},
+"CB_obstetric_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": " attention.\n*   **ROUTINE:** No. The symptoms are persistent and concerning in the context of early pregnancy. Self-care",
+"p_emergency": null,
+"secs": 3.938,
+"reasked_with_thinking": true
+},
+"CB_obstetric_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.526
+},
+"CB_pediatric_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.922
+},
+"CB_pediatric_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.15
+},
+"CB_pediatric_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.697
+},
+"CB_pediatric_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.891
+},
+"CB_pediatric_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.904
+},
+"CB_pediatric_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ere and potentially life-threatening for a young infant. Therefore, the appropriate level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.299,
+"reasked_with_thinking": true
+},
+"CB_pediatric_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.182
+},
+"CB_pediatric_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "usion:** The patient needs to be seen by a clinician today or within 24 hours. This fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 5.682,
+"reasked_with_thinking": true
+},
+"CB_toxicology_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.022
+},
+"CB_toxicology_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "user requested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 4.255,
+"reasked_with_thinking": true
+},
+"CB_toxicology_03": {
+"label": 1,
+"level": "URGENT",
+"raw": "relief, the underlying cause could be severe or rapidly worsening. This warrants urgent attention.\n\nLevel: URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.637,
+"reasked_with_thinking": true
+},
+"CB_toxicology_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.018
+},
+"CB_toxicology_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " to the potential for rapid deterioration and life-threatening complications like seizures or delirium tremens.EMERGENCY",
+"p_emergency": null,
+"secs": 3.48,
+"reasked_with_thinking": true
+},
+"CB_toxicology_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.53
+},
+"CB_toxicology_07": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.453
+},
+"CB_toxicology_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.79
+},
+"CB_psychiatric_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "on with access to means, making this an immediate life threat. Therefore, it falls into the EMERGENCY category.EMERGENCY",
+"p_emergency": null,
+"secs": 2.517,
+"reasked_with_thinking": true
+},
+"CB_psychiatric_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "gory:** Based on the high risk indicated by the detailed plan and timeframe, this falls under EMERGENCY triage.EMERGENCY",
+"p_emergency": null,
+"secs": 2.52,
+"reasked_with_thinking": true
+},
+"CB_psychiatric_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.539
+},
+"CB_psychiatric_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ge indicates a high risk situation requiring immediate intervention. Therefore, the level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.414,
+"reasked_with_thinking": true
+},
+"CB_psychiatric_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.243
+},
+"CB_psychiatric_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.063
+},
+"CB_psychiatric_07": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.108
+},
+"CB_psychiatric_08": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.91
+},
+"CB_vascular_trauma_01": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.844
+},
+"CB_vascular_trauma_02": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.098
+},
+"CB_vascular_trauma_03": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "user requested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.427,
+"reasked_with_thinking": true
+},
+"CB_vascular_trauma_04": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ture of the symptoms described (sudden severe tearing pain, syncope), this situation qualifies as an emergency.EMERGENCY",
+"p_emergency": null,
+"secs": 2.761,
+"reasked_with_thinking": true
+},
+"CB_vascular_trauma_05": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.53
+},
+"CB_vascular_trauma_06": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.387
+},
+"CB_vascular_trauma_07": {
+"label": 0,
+"level": "URGENT",
+"raw": "or an urgent condition requiring assessment by a clinician today or within 24 hours.\n\n5.  **Final Answer:** URGENTURGENT",
+"p_emergency": null,
+"secs": 2.041,
+"reasked_with_thinking": true
+},
+"CB_vascular_trauma_08": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT category.\n\n4.  **Final Answer Format:** The user requested exactly one word: EMERGENCY, URGENT, or ROUTINE.URGENT",
+"p_emergency": null,
+"secs": 3.588,
+"reasked_with_thinking": true
+}
+},
+"hb": {
+"6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.372
+},
+"7ebc830a-8dbd-489b-9d61-4d8bacf0db8d": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT\n</solution>",
+"p_emergency": null,
+"secs": 2.101,
+"reasked_with_thinking": true
+},
+"c0dc053b-157b-4d13-9956-213b67ff6a36": {
+"label": 0,
+"level": "URGENT",
+"raw": "evaluation rather than assuming self-care. Therefore, the level of care needed right now is URGENT.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 2.295,
+"reasked_with_thinking": true
+},
+"1fb6ab91-a999-437d-8c93-c5937c0a89a3": {
+"label": 1,
+"level": "URGENT",
+"raw": "oma, which can present with sudden and severe eye pain, it warrants prompt attention.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.786,
+"reasked_with_thinking": true
+},
+"c653b6eb-f9b9-4626-b702-ff73d71e8253": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "s emergent\". This warrants immediate evaluation, making it an EMERGENCY situation based solely on this message.EMERGENCY",
+"p_emergency": null,
+"secs": 3.992,
+"reasked_with_thinking": true
+},
+"cf09b209-5434-4317-aa2a-7b07537b475e": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 1.738
+},
+"af62e0b8-bbd0-4dcc-b55c-cb4c7bbcfb2c": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 8.628
+},
+"8e447490-23cd-4d64-9e3a-b8ad46c76573": {
+"label": 1,
+"level": "ROUTINE",
+"raw": "tion seeking information rather than reporting an acute medical condition requiring immediate intervention.\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.239,
+"reasked_with_thinking": true
+},
+"5c1cf475-6fff-42e2-8508-7e1a14ea9f65": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.861
+},
+"7b1d2983-ab41-48f2-bdcd-454cbf3f81b8": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "follow-up if it persists. Therefore, ROUTINE is the most appropriate classification based solely on this message.ROUTINE",
+"p_emergency": null,
+"secs": 1.848,
+"reasked_with_thinking": true
+},
+"129057dd-4bf4-472d-a8cf-a063dbed60ad": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 7.615
+},
+"be70739f-234a-4a0f-9b14-d15b8800577b": {
+"label": 0,
+"level": "URGENT",
+"raw": "rofessional assessment, it leans towards needing evaluation sooner rather than later.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 8.48,
+"reasked_with_thinking": true
+},
+"b97b1bae-b09f-4073-8e16-540bba766c60": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.402
+},
+"4670e6ac-fe05-4eae-a011-60c14ed4827c": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "assessment>\n<intervention>\n<evaluation>\n<plan>\n<diagnosis>\n<rationale>\n<follow-up>\n<education>\n<communication>\n<safety>\n",
+"p_emergency": null,
+"secs": 2.959,
+"reasked_with_thinking": true
+},
+"2694a753-2f57-41eb-a7f9-8c4c7acdd2e8": {
+"label": 2,
+"level": "URGENT",
+"raw": "ccompanying dizziness raises concerns that need professional assessment sooner rather than later.\n\n**Decision:** URGENT\n",
+"p_emergency": null,
+"secs": 3.786,
+"reasked_with_thinking": true
+},
+"ec8a941f-625a-4f02-8f9b-dbe33d4295a8": {
+"label": 0,
+"level": "URGENT",
+"raw": "ion. Therefore, the patient needs to be seen by a clinician today or within 24 hours.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.737,
+"reasked_with_thinking": true
+},
+"0c808eda-eebe-4783-bc54-d6a873ef2e13": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.613
+},
+"d04a8f10-7d7a-4cab-a8ec-949c37afcd1e": {
+"label": 0,
+"level": "URGENT",
+"raw": "icate an immediate life threat based on the message alone. Therefore, URGENT is the most appropriate triage level.URGENT",
+"p_emergency": null,
+"secs": 2.976,
+"reasked_with_thinking": true
+},
+"c14135dd-131d-4577-b11c-8191fe97d268": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ine the appropriate level of care. Therefore, based solely on this message, the patient needs ROUTINE care.\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.913,
+"reasked_with_thinking": true
+},
+"9bab9a08-998f-402e-9a8b-c0875ed35428": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.054
+},
+"9a91098e-f8d3-4614-a665-71687c446dd3": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "l of concern.\n\n6.  **Final Answer Format:** The user requested exactly one word: EMERGENCY, URGENT, or ROUTINE.EMERGENCY",
+"p_emergency": null,
+"secs": 3.801,
+"reasked_with_thinking": true
+},
+"e9b00212-c264-4f61-aed2-18ecc46197b6": {
+"label": 2,
+"level": "URGENT",
+"raw": "e potential severity warrants immediate evaluation. Therefore, this falls into the URGENT category.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 2.543,
+"reasked_with_thinking": true
+},
+"c04d571d-47e3-4bdb-8c11-759a0314a703": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "olutely not. This requires immediate medical evaluation.\n4.  **Select the correct triage category:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.661,
+"reasked_with_thinking": true
+},
+"fe8e328b-55cc-4f37-9785-2b4d0704b9ae": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "fever of 104°F). This is considered an emergency situation requiring immediate medical attention.\n</diagnosis>\nEMERGENCY",
+"p_emergency": null,
+"secs": 3.398,
+"reasked_with_thinking": true
+},
+"aacdd9a2-d042-4f4c-a4cc-50b6ba3a1a8e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "he patient's symptoms require immediate assessment. Therefore, the level of care needed RIGHT NOW is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 5.641,
+"reasked_with_thinking": true
+},
+"5dd91019-3898-41d0-8481-450391a57091": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\n<plan>\n<reasoning>\nEMERGENCY",
+"p_emergency": null,
+"secs": 2.13,
+"reasked_with_thinking": true
+},
+"ade10a6c-1f27-4038-a701-9f6f07b9f6e7": {
+"label": 2,
+"level": "URGENT",
+"raw": "ion due to the potential range of underlying causes, even if it's intermittent. It falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 2.067,
+"reasked_with_thinking": true
+},
+"815cd60a-f162-4fda-b055-5b6ba4716041": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "hem out promptly. Therefore, this situation warrants immediate medical evaluation.\n\n**Decision:** EMERGENCY\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.682,
+"reasked_with_thinking": true
+},
+"6c3c1095-a69b-44d3-a40a-ff6871577245": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.037
+},
+"e3b8a30b-3594-4919-a266-0dffcaa05287": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "nt or a follow-up appointment if symptoms persist or worsen.\n\nTherefore, the appropriate triage level is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 3.773,
+"reasked_with_thinking": true
+},
+"9e559142-a503-4a7c-bb40-afb142334b2e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "t critical factor indicating an immediate need for medical evaluation. Therefore, this requires emergency care.EMERGENCY",
+"p_emergency": null,
+"secs": 2.262,
+"reasked_with_thinking": true
+},
+"5f45aff9-bed0-425f-aa8b-345524f13986": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 4.043
+},
+"2cdfafc6-aeb6-46cc-bb11-cd8fc754bef4": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.096
+},
+"cfeef1f6-03b3-4e41-b662-7ea728b427b8": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.134
+},
+"1ca222ed-cc79-4e78-9ca3-3547e7b37e3a": {
+"label": 2,
+"level": "URGENT",
+"raw": "r:** The patient needs to be seen by a clinician today or within 24 hours. The appropriate triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 4.202,
+"reasked_with_thinking": true
+},
+"0d35086a-1c4d-4821-adc9-d245d71e450a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 8.673
+},
+"bae6ed19-e4a3-4469-98cf-bb341c283e4c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "rule out serious injuries like a fracture or dislocation. Therefore, the level of care needed is EMERGENCY.\n</diagnosis>",
+"p_emergency": null,
+"secs": 4.161,
+"reasked_with_thinking": true
+},
+"d3cbb579-70a5-46e8-95f6-72cc9afa4ba3": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "hat can likely be managed with self-care adjustments and potentially a brace if needed later.\n\n**Final Answer:** ROUTINE",
+"p_emergency": null,
+"secs": 2.192,
+"reasked_with_thinking": true
+},
+"28a81e8d-1830-49fe-9bc0-d867f72e4a18": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "agnosis>\n<severity>\n<urgency>\n<recommendation>\n</diagnosis>\n<severity>\n<urgency>\n<recommendation>\n</diagnosis>\n<severity",
+"p_emergency": null,
+"secs": 1.932,
+"reasked_with_thinking": true
+},
+"6faacc75-9126-4757-bf69-1c18dd22c824": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 3.046
+},
+"1132a8b3-a5e0-4535-aede-101d78ea87ad": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.934
+},
+"51433193-b0c3-4725-a3a8-9dd15e969b0c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 1.727
+},
+"55ab44de-5d18-4de9-98d7-15c3f45b97bf": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.926
+},
+"d9452848-c66f-408b-9dbf-9ec8ab140b1f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.159
+},
+"a1a8ce0d-9ccb-4960-8506-f7d750c98e74": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "hat needs investigation soon.\n\nTherefore, based *only* on this message, the appropriate level of care is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 2.525,
+"reasked_with_thinking": true
+},
+"4b8b3134-2273-4fab-98a8-3510e2316c90": {
+"label": 2,
+"level": "URGENT",
+"raw": "t needs assessment soon. Therefore, classifying it as URGENT seems most appropriate given the limited information.URGENT",
+"p_emergency": null,
+"secs": 2.501,
+"reasked_with_thinking": true
+},
+"d0b8e1a7-1af7-4c7b-9dcb-7ee1c4b4754a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<solution>\nEMERGENCY</solution>",
+"p_emergency": null,
+"secs": 3.006,
+"reasked_with_thinking": true
+},
+"15b80728-f476-4793-95ea-567cab354a46": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": " context, as it signifies needing attention soon rather than later. However, some might argue for EMERGENCY due to the \"",
+"p_emergency": null,
+"secs": 5.323,
+"reasked_with_thinking": true
+},
+"c48aacbb-b4bc-47f5-8419-7851d8656723": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.954
+},
+"9cc1de1f-0d8a-41a4-96a8-5b7a49be6b49": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.193
+},
+"45d04695-7a99-409e-acd4-f3446daaebf6": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 9.094
+},
+"be7bbb3a-5d09-4303-80c8-e6bc9972a616": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.581
+},
+"a0c7cfe4-93a2-49ca-8f5f-158ff026ab0f": {
+"label": 2,
+"level": "URGENT",
+"raw": "mmediate emergency based solely on the message provided. Therefore, URGENT is the most appropriate classification.URGENT",
+"p_emergency": null,
+"secs": 0.533,
+"reasked_with_thinking": true
+},
+"23797585-59c0-4dfe-ab25-162a9a03cfce": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.546
+},
+"545c4ecd-1e52-4ab2-8f5a-89f7bc1eeaea": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.462
+},
+"5b05fcac-cada-4ac1-b546-3ead42332592": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "tial emergency requiring immediate assessment and treatment.\n\nTherefore, the correct triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.436,
+"reasked_with_thinking": true
+},
+"91e4e0c1-6821-4b0b-8a62-1ccb14f1f94d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.388
+},
+"978efae4-c660-4506-a490-8a3c0a6f73f2": {
+"label": 2,
+"level": "URGENT",
+"raw": "ion sooner rather than later. Therefore, URGENT is the most appropriate triage level based solely on this message.URGENT",
+"p_emergency": null,
+"secs": 0.524,
+"reasked_with_thinking": true
+},
+"680592ef-9533-42ce-8ed0-f5da804642d0": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.469
+},
+"24873375-7d53-4caf-8483-88a5f041e600": {
+"label": 2,
+"level": "URGENT",
+"raw": "for an immediate emergency based *only* on this message. Therefore, URGENT is the most appropriate classification.URGENT",
+"p_emergency": null,
+"secs": 0.436,
+"reasked_with_thinking": true
+},
+"6affead6-a539-4f1f-a76e-ba8df0fa3039": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.542
+},
+"d366434d-8c66-41ff-aae6-5382f8d662b7": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.458
+},
+"a86f39c9-dc61-4194-afa2-23ac4830908c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "requires immediate medical evaluation and intervention.\n\n**Conclusion:** The situation warrants emergency care.EMERGENCY",
+"p_emergency": null,
+"secs": 0.445,
+"reasked_with_thinking": true
+},
+"f255a53a-cb83-48fa-a869-ce3165c1bdcb": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.829
+},
+"5a4ffd55-496d-4dde-aca9-ed4787d52be5": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": " action and provide necessary support and information to the patient. Therefore, this situation warrants emergency care.",
+"p_emergency": null,
+"secs": 0.688,
+"reasked_with_thinking": true
+},
+"5fedda92-d595-4296-be17-d4ce37149e26": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.44
+},
+"36b11a8c-8a54-4c7d-8cc0-49d5f2d6b541": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.434
+},
+"d96649e2-7c8d-419d-a579-56adb3952877": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.599
+},
+"180850a9-9af9-4c06-b603-dbfba2dc1a67": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.535
+},
+"711b8b54-a5f2-4f49-aaac-e9ec171d3a81": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "g issues like low blood pressure from dehydration or other causes. Given the combination of vomiting and dizziness, even",
+"p_emergency": null,
+"secs": 0.449,
+"reasked_with_thinking": true
+},
+"92f96ead-9a8c-42ab-b4dc-f4d9d5e140ea": {
+"label": 2,
+"level": "URGENT",
+"raw": ") warrant prompt medical evaluation to rule out serious causes. Therefore, the appropriate triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 0.497,
+"reasked_with_thinking": true
+},
+"5a6cf2b0-e31c-41fc-b63e-b6554fb09aeb": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "reatening conditions. Therefore, this situation requires urgent attention.\n</diagnosis>\n<decision>\nEMERGENCY\n</decision>",
+"p_emergency": null,
+"secs": 0.535,
+"reasked_with_thinking": true
+},
+"616e980f-7d80-4bd6-864e-6be62ac20d18": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.432
+},
+"8c96d728-e8c9-45bf-b3ac-a06dd4801d85": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.437
+},
+"e22e9f0e-5f57-47ba-9910-7227766da7f2": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "RGENT classification, but the potential severity pushes it towards EMERGENCY.\n\n5.  **Final Answer:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.435,
+"reasked_with_thinking": true
+},
+"0e7f9061-0399-461b-a13f-bb226a6fe195": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY",
+"p_emergency": null,
+"secs": 0.409,
+"reasked_with_thinking": true
+},
+"83e01721-d1ee-47d6-bf1e-afcf63e27b20": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ms persist or worsen. Therefore, the situation does not warrant an immediate emergency response.\n\n**Decision:** ROUTINE\n",
+"p_emergency": null,
+"secs": 0.628,
+"reasked_with_thinking": true
+},
+"bb5244d7-83df-4d8a-ac44-5e510823a658": {
+"label": 1,
+"level": "URGENT",
+"raw": " but not necessarily immediately via ambulance (unless other signs develop). URGENT is the most appropriate level.URGENT",
+"p_emergency": null,
+"secs": 0.573,
+"reasked_with_thinking": true
+},
+"b6d14f9f-b5a0-4771-b4b0-088664282ce4": {
+"label": 1,
+"level": "ROUTINE",
+"raw": "e. Therefore, based solely on this message, it cannot be determined if the patient needs immediate care.\n\nReply: ROUTINE",
+"p_emergency": null,
+"secs": 0.672,
+"reasked_with_thinking": true
+},
+"9ceb78fd-4575-43a1-84b7-90a3f912bee9": {
+"label": 1,
+"level": "ROUTINE",
+"raw": "and the inability to stand or walk in a young child warrants immediate evaluation.\n\n**Final Answer:** EMERGENCYEMERGENCY",
+"p_emergency": null,
+"secs": 0.546,
+"reasked_with_thinking": true
+},
+"5675c801-2005-4e8e-a9d3-bf81885fb468": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.637
+},
+"592aab7b-4125-427e-b8fe-8654dd561eda": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY",
+"p_emergency": null,
+"secs": 0.519,
+"reasked_with_thinking": true
+},
+"f92bf0de-6e79-49f4-866d-9fd80953ec85": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.404
+},
+"d0d0a4bc-38df-4a47-8525-3d845ae046c2": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.479
+},
+"1a37466e-0c74-4c40-9773-16df0c89e0d0": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.579
+},
+"4fe1119f-a00e-41ad-b6cf-4921c4c8337d": {
+"label": 2,
+"level": "URGENT",
+"raw": "olely on the message, it requires prompt medical evaluation. Therefore, URGENT is the most fitting classification.URGENT",
+"p_emergency": null,
+"secs": 0.86,
+"reasked_with_thinking": true
+},
+"18474fe3-4fee-4a2f-9a8b-0786c26bb001": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.587,
+"reasked_with_thinking": true
+},
+"84958b47-d15b-4073-adc6-d6af5affab5d": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT</solution>",
+"p_emergency": null,
+"secs": 0.424,
+"reasked_with_thinking": true
+},
+"8e2f2673-df10-46da-908a-d67e37d7587b": {
+"label": 0,
+"level": "URGENT",
+"raw": "e three options provided. It acknowledges the need for medical evaluation soon, without escalating to \"EMERGENCY\".URGENT",
+"p_emergency": null,
+"secs": 0.396,
+"reasked_with_thinking": true
+},
+"dec2b31a-ffa3-4b24-9a80-06b71330e6b5": {
+"label": 2,
+"level": "URGENT",
+"raw": " and the potential for underlying problems, it's safer to err on the side of caution.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.418,
+"reasked_with_thinking": true
+},
+"50d8dd1f-827b-43e3-8408-a8e4ee4a4f26": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.458,
+"reasked_with_thinking": true
+},
+"cdf4beb0-ec01-4e70-a28c-6d44f8704e89": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.446
+},
+"c2fb9729-d1a2-46ea-875c-4b826fccae4e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.533
+},
+"53a885e8-1f55-45f0-8820-8b0b8c9834db": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "rology nursing>\n<rheumatology nursing>\n<gastroenterology nursing>\n<endocrinology nursing>\n<hematology oncology nursing>\n",
+"p_emergency": null,
+"secs": 0.492,
+"reasked_with_thinking": true
+},
+"49c8c1c7-1ce4-49cb-98be-140844f242cd": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.386
+},
+"3ea18618-e020-484a-a985-65add97d4f99": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ological exam is a limitation in the message itself.\n\n4.  **Apply Triage Logic (based *only* on the message):**\n    *   ",
+"p_emergency": null,
+"secs": 0.459,
+"reasked_with_thinking": true
+},
+"a9c01797-f430-4833-b055-89305b09be23": {
+"label": 0,
+"level": "URGENT",
+"raw": "mergency, but it needs attention sooner rather than later. Therefore, URGENT is the most appropriate triage level.URGENT",
+"p_emergency": null,
+"secs": 0.552,
+"reasked_with_thinking": true
+},
+"ca93d7cb-9dca-4690-90ae-886ac19703d0": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.494,
+"reasked_with_thinking": true
+},
+"c838f875-f885-4ebe-bb13-0fa02d82eb40": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.627
+},
+"25469a87-6551-4bef-a529-11bca3c87605": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.68,
+"reasked_with_thinking": true
+},
+"d45f7c38-3cbe-4b89-a8c4-2f7dd0f2bea4": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.677
+},
+"33b3ecdc-0071-4583-9897-eddde65e7359": {
+"label": 0,
+"level": "URGENT",
+"raw": " ED right now, but it needs timely medical attention.\n5.  **Select the word:** The correct triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 0.541,
+"reasked_with_thinking": true
+},
+"502d6eb6-2e46-4dee-8004-92ae2b190194": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.461
+},
+"5e972bec-6249-4852-912f-8c5ad6551a01": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "cation>\n<medication management>\n<procedure>\n<consult>\n<referral>\n<monitoring>\n<evaluation>\n<recommendation>\n<follow-up>\n",
+"p_emergency": null,
+"secs": 0.476,
+"reasked_with_thinking": true
+},
+"dbc33bb2-90e7-4664-aef6-413113b53010": {
+"label": 0,
+"level": "URGENT",
+"raw": "ion soon but doesn't meet the criteria for immediate emergency care. Therefore, it falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 0.412,
+"reasked_with_thinking": true
+},
+"d0a83d56-8787-4239-a92e-4c4af4b198ab": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "**ROUTINE**",
+"p_emergency": null,
+"secs": 0.579
+},
+"72125034-4bd0-4418-a573-4baeaeadea6f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "al attention.\n\n5.  **Final Answer Format:** The user requested exactly one word: EMERGENCY, URGENT, or ROUTINE.EMERGENCY",
+"p_emergency": null,
+"secs": 0.519,
+"reasked_with_thinking": true
+},
+"0ce8ff10-262e-41d8-b290-19e76d337f1a": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "lying medical issues that require further evaluation but not necessarily immediate intervention.\n\n**Decision:** ROUTINE\n",
+"p_emergency": null,
+"secs": 0.527,
+"reasked_with_thinking": true
+},
+"a32522d5-e04d-4206-8dc1-e5476351f251": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "o rule out a potentially life-threatening cause. Therefore, the appropriate level of care is **EMERGENCY**.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.509,
+"reasked_with_thinking": true
+},
+"b15fe46f-983f-4f5b-bc4c-218f15916429": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "nts immediate evaluation to rule out serious causes. Therefore, the appropriate level of care is EMERGENCY.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.399,
+"reasked_with_thinking": true
+},
+"d92d2e50-5f51-45af-a4fb-c6884b9e7fb1": {
+"label": 0,
+"level": "URGENT",
+"raw": "ot a simple self-care issue (ROUTINE). Therefore, it falls into the URGENT category.\n\n5.  **Final Answer:** URGENTURGENT",
+"p_emergency": null,
+"secs": 0.45,
+"reasked_with_thinking": true
+},
+"1cb87cee-d2e5-4dea-a9ee-b2c578e8874b": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " to rule out life-threatening conditions like stroke or TIA. Therefore, this falls into the EMERGENCY category.EMERGENCY",
+"p_emergency": null,
+"secs": 0.498,
+"reasked_with_thinking": true
+},
+"ab4319a2-0466-4f99-bac6-4ea19df3f379": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ly life-threatening condition (like airway obstruction). Therefore, the patient needs immediate emergency care.EMERGENCY",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"8db4b5e4-1c1e-43eb-a522-cb84cc52e5b5": {
+"label": 2,
+"level": "URGENT",
+"raw": "entially urgent situation that requires evaluation by a healthcare professional soon.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.405,
+"reasked_with_thinking": true
+},
+"41588961-5381-4c38-98b3-979674790681": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.45
+},
+"fa0f919f-7b8e-4021-a84a-a35b5a410eb4": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "nician and potential emergency intervention are warranted.\n\nConclusion: This falls into the EMERGENCY category.EMERGENCY",
+"p_emergency": null,
+"secs": 0.424,
+"reasked_with_thinking": true
+},
+"bbadc660-ba32-40ab-bd22-19e1df5e0221": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "g condition requiring immediate medical evaluation. Therefore, the level of care needed RIGHT NOW is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"64ddf1d4-4987-44c4-b2a4-0bd38aa9702b": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "s>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_notes>\n<medications>\n<allergies>\n<social_history>\n",
+"p_emergency": null,
+"secs": 0.399,
+"reasked_with_thinking": true
+},
+"40c03b3e-76f3-4218-9b84-9aa2b57b2aa5": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<solution>\nEMERGENCY</solution>",
+"p_emergency": null,
+"secs": 0.434,
+"reasked_with_thinking": true
+},
+"f4b3a1c4-b158-4d0e-aa3f-46425cf37e3f": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.707
+},
+"3e9358db-b5d8-43d5-bca3-4471ef771419": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.897
+},
+"20a34218-c24b-4fe0-9b69-5d3ed9faf801": {
+"label": 0,
+"level": "ROUTINE",
+"raw": " on management rather than reporting an acute problem. Therefore, the appropriate level of care is ROUTINE.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.6,
+"reasked_with_thinking": true
+},
+"e97272b1-ab4e-45e8-9727-5aabe9ca8c26": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.586
+},
+"50869e6e-1f0f-4f9e-aa9a-fc54b51582ad": {
+"label": 2,
+"level": "URGENT",
+"raw": "edical evaluation promptly (today or within 24 hours) but does not require immediate emergency care.\n</diagnosis>\nURGENT",
+"p_emergency": null,
+"secs": 0.601,
+"reasked_with_thinking": true
+},
+"d12df41b-4191-4ead-bda4-369fb3439100": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "plan>\n<evaluation>\n<recommendation>\n<goal>\n<outcome>\n<follow-up>\n<medication>\n<procedure>\n<vital signs>\n<physical exam>\n",
+"p_emergency": null,
+"secs": 0.406,
+"reasked_with_thinking": true
+},
+"8ad348d3-eda0-4d05-b069-cc25d795ebd6": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "ogress_notes>\n<evaluation>\n<medications>\n<allergies>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_",
+"p_emergency": null,
+"secs": 0.411,
+"reasked_with_thinking": true
+},
+"8da602cc-97a9-4b47-b5ce-06c68298ec07": {
+"label": 2,
+"level": "URGENT",
+"raw": "to rule out any immediate or potentially serious issues. Therefore, the appropriate level of care is URGENT.\n</solution>",
+"p_emergency": null,
+"secs": 0.425,
+"reasked_with_thinking": true
+},
+"32c85597-8f40-4c5d-8660-ae90fbcf53f1": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.456
+},
+"ceaf092b-aa46-4bb8-aca2-fffafd1bf34a": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "l evaluation.\n\n5.  **Final Answer Format:** The user requested exactly one word: EMERGENCY, URGENT, or ROUTINE.EMERGENCY",
+"p_emergency": null,
+"secs": 0.433,
+"reasked_with_thinking": true
+},
+"f036d626-8861-4a83-ad55-9e13c846be53": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.387
+},
+"1b2c6fe2-c05f-4355-bf3f-599c740220b8": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY</diagnosis>",
+"p_emergency": null,
+"secs": 0.411,
+"reasked_with_thinking": true
+},
+"49402832-bd26-499a-b883-3478d0d669ae": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.542
+},
+"da458227-fc02-454e-ad42-18a3e4642100": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.564
+},
+"837d80f8-4a4f-415b-9eac-ca3ef5b4c968": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.969
+},
+"cff1bbb3-cdbb-4777-aa2f-fca8cacdaa9e": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.674
+},
+"ff4fccf7-2e09-451f-9135-08afee5cad31": {
+"label": 2,
+"level": "URGENT",
+"raw": "mmediate emergency based solely on the message provided. Therefore, URGENT is the most appropriate classification.URGENT",
+"p_emergency": null,
+"secs": 0.436,
+"reasked_with_thinking": true
+},
+"3ef4dd63-67e6-44d7-a95c-f23d397c7beb": {
+"label": 2,
+"level": "URGENT",
+"raw": "<solution>\nURGENT</solution>",
+"p_emergency": null,
+"secs": 0.432,
+"reasked_with_thinking": true
+},
+"8db4e3dc-b112-4c0a-94e4-1022b1b5f8a9": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.418
+},
+"a61cd927-f03e-4e73-9aef-2f7670c4e251": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.459
+},
+"b45de864-f102-4bde-9d5d-a21ed186ddba": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**\n",
+"p_emergency": null,
+"secs": 0.614
+},
+"5f54e2a8-1d69-4cae-a1e1-81697ebc124d": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ient feels stable and has no other concerning symptoms not mentioned in the message.\n\n**Decision:** ROUTINE\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.523,
+"reasked_with_thinking": true
+},
+"b96d6d40-0b9c-4525-a911-65acb6344af7": {
+"label": 1,
+"level": "URGENT",
+"raw": "ssage (though that might be necessary depending on other factors not mentioned). It fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 0.442,
+"reasked_with_thinking": true
+},
+"789ac668-fe78-4469-a43e-9abbc8997f31": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.652
+},
+"c5a2b1a2-8a35-4ffe-83d2-134ead00008d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.594
+},
+"714e74db-61e1-4795-89fc-2402c48b5c5a": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "sturbance or neurological event.\n\nTherefore, this situation requires immediate attention.\n\nDecision: EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.423,
+"reasked_with_thinking": true
+},
+"8130e6d8-8d96-46e2-a8de-973e971fd3fa": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.412
+},
+"59bc747b-09d2-4838-9f76-b34054ae37ff": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "ical evaluation to rule out life-threatening causes. Therefore, the appropriate level of care is EMERGENCY.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.46,
+"reasked_with_thinking": true
+},
+"2e543d13-d125-44b2-9947-6eb0b877c386": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.59
+},
+"78c8db9d-f735-4c04-b9d8-c1e344c00b60": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "tcome>\n<follow-up>\n<patient education>\n<medication>\n<procedure>\n<assessment>\n<intervention>\n<evaluation>\n<recommendation",
+"p_emergency": null,
+"secs": 0.557,
+"reasked_with_thinking": true
+},
+"2f859e40-ffc6-4765-98a2-8c645868057f": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.434
+},
+"a95c1682-e062-4832-9fb4-adac399fb34b": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "_systems>\n<assessment>\n<plan>\n<progress_notes>\n<evaluation>\n<medication>\n<allergies>\n<social_history>\n<review_of_systems",
+"p_emergency": null,
+"secs": 0.417,
+"reasked_with_thinking": true
+},
+"eb1d97c2-659f-4331-89df-5a24c40b1a09": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.558
+},
+"ca9307c4-6a12-4f71-8630-4d6284bab914": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 1.78
+},
+"15eee613-6c48-4518-875f-f15df5a600cf": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " intensive resuscitation) that cannot wait for an urgent appointment or routine care.\n\n**Decision:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.659,
+"reasked_with_thinking": true
+},
+"a33485e1-e1df-49b8-a892-d493083260b1": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "te>\n<diagnosis>\n<plan>\n<progress_note>\n<diagnosis>\n<plan>\n<progress_note>\n<diagnosis>\n<plan>\n<progress_note>\n<diagnosis>",
+"p_emergency": null,
+"secs": 0.492,
+"reasked_with_thinking": true
+},
+"170e7b7e-4fdf-4dae-baf4-ad1ad6417755": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "warrants immediate medical attention.\n6.  **Select the appropriate word:** EMERGENCY fits the description best.EMERGENCY",
+"p_emergency": null,
+"secs": 0.428,
+"reasked_with_thinking": true
+},
+"bcda6dfc-b4fa-42f1-96af-2e751fd1222f": {
+"label": 2,
+"level": "URGENT",
+"raw": "ian soon due to the change in their symptom pattern and their expressed worry. This fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 0.425,
+"reasked_with_thinking": true
+},
+"25f62447-e53a-49e6-835f-cf5d91531166": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "luation>\n<communication>\n<medication>\n<procedure>\n<assessment>\n<subjective>\n<objective>\n<rationale>\n<differential>\n<work",
+"p_emergency": null,
+"secs": 0.399,
+"reasked_with_thinking": true
+},
+"b0ae4413-edaf-4a62-937f-0815805a6e67": {
+"label": 2,
+"level": "URGENT",
+"raw": "uation sooner rather than later but not necessarily immediate emergency intervention.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.422,
+"reasked_with_thinking": true
+},
+"3e5af183-665d-4cbd-93f8-8b8dff722a3c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.362
+},
+"70ed8751-0221-41b9-84a5-6f3b3ccbc667": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.423
+},
+"352832df-973e-4468-956b-13f2df962bb6": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.56,
+"reasked_with_thinking": true
+},
+"e6668886-3485-412d-b894-e766639155d2": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.694,
+"reasked_with_thinking": true
+},
+"1b1a7c32-3342-4686-aeda-7857483ccca2": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.533,
+"reasked_with_thinking": true
+},
+"647aa9f1-a549-47bb-8a4a-30c400f29f72": {
+"label": 2,
+"level": "URGENT",
+"raw": " but lack specific details to classify as an immediate emergency. Therefore, URGENT is the most appropriate level.URGENT",
+"p_emergency": null,
+"secs": 0.41,
+"reasked_with_thinking": true
+},
+"2480a7d4-bfe9-410a-908d-676c01a403f9": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "condition related to alcohol withdrawal. Therefore, this requires immediate emergency evaluation and treatment.EMERGENCY",
+"p_emergency": null,
+"secs": 0.429,
+"reasked_with_thinking": true
+},
+"59d48130-8a2d-41a5-a01e-da85dbb8da10": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.373
+},
+"99f8c641-22a6-41a7-b172-823c8c900f6f": {
+"label": 2,
+"level": "URGENT",
+"raw": " patient is concerned, they don't describe an acute emergency. Therefore, the appropriate level of care is URGENT.URGENT",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"d54a7c7d-dedc-43dd-8e9b-77891e76f131": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "res immediate assessment to rule out life-threatening conditions. Therefore, this falls under EMERGENCY triage.EMERGENCY",
+"p_emergency": null,
+"secs": 0.409,
+"reasked_with_thinking": true
+},
+"7f97be93-263d-413f-84fa-c434e02ac2ac": {
+"label": 0,
+"level": "URGENT",
+"raw": "luation by a clinician to assess the cause and urgency. Therefore, the appropriate level of care is URGENT.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.397,
+"reasked_with_thinking": true
+},
+"8822394d-301f-4ae4-a230-e20081b2b863": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.424
+},
+"0f6ef443-59d7-4ef9-9f86-f1cec9ef9c8d": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.485
+},
+"6edbd45b-4954-4661-b9d2-2af8a5498b88": {
+"label": 2,
+"level": "URGENT",
+"raw": "n immediate emergency based *only* on this message. It fits the definition of urgent.\n5.  **Final Answer:** URGENTURGENT",
+"p_emergency": null,
+"secs": 0.49,
+"reasked_with_thinking": true
+},
+"bf6c713b-0bae-4a28-8c3e-611e87943b43": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.595
+},
+"28a7c2fa-9035-4c50-a03a-b1174b689a8b": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "atient is seeking general information about a non-acute condition. Therefore, it falls into the ROUTINE category.ROUTINE",
+"p_emergency": null,
+"secs": 0.737,
+"reasked_with_thinking": true
+},
+"062e3a49-07e0-4b5c-a941-ceb8cc4111e4": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.687
+},
+"00e6749c-cf12-49a1-9c4c-d29da0e08b9f": {
+"label": 2,
+"level": "URGENT",
+"raw": "e lack of details prevents immediate classification as an emergency. Therefore, it falls into the Urgent category.URGENT",
+"p_emergency": null,
+"secs": 0.539,
+"reasked_with_thinking": true
+},
+"192f9ca1-b95d-43e4-9046-2a61ebffc472": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.503
+},
+"b66d1e1a-b296-4e80-966e-2e58b0b3ddd0": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.546
+},
+"229fdef0-70b6-401c-b538-6cf265692310": {
+"label": 0,
+"level": "URGENT",
+"raw": " clinician's evaluation, but not immediately life-threatening. Therefore, URGENT is the most appropriate category.URGENT",
+"p_emergency": null,
+"secs": 0.63,
+"reasked_with_thinking": true
+},
+"2bccdca1-49bf-41cf-9caf-1df39fe8b0a4": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.907
+},
+"853c03cb-e699-41b5-91f6-c8b0c01dc664": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "mmediate ER visit. Therefore, based solely on the provided text, the appropriate classification is ROUTINE.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.781,
+"reasked_with_thinking": true
+},
+"53726055-bbc8-4f45-a166-3a8f8e4394d6": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.432,
+"reasked_with_thinking": true
+},
+"4d569ecc-b63d-4e87-b5b8-51fbc648a21b": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.501
+},
+"9c0c56ba-9d1f-4ca7-a1c2-c1536f7eff6c": {
+"label": 2,
+"level": "URGENT",
+"raw": "ns and the need for prompt assessment, this situation should be considered urgent.\n</diagnosis>\n\n<reply>\nURGENT\n</reply>",
+"p_emergency": null,
+"secs": 0.558,
+"reasked_with_thinking": true
+},
+"b63c8d70-e75a-4f6c-93cf-b675ea2dffa2": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "an>\n<problem_list>\n<patient_instructions>\n<discharge_summary>\n<progress_note>\n<evaluation>\n<communication>\n<medication>\n",
+"p_emergency": null,
+"secs": 0.41,
+"reasked_with_thinking": true
+},
+"830854ae-1800-4ee9-81c0-3e5190745340": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.438
+},
+"b60473c9-efea-4bfb-890b-c6164f3ba2bc": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "aluation>\n<medication>\n<procedure>\n<diagnosis>\n<plan>\n<progress_note>\n<evaluation>\n<medication>\n<procedure>\n<diagnosis>\n",
+"p_emergency": null,
+"secs": 0.456,
+"reasked_with_thinking": true
+},
+"87838e48-58bf-4046-a372-b2ba4c96e58d": {
+"label": 0,
+"level": "URGENT",
+"raw": "nto the category of urgent care rather than an emergency.\n\nTherefore, the correct classification is URGENT.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.401,
+"reasked_with_thinking": true
+},
+"38588d7d-e423-4cbc-9b50-9a32c0befca3": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " situation warrants immediate, life-saving action and professional medical help. Therefore, it is an EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.506,
+"reasked_with_thinking": true
+},
+"0606a703-ec4c-4ca7-af34-bd2066a97610": {
+"label": 2,
+"level": "URGENT",
+"raw": "requires further evaluation but is not immediately life-threatening. Therefore, it falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 0.727,
+"reasked_with_thinking": true
+},
+"bf14955f-2f9a-4f16-ab2f-6bf5c0ddf906": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.557
+},
+"b0067d70-8b26-49e4-9b6e-e6f500b2585f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.598
+},
+"f4bf2af8-2c01-4516-af88-bd3d382ead68": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.725
+},
+"5a84fbc0-eb74-47dc-979f-a32e9b082286": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.589
+},
+"e5e4f052-ea9d-4439-b1c8-bcfb9bd3836d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.852
+},
+"c16c724a-6242-41b0-9f60-ae650f2009ec": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.666
+},
+"dcfb7d00-28bd-49cf-8eec-6b15ddd67a1c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.443
+},
+"cbd8a2d5-9be9-41a8-b2ff-395a875a1195": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\n<plan>\n<evaluation>\n<recommendation>\n<goal>\n<output>\nEMERGENCY\n</output>",
+"p_emergency": null,
+"secs": 0.466,
+"reasked_with_thinking": true
+},
+"37fa0faa-a9bb-44ed-9492-8301fbbd4b6c": {
+"label": 0,
+"level": "URGENT",
+"raw": " ENT specialist within 24 hours to investigate the cause of these monthly nosebleeds.\n\nFinal Answer: URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.417,
+"reasked_with_thinking": true
+},
+"f207ef58-d5f8-440a-b3bd-4a43215c6893": {
+"label": 2,
+"level": "URGENT",
+"raw": "her potentially serious causes. Therefore, the patient needs further evaluation soon.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.41,
+"reasked_with_thinking": true
+},
+"6c3db661-d3f6-4211-8c6b-9edf84819890": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "tum day 5, this situation requires immediate attention.\n\n**Conclusion:** The level of care needed is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"c5538fb1-91b8-45b9-b7d0-ac227eaba8ae": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.436
+},
+"aee0ef96-ab3a-4254-b883-3b5a0cbb1e63": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.629
+},
+"6e755721-3129-4b44-8716-091cc59dcaa9": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.854
+},
+"db17ae41-bec2-4597-aea9-a6da7507b123": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.598
+},
+"61893a57-466e-4216-9265-009e2fd5d5a3": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ate choice among the given options, while acknowledging that further evaluation is warranted.\n\n**Final Answer:** ROUTINE",
+"p_emergency": null,
+"secs": 0.41,
+"reasked_with_thinking": true
+},
+"0148ec42-59ba-47d2-a1cb-3ea3ed5f5fa0": {
+"label": 2,
+"level": "URGENT",
+"raw": "ation. Therefore, the patient should be seen by a clinician today or within 24 hours.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.414,
+"reasked_with_thinking": true
+},
+"ba0360c4-a12e-49bb-80eb-108ce4875372": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.43
+},
+"5a115734-1080-4849-ae51-8566c98610af": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " and require immediate medical attention.\n\nTherefore, this situation warrants emergency care.\n\nReply: EMERGENCYEMERGENCY",
+"p_emergency": null,
+"secs": 0.502,
+"reasked_with_thinking": true
+},
+"a83962af-1779-4d1e-a1f3-fe10f25afc33": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.399
+},
+"e09ef985-6340-4a4a-9d29-d8d9192af90b": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "requires immediate action, likely involving transport to a hospital. Therefore, the level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.474,
+"reasked_with_thinking": true
+},
+"e4ff0702-95d1-46b4-bacf-7a58646e4a06": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "**ROUTINE**\n",
+"p_emergency": null,
+"secs": 0.613
+},
+"94ee3dc0-66f3-4467-8521-0fe8ebc2a128": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.601
+},
+"6aa32c27-5661-494e-808c-6c59cefdcf82": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.441
+},
+"e5c02375-bbe8-4e2f-b1c8-0c0e2ee35914": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": ">\nTo ensure the child receives prompt medical assessment and appropriate care for their irregular heartbeat.\n</goal>\n```",
+"p_emergency": null,
+"secs": 0.405,
+"reasked_with_thinking": true
+},
+"7009a827-45dc-45f8-ad87-e220b90f59b7": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY",
+"p_emergency": null,
+"secs": 0.398,
+"reasked_with_thinking": true
+},
+"e2ef39f2-821f-4aa6-ab90-e30e6f78e08b": {
+"label": 2,
+"level": "URGENT",
+"raw": "ther assessment by a clinician before deciding on the level of care. Therefore, it falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 0.417,
+"reasked_with_thinking": true
+},
+"0d2931ab-bd6b-4152-9f69-393021528f48": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "o neurology or physical therapy depending on the findings.\n\n**Follow up:** Patient to follow up in [Timeframe] or sooner",
+"p_emergency": null,
+"secs": 0.396,
+"reasked_with_thinking": true
+},
+"0963835e-2cc9-46bf-9db6-e452561d0acf": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.56
+},
+"7856c3c2-a439-4670-9da9-b473ad853e1d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.546
+},
+"57d4ca13-ca43-4890-a934-8fbf5715b90e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.496
+},
+"42a2ea69-bc92-4e14-97b8-028ea96a0a3d": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "ts_update_6>\n<communication_with_family_update_6>\n<patient_education_and_follow_up_update_6>\n<orders_and_assessment_and_",
+"p_emergency": null,
+"secs": 0.513,
+"reasked_with_thinking": true
+},
+"09b05b01-d701-4551-807a-9a4f54dc281d": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.551
+},
+"a09824db-b25a-4491-80d9-b9ab2497abd7": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ke brain damage or death. Therefore, the appropriate level of care is EMERGENCY.\n</diagnosis>\n<reasoning>\nHigh fever and",
+"p_emergency": null,
+"secs": 0.515,
+"reasked_with_thinking": true
+},
+"8d934b0f-ea27-4136-acf2-26d77e248db5": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.432,
+"reasked_with_thinking": true
+},
+"703ac9f6-500d-4bcb-9b96-b53aee834450": {
+"label": 2,
+"level": "URGENT",
+"raw": "s the most appropriate classification based solely on the provided message.\n</reasoning>\n<diagnosis>\nURGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.406,
+"reasked_with_thinking": true
+},
+"8c23a064-30c0-4a34-b276-b606f455d47a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "al for a serious underlying issue warrants immediate evaluation.\n\nTherefore, the appropriate level of care is:\nEMERGENCY",
+"p_emergency": null,
+"secs": 0.402,
+"reasked_with_thinking": true
+},
+"899d2872-5fb5-4e12-9bd5-db1552aa55c7": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.609
+},
+"26d137d9-7606-4b1c-9346-479cf65ec947": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ng for reassurance rather than seeking immediate care. Therefore, the appropriate level of care is ROUTINE.\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.562,
+"reasked_with_thinking": true
+},
+"5545d584-a9bd-43bd-976f-03552e9fbaca": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.367
+},
+"43d8ffa8-7e48-4687-b333-8f899ba1bf91": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "llow-up>\n<education>\n<communication>\n<safety>\n<ethics>\n<legal>\n<professionalism>\n<patient-centered care>\n<evidence-based",
+"p_emergency": null,
+"secs": 0.402,
+"reasked_with_thinking": true
+},
+"8057fdc6-12cf-4142-a299-af11940ac248": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "s the definition of an EMERGENCY.\n6.  **Formulate the reply:** The required output is a single word: EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.401,
+"reasked_with_thinking": true
+},
+"e86d2099-dcf7-4761-9feb-e16e0004952e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.455,
+"reasked_with_thinking": true
+},
+"58cdf00a-7f2b-4904-8c39-af4aa1e21c06": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "e patient perceives their condition as requiring immediate attention. Therefore, the triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.409,
+"reasked_with_thinking": true
+},
+"7bfd77f3-84af-48ad-845f-f9581f96a72b": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "intervention.\n\n5.  **Final Answer Format:** The user requested exactly one word: EMERGENCY, URGENT, or ROUTINE.EMERGENCY",
+"p_emergency": null,
+"secs": 0.435,
+"reasked_with_thinking": true
+},
+"c2159b28-39e7-4664-92d6-431d72be9907": {
+"label": 2,
+"level": "URGENT",
+"raw": " severe neurological compromise at this moment. Therefore, the appropriate level of care is urgent.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"90ed826c-2b75-4d26-858d-5942536fb53d": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.535
+},
+"784242ea-a78e-4334-84d6-63129366f0fc": {
+"label": 2,
+"level": "URGENT",
+"raw": "al for serious causes and the intermittent nature, immediate evaluation is warranted.\n\n**Decision:** URGENT\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.54,
+"reasked_with_thinking": true
+},
+"eeffb36e-15f4-4c41-8402-547b61497aad": {
+"label": 0,
+"level": "URGENT",
+"raw": "ot an immediate emergency based on the information given. Therefore, URGENT is the most appropriate level of care.URGENT",
+"p_emergency": null,
+"secs": 0.518,
+"reasked_with_thinking": true
+},
+"ef570c1c-6dee-48b2-b15e-53bbb202dd76": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "uation by a clinician today or within 24 hours, but doesn't meet the criteria for EMERGENCY.\n\nFinal Answer: URGENTURGENT",
+"p_emergency": null,
+"secs": 0.522,
+"reasked_with_thinking": true
+},
+"b36d2432-a9cf-46e8-a947-e2d72f28f011": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.747
+},
+"65df9df8-3899-401b-bbd5-f5cf9a870231": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " potentially life-threatening condition requiring immediate evaluation.\n\n**Final Answer Selection:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.7,
+"reasked_with_thinking": true
+},
+"0a0b5810-a772-4b05-9056-e8c3c8418dd8": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "es>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_notes>\n<medications>\n<allergies>\n<social_history>",
+"p_emergency": null,
+"secs": 0.407,
+"reasked_with_thinking": true
+},
+"6ea9becf-21ad-4c2c-92d2-31c54eeabac9": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.55
+},
+"1b8c1d0e-4a52-4e3d-8199-db323d5f3167": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "user requested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 1.084,
+"reasked_with_thinking": true
+},
+"3e03a593-7363-4f98-84c6-767238420b90": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.422
+},
+"2f63bd91-9226-4005-8150-e4b77e52fb42": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.688
+},
+"99318b06-6059-42e8-b3ac-63e15b647b64": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.666
+},
+"7b462c99-92ae-4972-85ca-b6078ee06a32": {
+"label": 0,
+"level": "UNPARSED",
+"raw": ">\n<medication_orders>\n<procedure_orders>\n<consults>\n<patient_education>\n<evaluation>\n<assessment>\n<plan>\n<progress_notes",
+"p_emergency": null,
+"secs": 0.521,
+"reasked_with_thinking": true
+},
+"4a8f0b1e-bdff-46cc-92d8-b26a5bd65dd9": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "**ROUTINE**",
+"p_emergency": null,
+"secs": 0.592
+},
+"baf0ea4e-e7fd-4bce-b78a-b910cb98d65c": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.536
+},
+"84b4a8c9-c47c-4684-adbe-149c811cbab8": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.434
+},
+"f0566609-0230-4abb-84af-6339938987f2": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.532,
+"reasked_with_thinking": true
+},
+"c929d475-162f-4568-9114-3be859d5d500": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "uiring immediate evaluation by a healthcare professional. Therefore, the appropriate triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.526,
+"reasked_with_thinking": true
+},
+"23a11e58-b288-470c-9888-35d76aff6e93": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.579
+},
+"d44c7a4c-2975-4a8e-b1a0-56f31b5f27b7": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "serious complication requiring immediate medical evaluation. Therefore, this situation warrants emergency care.EMERGENCY",
+"p_emergency": null,
+"secs": 0.565,
+"reasked_with_thinking": true
+},
+"b9b9dc17-7cf5-4279-8d04-9d4be133adcd": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.413
+},
+"8c05a4c4-ced0-4e60-bf45-5a5550974842": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.521
+},
+"5739ec74-2c3d-404b-a051-618e73592dc9": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.551,
+"reasked_with_thinking": true
+},
+"9769ea1d-a87f-4560-bd64-e0d17478ca6a": {
+"label": 2,
+"level": "URGENT",
+"raw": "ERGENCY would be correct. Since they are persistent over \"a few days,\" URGENT is the best fit among the choices provided",
+"p_emergency": null,
+"secs": 0.426,
+"reasked_with_thinking": true
+},
+"7156195e-fe04-4eab-ba46-b19ac53e44a9": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.383
+},
+"46451f92-5805-4f20-9bb6-f3973905075f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.397
+},
+"d45dedce-d0c8-4e03-962e-5b1184d9ac47": {
+"label": 0,
+"level": "URGENT",
+"raw": ", it's not an acute life-threatening condition. Therefore, the appropriate level of care is URGENT.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 0.429,
+"reasked_with_thinking": true
+},
+"64cf45b1-c368-4a2d-ac6e-d07ab61c53d7": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.91
+},
+"6d0e86f6-5128-45ae-9997-9156a53e333e": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.875
+},
+"8db5d356-c4ca-4a6b-8434-f8a2e2fd19a9": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "), this situation requires immediate medical attention.\n\n**Conclusion:** The level of care needed is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.525,
+"reasked_with_thinking": true
+},
+"b603f797-58cc-45ea-9957-508f50b261f3": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.388
+},
+"bd28bfbe-22f7-4b41-96f9-7ef9f78382d5": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.611,
+"reasked_with_thinking": true
+},
+"067823fe-7897-4572-8333-5c25855b7982": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.576
+},
+"985b64ca-fbee-4459-a22c-179e59243d8c": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "ith an ear foreign body that cannot be removed by the patient. Therefore, it falls into the EMERGENCY category.EMERGENCY",
+"p_emergency": null,
+"secs": 0.505,
+"reasked_with_thinking": true
+},
+"08d8042e-28e9-4922-85ad-1e7e4ad4785e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.667
+},
+"07ed45ab-d51a-4914-b836-5019168288a6": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.851
+},
+"140c95dc-4791-42a6-a1da-f52c7e525c48": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.555
+},
+"f0335513-f052-4fb7-b121-2c059192e9af": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.986
+},
+"97cebb28-ce18-44b0-b4c6-93c1e70ad326": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.542
+},
+"b2e5424b-e649-43f7-9f74-4f1d71829796": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.434
+},
+"05830ad3-f2f6-462b-b038-4e7535505002": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "ires immediate evaluation to rule out life-threatening causes. Therefore, it should be treated as an emergency.EMERGENCY",
+"p_emergency": null,
+"secs": 0.554,
+"reasked_with_thinking": true
+},
+"dd1e6151-cee7-422b-aa39-0e95588c3348": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.414
+},
+"6506aab0-355e-4ac7-9f48-e005747f73f1": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": " needs immediate medical attention.\n6.  **Select the correct word:** The appropriate triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.471,
+"reasked_with_thinking": true
+},
+"02e7931f-4f15-45fa-843d-6d761b78c8c8": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.634
+},
+"247e6aab-8682-4634-ab3e-e07539305333": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.66
+},
+"bfd1bcc3-3e40-4a15-a554-d51983ed6122": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.563
+},
+"4d83a282-7bd0-4ed7-82f2-02edda688cac": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.952
+},
+"1174a07f-8df7-433f-a403-33cf773082c5": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "**ROUTINE**",
+"p_emergency": null,
+"secs": 2.841
+},
+"182a5b4d-3a6a-42ff-85b4-28f310812a63": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.384
+},
+"f6f9fb97-7a91-4f80-a4b7-924254914977": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "that requires immediate medical attention. Therefore, the level of care needed right now is an emergency.\n\n**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.597,
+"reasked_with_thinking": true
+},
+"1fa8194c-fb15-490e-82cb-b7740903b9a0": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.318
+},
+"c8e5100f-5ce4-4d76-a5be-7a0927f1ceda": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.662
+},
+"86dd2cde-29ba-4acf-b62d-589d0e384baa": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.472
+},
+"32b52fd0-d82a-4969-9393-f2b2d0ad1f58": {
+"label": 0,
+"level": "URGENT",
+"raw": "tairs requires evaluation by a clinician within 24 hours. Therefore, the level of care needed RIGHT NOW is URGENT.URGENT",
+"p_emergency": null,
+"secs": 4.18,
+"reasked_with_thinking": true
+},
+"940b7d31-4c10-40a4-b0f9-0381698af8f9": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 8.43
+},
+"0b747a97-13b4-4554-85f9-b508f6142ec3": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.199
+},
+"7fbf335a-08c3-4547-a6b5-5622d456c66e": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "e based solely on this message. Therefore, the patient needs immediate evaluation.\n\n**Decision:** EMERGENCY\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.068,
+"reasked_with_thinking": true
+},
+"f91a4f93-6d8a-4bb5-80a6-fde91835723c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.505,
+"reasked_with_thinking": true
+},
+"3252691f-a91b-41d7-b9b4-3c8b8e5eac07": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.752
+},
+"b35df407-4fbe-4cbd-bbee-7822c2c8a5df": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.585
+},
+"b5e076a5-4112-4d84-b76c-076b11569c79": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "user requested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.118,
+"reasked_with_thinking": true
+},
+"2cf8c894-398d-4049-98aa-42244bec6f8e": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "n present for a few hours. Therefore, the situation does not meet the criteria for an emergency.\n\n**Decision:** ROUTINE\n",
+"p_emergency": null,
+"secs": 3.625,
+"reasked_with_thinking": true
+},
+"f5148d5a-a7cd-42c4-9b4d-11620548e340": {
+"label": 2,
+"level": "URGENT",
+"raw": "mpossible to determine if this is an emergency. Therefore, the appropriate level of care is URGENT.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 3.917,
+"reasked_with_thinking": true
+},
+"795a80e0-aea8-413d-b03a-0b2e9ebee6b2": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "a minor injury healing appropriately.\n\n5.  **Select the appropriate word:** The correct level of care is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 3.296,
+"reasked_with_thinking": true
+},
+"5a6e6e42-480e-4617-a0ed-040e6a21761d": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.343
+},
+"4d441d96-f214-46de-9f01-60bdfb8fcd4c": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "g condition requiring immediate evaluation.\n\nTherefore, the patient needs immediate care.\n\nDecision: EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.344,
+"reasked_with_thinking": true
+},
+"579e601f-fa40-4c2a-9b16-b507000eeba2": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.739
+},
+"953cef9f-c626-4e66-b0ca-fc5828c25d56": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "references>\n<follow_up>\n<notes>\n<orders>\n<assessment>\n<plan>\n<evaluation>\n<diagnoses>\n<procedures>\n<medications>\n<allerg",
+"p_emergency": null,
+"secs": 3.093,
+"reasked_with_thinking": true
+},
+"b842859d-b191-4170-8ab7-133be825cd6c": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "_systems>\n<assessment>\n<plan>\n<progress_notes>\n<evaluation>\n<medication>\n<allergies>\n<social_history>\n<review_of_systems",
+"p_emergency": null,
+"secs": 2.079,
+"reasked_with_thinking": true
+},
+"b038177a-36ac-4b70-bdb3-8bbb31e22668": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " present. Therefore, calling an ambulance or going to the emergency department is the correct course of action.EMERGENCY",
+"p_emergency": null,
+"secs": 2.531,
+"reasked_with_thinking": true
+},
+"eb583b5c-e2d6-4e5d-8574-25af50a83bcf": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 4.063
+},
+"171c6868-b9da-4357-8c0a-7a26ee69a62f": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.047
+},
+"6ab5eea3-a68e-446b-802f-dc3895097915": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "tcome>\n<follow-up>\n<patient education>\n<medication>\n<procedure>\n<assessment>\n<intervention>\n<evaluation>\n<recommendation",
+"p_emergency": null,
+"secs": 2.461,
+"reasked_with_thinking": true
+},
+"b5e84d8b-84d8-409c-a938-353c5ae8509e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.81
+},
+"d3e06bca-281b-4ecd-85a3-bea3698f6b71": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.977
+},
+"da3a93e3-b78b-4e0c-a74e-87dbddce6246": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.523,
+"reasked_with_thinking": true
+},
+"636e76dc-dd03-442a-a3bc-96c720ea57aa": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**\n",
+"p_emergency": null,
+"secs": 3.956
+},
+"5e0cfdaa-db5c-434d-b80e-07888b89dca6": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 5.06
+},
+"ace28a77-dfc9-4ce0-a842-ea7fcc8201e7": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 5.769
+},
+"3f66cff1-1525-467e-b591-9302bf8f159c": {
+"label": 0,
+"level": "URGENT",
+"raw": "oms aren't severe enough to warrant immediate dispatch/ED visit *yet*, but it's more serious than a routine issue.URGENT",
+"p_emergency": null,
+"secs": 2.912,
+"reasked_with_thinking": true
+},
+"ec44dc18-c756-42e3-a20c-8a7e041dfe4f": {
+"label": 0,
+"level": "URGENT",
+"raw": "uire assessment by a clinician but likely not emergent care.\n\nTherefore, the appropriate level of care is URGENT.\nURGENT",
+"p_emergency": null,
+"secs": 2.526,
+"reasked_with_thinking": true
+},
+"ded5f2c5-9f79-49dc-abb1-9d24f0caaff9": {
+"label": 2,
+"level": "URGENT",
+"raw": "ation to rule out life-threatening conditions. Therefore, this situation requires urgent attention.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 3.418,
+"reasked_with_thinking": true
+},
+"ce0c4989-2395-4c5e-bfd2-40ccf55fc8c0": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 3.265
+},
+"e7c811dd-c0a6-4dc4-a873-c28bfbf8c42b": {
+"label": 0,
+"level": "URGENT",
+"raw": "eeds to be addressed quickly. Therefore, URGENT is the most appropriate triage level based *only* on this message.URGENT",
+"p_emergency": null,
+"secs": 2.43,
+"reasked_with_thinking": true
+},
+"7a94ea1d-7951-4bc7-9d48-fa7fcbce63cc": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "erity of the symptoms overrides these factors in an emergency triage context.\n\n5.  **Final Answer:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.136,
+"reasked_with_thinking": true
+},
+"3298bc47-b2f2-4fbf-9e88-e7376488ddab": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "ogress_notes>\n<evaluation>\n<medications>\n<allergies>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_",
+"p_emergency": null,
+"secs": 2.081,
+"reasked_with_thinking": true
+},
+"fda3adea-8b6d-442e-bbed-65437101a724": {
+"label": 2,
+"level": "URGENT",
+"raw": " The required output is a single word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is URGENT.URGENT",
+"p_emergency": null,
+"secs": 3.571,
+"reasked_with_thinking": true
+},
+"efa552c8-f0bc-413c-b516-936ab3120a87": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.319
+},
+"4317e9c0-2c2b-4429-826b-d66f86632471": {
+"label": 2,
+"level": "URGENT",
+"raw": "ike stroke, aneurysm, or other neurological issues. Therefore, the appropriate level of care is **URGENT**.\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.38,
+"reasked_with_thinking": true
+},
+"d1ec94d3-6e13-4e26-81e4-69ab26cea99b": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": ".\n\nTherefore, this situation requires immediate evaluation by emergency medical services.\n\nDecision: EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 1.939,
+"reasked_with_thinking": true
+},
+"6a9d33e1-392a-430c-b7a5-b03c52311b3b": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 4.527
+},
+"21fdda92-a80a-437d-a57d-053c411139e0": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "oms described are concerning enough to warrant immediate evaluation. Therefore, the level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.643,
+"reasked_with_thinking": true
+},
+"576e1777-b12b-48b6-b167-6005fb1066e1": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.186,
+"reasked_with_thinking": true
+},
+"0a0ae708-faf8-413a-940d-7623ee869d1b": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.561
+},
+"5a45b11c-6c3c-4a3e-8cae-5b7c4abe6e56": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "uested exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the correct answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.486,
+"reasked_with_thinking": true
+},
+"287d7b73-d8d5-4727-a094-fd7d778fc019": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "critical condition requiring immediate medical attention. Therefore, the appropriate triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.927,
+"reasked_with_thinking": true
+},
+"a335750b-0551-4535-bc75-1a36569bad4f": {
+"label": 0,
+"level": "URGENT",
+"raw": "erious underlying issue that needs evaluation soon. It's not an immediate emergency but requires urgent attention.URGENT",
+"p_emergency": null,
+"secs": 2.133,
+"reasked_with_thinking": true
+},
+"b445504c-da13-4b98-9d5e-c0af00c36a81": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "atening condition requiring immediate intervention. Therefore, the level of care needed RIGHT NOW is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.489,
+"reasked_with_thinking": true
+},
+"8f6622d5-501d-452e-9b5d-e9fc5c338511": {
+"label": 1,
+"level": "URGENT",
+"raw": "t assessment by a clinician today or within 24 hours.\n\n**Conclusion:** The patient needs urgent medical attention.URGENT",
+"p_emergency": null,
+"secs": 4.131,
+"reasked_with_thinking": true
+},
+"6f22e512-e47b-461d-9fcf-39abee4f14b5": {
+"label": 1,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.428,
+"reasked_with_thinking": true
+},
+"e5c939b5-19f5-4449-ac00-6ee12efce648": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.43
+},
+"1e7c944e-570d-449f-a576-59486784dd54": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.698
+},
+"0afb3e86-b400-4c4d-bc27-f96be8210496": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "es, immediate evaluation by a medical professional is warranted.\n\nTherefore, the appropriate level of care is:\nEMERGENCY",
+"p_emergency": null,
+"secs": 9.111,
+"reasked_with_thinking": true
+},
+"35f10e78-36b4-4771-8f4d-d158107c4e38": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 3.552,
+"reasked_with_thinking": true
+},
+"e563bc55-64a3-4f23-9894-52d31295d4a3": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.532
+},
+"3a43f5c1-ff63-46da-ac50-87874b5ea7a2": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.851
+},
+"bf107802-c038-4bc8-b8f2-f4dd09d38f6f": {
+"label": 2,
+"level": "URGENT",
+"raw": "equires prompt assessment by a healthcare professional. Therefore, the appropriate level of care is URGENT.\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.765,
+"reasked_with_thinking": true
+},
+"a12651bc-81fb-4c3f-bbab-d1edd8e5042e": {
+"label": 2,
+"level": "URGENT",
+"raw": "n in triage, especially since vital signs and an ECG haven't been performed. It fits the criteria for URGENT care.URGENT",
+"p_emergency": null,
+"secs": 3.189,
+"reasked_with_thinking": true
+},
+"846e3e22-a5d3-466f-b7be-767f958e3265": {
+"label": 2,
+"level": "URGENT",
+"raw": " managed with self-care.\n5.  **Select the appropriate word:** URGENT fits best based on the available information.URGENT",
+"p_emergency": null,
+"secs": 3.063,
+"reasked_with_thinking": true
+},
+"35e54c82-65e9-4f2c-b9bb-5e341cc453f8": {
+"label": 2,
+"level": "URGENT",
+"raw": "n for *this specific message*, acknowledging that a full clinical picture would be needed for a definitive triage.URGENT",
+"p_emergency": null,
+"secs": 4.287,
+"reasked_with_thinking": true
+},
+"85754571-21c2-41d1-a412-270b53a107bf": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 5.078
+},
+"671dad2b-fb77-4b33-b10e-2f2cb8cad892": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\n<plan>\n<evaluation>\n<recommendation>\n<goal>\n<output>\nEMERGENCY\n</output>",
+"p_emergency": null,
+"secs": 2.717,
+"reasked_with_thinking": true
+},
+"b6946587-63c0-4be2-996f-1992685aaa45": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "ening condition. Therefore, the patient needs immediate evaluation.\n\n7.  **Final Answer Selection:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.209,
+"reasked_with_thinking": true
+},
+"971ea65b-75cb-4c55-8559-819e7a11f352": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.491
+},
+"1898b0df-6400-46ff-b22f-a328c2ba2c14": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "symptom is not normal and requires immediate evaluation.\n5.  **Select the appropriate triage word:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 6.408,
+"reasked_with_thinking": true
+},
+"24c9c43e-e917-441b-872c-8b31ea3aebdb": {
+"label": 2,
+"level": "URGENT",
+"raw": "a fever in an infant.\n\nTherefore, the most appropriate classification based solely on the provided text is URGENT.URGENT",
+"p_emergency": null,
+"secs": 3.208,
+"reasked_with_thinking": true
+},
+"8c6266a6-28c9-4638-a8c9-4d4cec4c0353": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.788
+},
+"c56b9634-c615-4db6-8d9f-d793d6b005c4": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.579
+},
+"d4651268-c5d6-4ffe-9de9-949ea588c53d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "s like bleeding in the brain. Therefore, this situation requires urgent attention.\n\n**Decision:** EMERGENCY\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.786,
+"reasked_with_thinking": true
+},
+"4eaee2b6-c260-4ca5-9491-425971ea778c": {
+"label": 2,
+"level": "ROUTINE",
+"raw": " description points towards a potential anxiety attack or less severe cardiac issue.\n\n**Decision:** ROUTINE\n</diagnosis>",
+"p_emergency": null,
+"secs": 2.426,
+"reasked_with_thinking": true
+},
+"87d03349-0f91-4607-a2c6-93391d356d0f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.616
+},
+"74a46b79-3df7-456f-ae92-f2d2e90f1cae": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.535
+},
+"79c72994-981e-465d-b608-d393bdf6361c": {
+"label": 0,
+"level": "URGENT",
+"raw": "evaluation by a clinician within a short timeframe (today or within 24 hours). This fits the definition of URGENT.URGENT",
+"p_emergency": null,
+"secs": 4.153,
+"reasked_with_thinking": true
+},
+"e59e94d7-7db3-402a-b205-e7bce596eb67": {
+"label": 2,
+"level": "ROUTINE",
+"raw": " always be made by a qualified healthcare professional considering the full clinical context.\n\n**Final Answer:** ROUTINE",
+"p_emergency": null,
+"secs": 3.48,
+"reasked_with_thinking": true
+},
+"579173ac-8f53-4f64-8354-4d733fb1c55b": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.723
+},
+"108fa967-dd8f-4d93-905e-751d953a184e": {
+"label": 2,
+"level": "URGENT",
+"raw": "uld be anxiety-related or a less critical issue. Therefore, the appropriate level of care is URGENT.\n</diagnosis>\nURGENT",
+"p_emergency": null,
+"secs": 2.675,
+"reasked_with_thinking": true
+},
+"4e65e168-533e-44a5-bad6-db0c5276f8c0": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 8.59
+},
+"2a2c7d89-7931-4de9-bc96-ae5b96fafa5a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 3.365
+},
+"9469d02a-865c-4f0c-ac43-d73b444b7f40": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.324,
+"reasked_with_thinking": true
+},
+"41142198-fabc-41e6-b780-8d79bcfaadc7": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.555
+},
+"400d7c8b-dfaf-41f0-8be7-7d20cbefe324": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": " be serious. While not explicitly stated as an emergency in the message, it requires prompt medical attention. Therefore",
+"p_emergency": null,
+"secs": 5.494,
+"reasked_with_thinking": true
+},
+"f86a45cb-3c3f-492f-bdf8-81d84ca66d67": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.952
+},
+"5eeb7b76-6a4a-4b89-9217-20ae9dfbb7db": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.088
+},
+"adbb1db8-5f20-486f-ad56-2b5c39b68013": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.44
+},
+"5622b7f1-2783-4349-9014-2c2e6cb2fba0": {
+"label": 2,
+"level": "URGENT",
+"raw": "o assess them quickly. Therefore, URGENT is the most appropriate classification based solely on the provided text.URGENT",
+"p_emergency": null,
+"secs": 8.672,
+"reasked_with_thinking": true
+},
+"baca0235-86b4-4ddd-a3f3-fad6041fe96a": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.538
+},
+"e9f3c108-dbd8-48af-843f-daa46bd201ed": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.142
+},
+"18f19f4e-be64-4cff-b6ff-e21e18a6afd1": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 2.485
+},
+"eecdac7b-81a5-475e-9cb4-56af1c928216": {
+"label": 2,
+"level": "URGENT",
+"raw": "le out serious underlying causes, including nerve damage. Therefore, URGENT is the most appropriate level of care.URGENT",
+"p_emergency": null,
+"secs": 8.351,
+"reasked_with_thinking": true
+},
+"8b796b49-4385-4bd6-a71d-78fc7b71aadd": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "fe-threatening situation requiring immediate emergency care.\n\nTherefore, the correct triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.03,
+"reasked_with_thinking": true
+},
+"b7c02de0-d2c9-4800-a95d-429bc67baa32": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.449
+},
+"1851e7fb-a53e-45b4-8666-03d248ae2d8f": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 1.92
+},
+"facaefe8-e14a-4ae9-9395-21e555ad9eee": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.945
+},
+"7b317ba4-8708-4364-ab08-316038781e3a": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "ay or within 24 hours for proper diagnosis and management, but it's not an emergency.\n6.  **Final Answer:** URGENTURGENT",
+"p_emergency": null,
+"secs": 3.214,
+"reasked_with_thinking": true
+},
+"aa2f5031-b9c4-4e6d-a40d-4c4e3d756263": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.594
+},
+"c524be50-6442-4743-97b1-25e3b65bd591": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 3.905
+},
+"c6979a52-76fe-428d-a4b8-dc7f20a89635": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 7.443
+},
+"e895c74f-03a6-49a6-bb8b-0888377db411": {
+"label": 2,
+"level": "URGENT",
+"raw": "ate emergency care based *only* on the message provided. Therefore, URGENT is the most appropriate classification.URGENT",
+"p_emergency": null,
+"secs": 7.925,
+"reasked_with_thinking": true
+},
+"accca878-b18f-4b97-bcbc-24f42bb63cfb": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "ifferential diagnosis>\n<plan>\n</diagnosis>\n<severity>\n<certainty>\n<differential diagnosis>\n<plan>\n</diagnosis>\n<severity",
+"p_emergency": null,
+"secs": 2.557,
+"reasked_with_thinking": true
+},
+"3f25fc8e-f04d-4620-b167-02e4e3570ec8": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "ogress_notes>\n<evaluation>\n<medications>\n<allergies>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_",
+"p_emergency": null,
+"secs": 3.062,
+"reasked_with_thinking": true
+},
+"7eb3c617-5fdb-448a-979d-07aebf239fb1": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY</diagnosis>",
+"p_emergency": null,
+"secs": 8.985,
+"reasked_with_thinking": true
+},
+"d2cbe136-0f37-4560-acbe-84356e977085": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.037
+},
+"06197faf-d2a4-4542-9070-c3e4f5d5e10f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "and potential for rapid deterioration, the patient needs immediate care. The correct triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.375,
+"reasked_with_thinking": true
+},
+"37b1e729-949d-49a3-909f-cf94428a20bf": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 2.348
+},
+"b8d197a7-6ae6-4b43-b4cf-b9eacabd72e6": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.121
+},
+"a8a8c765-211d-4ff4-98b3-262464a87db4": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 5.216
+},
+"19ee1ae4-7915-48ef-97dd-8267f66f090d": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": " definition of an EMERGENCY.\n\n**Final Answer Formulation:**\nThe required output is exactly one word: EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 2.258,
+"reasked_with_thinking": true
+},
+"83458f3a-d9bc-4585-8c4a-489a6ecaea9e": {
+"label": 0,
+"level": "URGENT",
+"raw": "<solution>\nURGENT\n</solution>",
+"p_emergency": null,
+"secs": 3.004,
+"reasked_with_thinking": true
+},
+"ead8269b-c558-4265-bc88-fbd5ac735eea": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 4.662
+},
+"f5e1bc4b-a914-4fcc-9348-dd56b9976ab4": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 6.28
+},
+"e6a2fda5-1be7-4e9e-a7ac-50e11b0ca8c2": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 2.707
+},
+"eed6fd67-04af-4f37-ad85-81d995264310": {
+"label": 0,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 2.701
+},
+"0171f86d-5f40-4215-8a47-4175235f8d8a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "e. The symptoms are concerning enough that immediate evaluation is warranted.\n\n5.  **Final Answer:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.454,
+"reasked_with_thinking": true
+},
+"f5d17e38-6dbc-4e53-a9a9-483dcd423067": {
+"label": 2,
+"level": "URGENT",
+"raw": "vice on next steps, but not immediate intervention. Therefore, this falls into the URGENT category.\n</diagnosis>\n\nURGENT",
+"p_emergency": null,
+"secs": 3.118,
+"reasked_with_thinking": true
+},
+"e17443b7-83fc-4619-bc36-d9c68c154bb3": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "he required output is a single word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the answer is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 2.063,
+"reasked_with_thinking": true
+},
+"917dc66b-1a87-433d-a2b1-2b66ce35b0cd": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 1.995
+},
+"901d8f81-4a13-40b2-8431-d784b69c8f49": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 5.307
+},
+"20d791be-9094-4df1-bded-b026c3e1df66": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "put is exactly one word: EMERGENCY, URGENT, or ROUTINE. Based on the analysis, the correct answer is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 4.989,
+"reasked_with_thinking": true
+},
+"ea64ea3a-00ae-4685-90e6-bb0f9b73a9c4": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ly life-threatening situation requiring immediate medical attention. Therefore, the level of care is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.059,
+"reasked_with_thinking": true
+},
+"ce38d947-2e4b-4931-b27e-8819fae1c60a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY",
+"p_emergency": null,
+"secs": 3.562,
+"reasked_with_thinking": true
+},
+"b6a74ec0-2607-448e-982c-3d5ef01fcc0a": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "th information rather than describing a current, urgent medical condition.\n</reasoning>\n<diagnosis>\nROUTINE\n</diagnosis>",
+"p_emergency": null,
+"secs": 5.029,
+"reasked_with_thinking": true
+},
+"bfbb6aa4-c056-4377-97a9-d9e5e6cdfcf5": {
+"label": 0,
+"level": "URGENT",
+"raw": "evaluation soon, but does not require immediate emergency care. Therefore, the appropriate triage level is URGENT.URGENT",
+"p_emergency": null,
+"secs": 4.135,
+"reasked_with_thinking": true
+},
+"c1fb4daf-2a19-412b-8918-5f3258725cbc": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 3.96,
+"reasked_with_thinking": true
+},
+"a0b5a4ef-6155-43c2-a6bb-5fdb68292ec9": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "immediate medical intervention. Further assessment is needed to determine the cause and appropriate management plan.\n\"\"\"",
+"p_emergency": null,
+"secs": 3.39,
+"reasked_with_thinking": true
+},
+"d37e44e5-f965-4e99-aeb2-9f8ac0d35967": {
+"label": 0,
+"level": "URGENT",
+"raw": "it routine self-care. It requires assessment by a clinician, likely within 24 hours.\n6.  **Final Answer:** URGENT.URGENT",
+"p_emergency": null,
+"secs": 6.85,
+"reasked_with_thinking": true
+},
+"f69eacf1-cab6-408a-9297-1d5a9d045e24": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 3.773
+},
+"415f7ee3-6e3d-40b6-8cfe-4c83f38a78e1": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 2.926,
+"reasked_with_thinking": true
+},
+"407bc3d0-47cf-471b-8d36-00bbbd890864": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": " classifying it as an EMERGENCY appropriate based solely on the provided text.\n6.  **Final Answer:** EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 3.309,
+"reasked_with_thinking": true
+},
+"0dc9b1a2-4d30-4c12-85e5-9866f1cbc563": {
+"label": 2,
+"level": "URGENT",
+"raw": "res prompt assessment by a healthcare professional. Therefore, the appropriate level of care is **URGENT**.\n</diagnosis>",
+"p_emergency": null,
+"secs": 3.682,
+"reasked_with_thinking": true
+},
+"f6c1a209-621b-41b0-813c-7047196bffff": {
+"label": 0,
+"level": "URGENT",
+"raw": "valuation but doesn't necessarily meet the criteria for an immediate emergency call.\n5.  **Final Answer:** URGENT.URGENT",
+"p_emergency": null,
+"secs": 2.908,
+"reasked_with_thinking": true
+},
+"aa3eddd7-7e12-4cc2-b840-1e2c0e2e5963": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 9.348
+},
+"fcc49a57-5dd7-480e-9a71-23ba653a7232": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "ROUTINE",
+"p_emergency": null,
+"secs": 0.622
+},
+"c8eeeb37-d62a-4e91-b548-5f50639300d8": {
+"label": 0,
+"level": "ROUTINE",
+"raw": "rification but doesn't suggest an immediate life-threatening condition requiring emergency care.\n\n**Decision:** ROUTINE\n",
+"p_emergency": null,
+"secs": 0.702,
+"reasked_with_thinking": true
+},
+"08407db0-caa2-4c9c-bfbb-8d4963999740": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "err on the side of caution. Therefore, this situation warrants further evaluation.\n\n**Decision:** EMERGENCY\n</diagnosis>",
+"p_emergency": null,
+"secs": 0.574,
+"reasked_with_thinking": true
+},
+"3c8faf32-3ca1-4a67-b2fa-c2a25e3c1854": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "ogress_notes>\n<evaluation>\n<medications>\n<allergies>\n<social_history>\n<review_of_systems>\n<assessment>\n<plan>\n<progress_",
+"p_emergency": null,
+"secs": 0.412,
+"reasked_with_thinking": true
+},
+"6200a1cf-c242-4f51-b07c-baee07a91b3c": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": " a serious medical condition requiring prompt evaluation. Therefore, the appropriate triage level is EMERGENCY.EMERGENCY",
+"p_emergency": null,
+"secs": 0.404,
+"reasked_with_thinking": true
+},
+"06759252-c705-4f2e-9c35-97ea0fd5f1f2": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.389
+},
+"132af28a-20fa-4aba-80e4-b7a4f946966c": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "age describes potentially life-threatening symptoms in a high-risk patient. This requires immediate evaluation.EMERGENCY",
+"p_emergency": null,
+"secs": 0.442,
+"reasked_with_thinking": true
+},
+"d0c85e24-2775-4040-9f32-f1acca783725": {
+"label": 0,
+"level": "URGENT",
+"raw": "ate emergency care. Therefore, URGENT is the most appropriate classification based *only* on the message provided.URGENT",
+"p_emergency": null,
+"secs": 0.415,
+"reasked_with_thinking": true
+},
+"e503b0a5-f853-466b-b405-8771bbec524e": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "list>\n<plan>\n<evaluation>\n<recommendation>\n<education>\n<follow_up>\n<procedural>\n<medication>\n<allergies>\n<social_history",
+"p_emergency": null,
+"secs": 0.399,
+"reasked_with_thinking": true
+},
+"dbfed639-9c3a-403e-973f-41c60f03f6e5": {
+"label": 0,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.412
+},
+"80dbc49c-9ee8-4949-8f90-6bdc49cce536": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.596
+},
+"326118f6-0256-4de2-9273-7502837cd70c": {
+"label": 2,
+"level": "URGENT",
+"raw": "URGENT",
+"p_emergency": null,
+"secs": 0.54
+},
+"c6a5edee-e606-44b0-a716-195a389aba6f": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "procedure>\n<consult>\n<differential diagnosis>\n<assessment>\n<plan>\n<evaluation>\n<recommendation>\n<follow-up>\n<prognosis>\n",
+"p_emergency": null,
+"secs": 0.468,
+"reasked_with_thinking": true
+},
+"539820c9-7dba-4df2-988c-9fc560927c4a": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.541
+},
+"b4c38eb9-efcf-42e3-9429-dcd79c27199e": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.488,
+"reasked_with_thinking": true
+},
+"2d4142f9-ef6f-48a0-852c-f5fce942a535": {
+"label": 2,
+"level": "URGENT",
+"raw": " provide details that definitively place it in the emergency category *yet*. It fits the criteria for urgent care.URGENT",
+"p_emergency": null,
+"secs": 0.438,
+"reasked_with_thinking": true
+},
+"b24e9dc2-7b4d-442b-b3c7-5191b034150a": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.868
+},
+"dd675c92-fe08-4be7-ab2f-cfdfe1cca263": {
+"label": 2,
+"level": "URGENT",
+"raw": "more details. Therefore, the most appropriate classification based *only* on this message is URGENT.\n</diagnosis>\nURGENT",
+"p_emergency": null,
+"secs": 0.623,
+"reasked_with_thinking": true
+},
+"c5f6bb12-a633-4ee4-b6a8-e6f9539472dc": {
+"label": 2,
+"level": "URGENT",
+"raw": "ased solely on the message provided, but it needs urgent attention.\n\n**Final Answer Selection:** URGENT fits best.URGENT",
+"p_emergency": null,
+"secs": 0.406,
+"reasked_with_thinking": true
+},
+"8c088547-4589-4858-914f-79b07fb31024": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "gency care. It is a general inquiry about a potential issue. Therefore, the appropriate level of care is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 0.421,
+"reasked_with_thinking": true
+},
+"b4063150-8150-4a7d-ba7c-d9acba512dc2": {
+"label": 0,
+"level": "UNPARSED",
+"raw": "nseling_final>\n<follow_up_schedule_final>\n<patient_education_materials_final>\n<follow_up_instructions_final>\n<discharge_",
+"p_emergency": null,
+"secs": 0.415,
+"reasked_with_thinking": true
+},
+"a2662c39-0978-433e-b0af-9f1aeb2ed13f": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.525
+},
+"366c49f5-f8bc-48e2-8079-74dcdf06955b": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "<diagnosis>\nEMERGENCY</diagnosis>",
+"p_emergency": null,
+"secs": 0.503,
+"reasked_with_thinking": true
+},
+"bb786a04-2768-4e7b-b237-4985a6937a4b": {
+"label": 0,
+"level": "URGENT",
+"raw": "tion soon but doesn't meet the criteria for an emergency right now.\n\nTherefore, the appropriate level of care is:\nURGENT",
+"p_emergency": null,
+"secs": 0.407,
+"reasked_with_thinking": true
+},
+"49511bde-e4d9-4ee8-83fd-74792a62c305": {
+"label": 0,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.573
+},
+"fa46afe1-d5ca-4d4e-9de5-b079c4f51a07": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.665
+},
+"d539a642-0ab5-4ed2-af54-1ed542320448": {
+"label": 2,
+"level": "ROUTINE",
+"raw": "ding routine follow-up or self-care advice from a clinician.\n\nTherefore, the appropriate triage level is ROUTINE.ROUTINE",
+"p_emergency": null,
+"secs": 0.575,
+"reasked_with_thinking": true
+},
+"a9c6de02-881b-4c2b-91e7-1a37433c2636": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "ssage content. The patient's role as a nurse doesn't negate the potential seriousness of the finding described.EMERGENCY",
+"p_emergency": null,
+"secs": 0.491,
+"reasked_with_thinking": true
+},
+"a7d5738b-e518-4dee-9591-75ee1d915f37": {
+"label": 2,
+"level": "URGENT",
+"raw": "y or 24 hours) to confirm the diagnosis and rule out serious causes. Therefore, it falls into the URGENT category.URGENT",
+"p_emergency": null,
+"secs": 0.409,
+"reasked_with_thinking": true
+},
+"c99fa133-c551-4886-a096-30b5e0b72708": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "**EMERGENCY**",
+"p_emergency": null,
+"secs": 0.543
+},
+"c5e76d77-a8ed-4293-a984-59736a23ece3": {
+"label": 2,
+"level": "URGENT",
+"raw": "**URGENT**",
+"p_emergency": null,
+"secs": 0.508
+},
+"0548bd74-5484-484d-8777-d4051ef8ab65": {
+"label": 2,
+"level": "URGENT",
+"raw": "acute distress requiring immediate intervention. Therefore, the appropriate level of care is URGENT.\n</diagnosis>\nURGENT",
+"p_emergency": null,
+"secs": 0.416,
+"reasked_with_thinking": true
+},
+"b345a907-5980-4e4a-a1cb-a0005ffd5bda": {
+"label": 2,
+"level": "EMERGENCY",
+"raw": "EMERGENCY",
+"p_emergency": null,
+"secs": 0.599
+},
+"9a692845-528a-4c6e-b1f3-62b158a694be": {
+"label": 2,
+"level": "UNPARSED",
+"raw": "d_plan>\n<evaluation_and_plan_and_plan_and_plan>\n<diagnosis_and_plan_and_plan_and_plan>\n<differential_diagnosis_and_plan_",
+"p_emergency": null,
+"secs": 0.551,
+"reasked_with_thinking": true
+},
+"e1cf80cd-965e-4a64-b2e3-a9549735161a": {
+"label": 1,
+"level": "EMERGENCY",
+"raw": "ve function, and the extent of tissue damage.\n\n**Conclusion:** The situation warrants immediate emergency care.EMERGENCY",
+"p_emergency": null,
+"secs": 0.41,
+"reasked_with_thinking": true
+}
+}
+}

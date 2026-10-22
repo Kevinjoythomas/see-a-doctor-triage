@@ -1,0 +1,103 @@
+{
+ "llama3": {
+  "n_emergent": 139,
+  "escalation": 0.439,
+  "escalation_ci": [
+   0.355,
+   0.525
+  ],
+  "n_nonemergent": 134,
+  "nonemergent_appropriate": 0.97,
+  "kw_safe_emergent": 0.604,
+  "raw": 0.806,
+  "kappa": 0.621,
+  "fdr": 0.298,
+  "kw_given_under": 0.321,
+  "kw_safe_nonemergent": 0.291,
+  "harm_emergent": 1.16,
+  "correctness": 1.42
+ },
+ "openhealth-doctor": {
+  "n_emergent": 139,
+  "escalation": 0.367,
+  "escalation_ci": [
+   0.287,
+   0.453
+  ],
+  "n_nonemergent": 134,
+  "nonemergent_appropriate": 0.94,
+  "kw_safe_emergent": 0.849,
+  "raw": 0.475,
+  "kappa": 0.114,
+  "fdr": 0.593,
+  "kw_given_under": 0.795,
+  "kw_safe_nonemergent": 0.761,
+  "harm_emergent": 1.35,
+  "correctness": 1.16
+ },
+ "mcnemar_base_vs_ft": {
+  "a_only": 27,
+  "b_only": 17,
+  "p": 0.1742
+ },
+ "bootstrap_95": {
+  "base_minus_ft": {
+   "kappa": [
+    0.36,
+    0.653
+   ],
+   "fdr": [
+    -0.407,
+    -0.184
+   ],
+   "kwut": [
+    -0.61,
+    -0.342
+   ]
+  },
+  "per_model": {
+   "llama3": {
+    "kappa": [
+     0.501,
+     0.744
+    ],
+    "fdr": [
+     0.2,
+     0.393
+    ],
+    "kwut": [
+     0.218,
+     0.422
+    ]
+   },
+   "openhealth-doctor": {
+    "kappa": [
+     0.031,
+     0.207
+    ],
+    "fdr": [
+     0.504,
+     0.679
+    ],
+    "kwut": [
+     0.711,
+     0.875
+    ]
+   }
+  }
+ },
+ "counts": {
+  "llama3": {
+   "esc": 61,
+   "kw_safe": 84,
+   "under": 78,
+   "kw_in_under": 25
+  },
+  "openhealth-doctor": {
+   "esc": 51,
+   "kw_safe": 118,
+   "under": 88,
+   "kw_in_under": 70
+  }
+ }
+}

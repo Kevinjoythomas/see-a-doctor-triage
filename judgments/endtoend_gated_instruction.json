@@ -1,0 +1,24 @@
+{
+ "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+  "esc": 0.944,
+  "k": 68,
+  "n": 72,
+  "ci": [
+   0.864,
+   0.985
+  ],
+  "benign_appropriate": 1.0,
+  "contradiction": 0.029
+ },
+ "openhealth-doctor": {
+  "esc": 0.583,
+  "k": 42,
+  "n": 72,
+  "ci": [
+   0.461,
+   0.698
+  ],
+  "benign_appropriate": 0.958,
+  "contradiction": 0.391
+ }
+}

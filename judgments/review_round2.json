@@ -1,0 +1,164 @@
+{
+ "panel_noretrieval_opus55": {
+  "llama3": {
+   "n": 72,
+   "esc": 0.236,
+   "esc_ci": [
+    0.144,
+    0.351
+   ],
+   "kw": 0.417,
+   "raw": 0.792,
+   "kappa": 0.543,
+   "fdr": 0.467,
+   "flag": false
+  },
+  "openhealth-doctor": {
+   "n": 72,
+   "esc": 0.167,
+   "esc_ci": [
+    0.089,
+    0.273
+   ],
+   "kw": 0.889,
+   "raw": 0.278,
+   "kappa": 0.049,
+   "fdr": 0.812,
+   "flag": true
+  },
+  "llama2": {
+   "n": 72,
+   "esc": 0.028,
+   "esc_ci": [
+    0.003,
+    0.097
+   ],
+   "kw": 0.181,
+   "raw": 0.847,
+   "kappa": 0.23,
+   "fdr": 0.846,
+   "flag": false
+  },
+  "medllama2": {
+   "n": 72,
+   "esc": 0.569,
+   "esc_ci": [
+    0.447,
+    0.686
+   ],
+   "kw": 0.875,
+   "raw": 0.694,
+   "kappa": 0.318,
+   "fdr": 0.349,
+   "flag": false
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M": {
+   "n": 72,
+   "esc": 0.611,
+   "esc_ci": [
+    0.489,
+    0.724
+   ],
+   "kw": 0.861,
+   "raw": 0.75,
+   "kappa": 0.404,
+   "fdr": 0.29,
+   "flag": false
+  },
+  "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "n": 72,
+   "esc": 0.764,
+   "esc_ci": [
+    0.649,
+    0.856
+   ],
+   "kw": 0.847,
+   "raw": 0.917,
+   "kappa": 0.737,
+   "fdr": 0.098,
+   "flag": false
+  },
+  "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "n": 72,
+   "esc": 0.722,
+   "esc_ci": [
+    0.604,
+    0.821
+   ],
+   "kw": 0.931,
+   "raw": 0.792,
+   "kappa": 0.325,
+   "fdr": 0.224,
+   "flag": false
+  }
+ },
+ "failure_modes": {
+  "llama3": {
+   "n": 51,
+   "primary": {
+    "questions_only": 41,
+    "wrong_assessment": 5,
+    "other": 4,
+    "vague_referral": 1
+   },
+   "referral_words": 0.098,
+   "urgency_words": 0.137
+  },
+  "openhealth-doctor": {
+   "n": 55,
+   "primary": {
+    "wrong_assessment": 26,
+    "conditional_escalation": 6,
+    "routine_or_home_care": 6,
+    "vague_referral": 14,
+    "other": 2,
+    "questions_only": 1
+   },
+   "referral_words": 0.782,
+   "urgency_words": 0.218
+  }
+ },
+ "corpus_audit_v3": {
+  "n_judged": 510,
+  "n_emerg": 114,
+  "esc_rate": 0.149,
+  "esc_ci": [
+   0.089,
+   0.228
+  ],
+  "emerg": {
+   "n": 392,
+   "n_emerg": 103,
+   "esc_rate": 0.146,
+   "esc_k": 15
+  },
+  "rand": {
+   "n": 118,
+   "n_emerg": 11,
+   "esc_rate": 0.182,
+   "esc_k": 2
+  }
+ },
+ "panel_noretrieval_mcnemar": {
+  "llama3->openhealth-doctor": {
+   "base_only": 12,
+   "medical_only": 7,
+   "p": 0.3593
+  },
+  "llama2->medllama2": {
+   "base_only": 1,
+   "medical_only": 40,
+   "p": 0.0
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M->hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "base_only": 6,
+   "medical_only": 17,
+   "p": 0.0347
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M->hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "base_only": 8,
+   "medical_only": 16,
+   "p": 0.1516
+  }
+ }
+}

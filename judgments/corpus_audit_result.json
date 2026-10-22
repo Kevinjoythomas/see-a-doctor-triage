@@ -1,0 +1,9 @@
+{
+  "n_judged": 510,
+  "n_true_emergencies": 167,
+  "human_escalation_rate_on_emergencies": 0.126,
+  "escalation_ci": [
+    0.08,
+    0.186
+  ]
+}

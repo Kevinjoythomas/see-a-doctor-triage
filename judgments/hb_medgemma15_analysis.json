@@ -1,0 +1,30 @@
+{
+ "all": {
+  "emergent_escalation": 0.511,
+  "k": 71,
+  "n": 139,
+  "ci": [
+   0.425,
+   0.596
+  ],
+  "nonemergent_appropriate": 0.985,
+  "n_ne": 134
+ },
+ "excluding_truncated_traces": {
+  "emergent_escalation": 0.604,
+  "k": 64,
+  "n": 106,
+  "ci": [
+   0.504,
+   0.697
+  ],
+  "nonemergent_appropriate": 0.979,
+  "n_ne": 95
+ },
+ "n_traces": 77,
+ "n_truncated": 72,
+ "truncated_by_label": {
+  "emergent": 33,
+  "nonemergent": 39
+ }
+}

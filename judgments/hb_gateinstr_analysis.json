@@ -1,0 +1,14 @@
+{
+ "emergent": "119/139",
+ "emergent_rate": 0.856,
+ "emergent_ci": [
+  0.787,
+  0.91
+ ],
+ "nonemergent": "121/134",
+ "nonemergent_rate": 0.903,
+ "contradiction_emergent": "7/128",
+ "contradiction_nonemergent": "6/11",
+ "n_gated_replies": 139,
+ "gated_replies_truncated_traces": 71
+}

@@ -1,0 +1,78 @@
+{
+ "july_clean_s101_all_conditions": {
+  "llama3": {
+   "n": 288,
+   "appropriate_escalation": {
+    "rate": 0.24,
+    "kappa_kw": 0.605,
+    "ppv_failure": 0.396
+   },
+   "triage_eq_2": {
+    "rate": 0.236,
+    "kappa_kw": 0.596,
+    "ppv_failure": 0.406
+   },
+   "triage_ge_1": {
+    "rate": 0.507,
+    "kappa_kw": 0.357,
+    "ppv_failure": 0.238
+   }
+  },
+  "openhealth-doctor": {
+   "n": 288,
+   "appropriate_escalation": {
+    "rate": 0.24,
+    "kappa_kw": 0.026,
+    "ppv_failure": 0.75
+   },
+   "triage_eq_2": {
+    "rate": 0.24,
+    "kappa_kw": 0.026,
+    "ppv_failure": 0.75
+   },
+   "triage_ge_1": {
+    "rate": 0.549,
+    "kappa_kw": 0.066,
+    "ppv_failure": 0.435
+   }
+  }
+ },
+ "new_judge_no_retrieval": {
+  "llama3": {
+   "n": 72,
+   "appropriate_escalation": {
+    "rate": 0.236,
+    "kappa_kw": 0.543,
+    "ppv_failure": 0.467
+   },
+   "triage_eq_2": {
+    "rate": 0.208,
+    "kappa_kw": 0.538,
+    "ppv_failure": 0.5
+   },
+   "triage_ge_1": {
+    "rate": 0.375,
+    "kappa_kw": 0.681,
+    "ppv_failure": 0.233
+   }
+  },
+  "openhealth-doctor": {
+   "n": 72,
+   "appropriate_escalation": {
+    "rate": 0.167,
+    "kappa_kw": 0.049,
+    "ppv_failure": 0.812
+   },
+   "triage_eq_2": {
+    "rate": 0.139,
+    "kappa_kw": 0.04,
+    "ppv_failure": 0.844
+   },
+   "triage_ge_1": {
+    "rate": 0.597,
+    "kappa_kw": 0.313,
+    "ppv_failure": 0.328
+   }
+  }
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "generators": {
+  "llama3": {
+   "none": {
+    "esc": 0.236,
+    "esc_ci": [
+     0.144,
+     0.351
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n": [
+     72,
+     24
+    ]
+   }
+  },
+  "openhealth-doctor": {
+   "none": {
+    "esc": 0.167,
+    "esc_ci": [
+     0.089,
+     0.273
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n": [
+     72,
+     24
+    ]
+   },
+   "clean": {
+    "esc": 0.194,
+    "esc_ci": [
+     0.111,
+     0.305
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n": [
+     72,
+     24
+    ]
+   }
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M": {
+   "none": {
+    "esc": 0.611,
+    "esc_ci": [
+     0.489,
+     0.724
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n": [
+     72,
+     24
+    ]
+   },
+   "clean": {
+    "esc": 0.514,
+    "esc_ci": [
+     0.393,
+     0.633
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n": [
+     72,
+     24
+    ]
+   }
+  },
+  "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "none": {
+    "esc": 0.764,
+    "esc_ci": [
+     0.649,
+     0.856
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n": [
+     72,
+     24
+    ]
+   },
+   "clean": {
+    "esc": 0.667,
+    "esc_ci": [
+     0.546,
+     0.773
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n": [
+     72,
+     24
+    ]
+   }
+  },
+  "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "none": {
+    "esc": 0.722,
+    "esc_ci": [
+     0.604,
+     0.821
+    ],
+    "spec": 1.0,
+    "spec_ci": [
+     0.858,
+     1.0
+    ],
+    "n": [
+     72,
+     24
+    ]
+   },
+   "clean": {
+    "esc": 0.569,
+    "esc_ci": [
+     0.447,
+     0.686
+    ],
+    "spec": 0.958,
+    "spec_ci": [
+     0.789,
+     0.999
+    ],
+    "n": [
+     72,
+     24
+    ]
+   }
+  }
+ },
+ "paired_tests_noretrieval": {
+  "llama3 vs openhealth-doctor": {
+   "mcnemar_escalation": {
+    "a_only": 12,
+    "b_only": 7,
+    "p": 0.3593
+   },
+   "wilcoxon_harm_emerg": 0.1478,
+   "wilcoxon_correctness_all": 0.0035
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M vs hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "mcnemar_escalation": {
+    "a_only": 6,
+    "b_only": 17,
+    "p": 0.0347
+   },
+   "wilcoxon_harm_emerg": 0.0325,
+   "wilcoxon_correctness_all": 0.0002
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M vs hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "mcnemar_escalation": {
+    "a_only": 8,
+    "b_only": 16,
+    "p": 0.1516
+   },
+   "wilcoxon_harm_emerg": 0.1115,
+   "wilcoxon_correctness_all": 0.0161
+  },
+  "openhealth-doctor vs hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "mcnemar_escalation": {
+    "a_only": 1,
+    "b_only": 41,
+    "p": 0.0
+   },
+   "wilcoxon_harm_emerg": 0.0,
+   "wilcoxon_correctness_all": 0.0
+  }
+ },
+ "retrieval_injected_subset": {
+  "n_injected_cases": 45,
+  "n_injected_emergencies": 38,
+  "top_chunk_source_counts": {
+   "childrenHeadaches.pdf": 27,
+   "chestPain(full).pdf": 8,
+   "footPain.pdf": 1,
+   "backPain.pdf": 1,
+   "heartDisease.pdf": 1
+  },
+  "most_common_top_chunk": [
+   [
+    "1055",
+    23
+   ]
+  ],
+  "openhealth-doctor": {
+   "none": 7,
+   "clean": 8,
+   "n": 38,
+   "mcnemar_none_vs_clean": {
+    "a_only": 6,
+    "b_only": 7,
+    "p": 1.0
+   }
+  },
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M": {
+   "none": 24,
+   "clean": 18,
+   "n": 38,
+   "mcnemar_none_vs_clean": {
+    "a_only": 9,
+    "b_only": 3,
+    "p": 0.146
+   }
+  },
+  "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "none": 31,
+   "clean": 25,
+   "n": 38,
+   "mcnemar_none_vs_clean": {
+    "a_only": 9,
+    "b_only": 3,
+    "p": 0.146
+   }
+  },
+  "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "none": 32,
+   "clean": 18,
+   "n": 38,
+   "mcnemar_none_vs_clean": {
+    "a_only": 14,
+    "b_only": 0,
+    "p": 0.0001
+   }
+  }
+ },
+ "test_retest_identical_prompts": {
+  "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M": {
+   "n_identical_prompts": 51,
+   "identical_answer_text": 8,
+   "escalation_label_flips": 8
+  },
+  "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+   "n_identical_prompts": 51,
+   "identical_answer_text": 4,
+   "escalation_label_flips": 7
+  },
+  "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+   "n_identical_prompts": 51,
+   "identical_answer_text": 3,
+   "escalation_label_flips": 13
+  }
+ },
+ "healthbench": {
+  "emergency_referrals_total": 482,
+  "category_counts": {
+   "non-emergent": 134,
+   "emergent": 139,
+   "conditionally-emergent": 180,
+   "none": 29
+  },
+  "labelled_emergent_or_nonemergent": 273,
+  "multi_turn_in_273": 76,
+  "mostly_non_ascii_in_273": 1
+ }
+}

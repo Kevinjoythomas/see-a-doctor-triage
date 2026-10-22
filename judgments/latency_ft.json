@@ -1,0 +1,10 @@
+{
+ "openhealth-doctor": {
+  "model": "openhealth-doctor",
+  "n": 20,
+  "vram_share": 0.472,
+  "tok_per_s_median": 8.3,
+  "s_per_answer_median": 13.75,
+  "tokens_mean": 91.0
+ }
+}

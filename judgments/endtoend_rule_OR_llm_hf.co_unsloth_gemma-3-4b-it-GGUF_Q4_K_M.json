@@ -1,0 +1,232 @@
+{
+ "gate": "rule|llm:hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M",
+ "threshold": "2.4810910014553345e-05",
+ "fired_emerg": 0,
+ "configs": [
+  {
+   "model": "Llama-3-8B ChatDoctor QLoRA",
+   "condition": "none",
+   "no_gate": {
+    "escalation": 0.167,
+    "escalation_ci": [
+     0.089,
+     0.273
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 1.68,
+    "correctness_mean": 0.85
+   },
+   "with_gate": {
+    "escalation": 0.306,
+    "escalation_ci": [
+     0.202,
+     0.425
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 1.44,
+    "correctness_mean": 0.97
+   }
+  },
+  {
+   "model": "Llama-3-8B ChatDoctor QLoRA",
+   "condition": "clean",
+   "no_gate": {
+    "escalation": 0.194,
+    "escalation_ci": [
+     0.111,
+     0.305
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 1.61,
+    "correctness_mean": 0.85
+   },
+   "with_gate": {
+    "escalation": 0.347,
+    "escalation_ci": [
+     0.239,
+     0.469
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 1.42,
+    "correctness_mean": 0.93
+   }
+  },
+  {
+   "model": "Llama-3-8B base",
+   "condition": "none",
+   "no_gate": {
+    "escalation": 0.236,
+    "escalation_ci": [
+     0.144,
+     0.351
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 1.54,
+    "correctness_mean": 1.18
+   },
+   "with_gate": {
+    "escalation": 0.847,
+    "escalation_ci": [
+     0.743,
+     0.921
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.85,
+    "correctness_mean": 1.43
+   }
+  },
+  {
+   "model": "Gemma-3-4B",
+   "condition": "none",
+   "no_gate": {
+    "escalation": 0.611,
+    "escalation_ci": [
+     0.489,
+     0.724
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.78,
+    "correctness_mean": 1.53
+   },
+   "with_gate": {
+    "escalation": 0.903,
+    "escalation_ci": [
+     0.81,
+     0.96
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.5,
+    "correctness_mean": 1.64
+   }
+  },
+  {
+   "model": "MedGemma-4B v1",
+   "condition": "none",
+   "no_gate": {
+    "escalation": 0.764,
+    "escalation_ci": [
+     0.649,
+     0.856
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.51,
+    "correctness_mean": 1.9
+   },
+   "with_gate": {
+    "escalation": 0.958,
+    "escalation_ci": [
+     0.883,
+     0.991
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.33,
+    "correctness_mean": 2.03
+   }
+  },
+  {
+   "model": "MedGemma-4B v1.5",
+   "condition": "none",
+   "no_gate": {
+    "escalation": 0.722,
+    "escalation_ci": [
+     0.604,
+     0.821
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.61,
+    "correctness_mean": 1.74
+   },
+   "with_gate": {
+    "escalation": 0.819,
+    "escalation_ci": [
+     0.711,
+     0.9
+    ],
+    "benign_appropriate": 1.0,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.44,
+    "correctness_mean": 1.78
+   }
+  },
+  {
+   "model": "MedGemma-4B v1.5",
+   "condition": "clean",
+   "no_gate": {
+    "escalation": 0.569,
+    "escalation_ci": [
+     0.447,
+     0.686
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.83,
+    "correctness_mean": 1.53
+   },
+   "with_gate": {
+    "escalation": 0.75,
+    "escalation_ci": [
+     0.634,
+     0.845
+    ],
+    "benign_appropriate": 0.958,
+    "n_emerg": 72,
+    "n_benign": 24,
+    "harm_emerg_mean": 0.44,
+    "correctness_mean": 1.68
+   }
+  }
+ ],
+ "gate_sens_clean": 0.958,
+ "gate_spec_clean": 1.0,
+ "contradiction_rate_gated_vignettes": 0.286,
+ "healthbench_medgemma15": {
+  "no_gate": {
+   "emergent_escalation": 0.511,
+   "k": 71,
+   "n": 139,
+   "ci": [
+    0.425,
+    0.596
+   ],
+   "nonemergent_appropriate": 0.985,
+   "n_ne": 134,
+   "contradiction_rate": null
+  },
+  "with_gate": {
+   "emergent_escalation": 0.799,
+   "k": 111,
+   "n": 139,
+   "ci": [
+    0.722,
+    0.862
+   ],
+   "nonemergent_appropriate": 0.903,
+   "n_ne": 134,
+   "contradiction_rate": 0.151
+  }
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "bootstrap_pooled_288": {
+  "llama3": {
+   "raw": {
+    "est": 0.833,
+    "ci95": [
+     0.785,
+     0.878
+    ]
+   },
+   "kappa": {
+    "est": 0.605,
+    "ci95": [
+     0.491,
+     0.711
+    ]
+   },
+   "p_under_given_safe": {
+    "est": 0.396,
+    "ci95": [
+     0.28,
+     0.515
+    ]
+   },
+   "auroc": {
+    "est": 0.912,
+    "ci95": [
+     0.858,
+     0.958
+    ]
+   }
+  },
+  "openhealth-doctor": {
+   "raw": {
+    "est": 0.309,
+    "ci95": [
+     0.25,
+     0.368
+    ]
+   },
+   "kappa": {
+    "est": 0.026,
+    "ci95": [
+     -0.009,
+     0.061
+    ]
+   },
+   "p_under_given_safe": {
+    "est": 0.75,
+    "ci95": [
+     0.692,
+     0.808
+    ]
+   },
+   "auroc": {
+    "est": 0.668,
+    "ci95": [
+     0.58,
+     0.751
+    ]
+   }
+  },
+  "base_minus_ft": {
+   "raw": [
+    0.451,
+    0.601
+   ],
+   "kappa": [
+    0.46,
+    0.688
+   ],
+   "p_under_given_safe": [
+    -0.472,
+    -0.232
+   ],
+   "auroc": [
+    0.139,
+    0.348
+   ]
+  }
+ },
+ "bootstrap_noretrieval_72": {
+  "llama3": {
+   "raw": {
+    "est": 0.847,
+    "ci95": [
+     0.764,
+     0.917
+    ]
+   },
+   "kappa": {
+    "est": 0.672,
+    "ci95": [
+     0.489,
+     0.827
+    ]
+   },
+   "p_under_given_safe": {
+    "est": 0.333,
+    "ci95": [
+     0.172,
+     0.5
+    ]
+   },
+   "auroc": {
+    "est": 0.947,
+    "ci95": [
+     0.878,
+     0.991
+    ]
+   }
+  },
+  "openhealth-doctor": {
+   "raw": {
+    "est": 0.347,
+    "ci95": [
+     0.236,
+     0.458
+    ]
+   },
+   "kappa": {
+    "est": 0.074,
+    "ci95": [
+     0.026,
+     0.147
+    ]
+   },
+   "p_under_given_safe": {
+    "est": 0.734,
+    "ci95": [
+     0.623,
+     0.839
+    ]
+   },
+   "auroc": {
+    "est": 0.671,
+    "ci95": [
+     0.511,
+     0.821
+    ]
+   }
+  },
+  "base_minus_ft": {
+   "raw": [
+    0.347,
+    0.639
+   ],
+   "kappa": [
+    0.399,
+    0.771
+   ],
+   "p_under_given_safe": [
+    -0.591,
+    -0.2
+   ],
+   "auroc": [
+    0.106,
+    0.448
+   ]
+  }
+ },
+ "per_seed": {
+  "s101": {
+   "llama3": {
+    "none": 0.292,
+    "n_none": 72,
+    "pooled": 0.24,
+    "n_pooled": 288
+   },
+   "openhealth-doctor": {
+    "none": 0.236,
+    "n_none": 72,
+    "pooled": 0.24,
+    "n_pooled": 288
+   },
+   "n_graded_total": 767
+  },
+  "s102": {
+   "llama3": {
+    "none": 0.333,
+    "n_none": 72,
+    "pooled": 0.24,
+    "n_pooled": 288
+   },
+   "openhealth-doctor": {
+    "none": 0.208,
+    "n_none": 72,
+    "pooled": 0.205,
+    "n_pooled": 288
+   },
+   "n_graded_total": 768
+  },
+  "s103": {
+   "llama3": {
+    "none": 0.408,
+    "n_none": 71,
+    "pooled": 0.261,
+    "n_pooled": 283
+   },
+   "openhealth-doctor": {
+    "none": 0.292,
+    "n_none": 72,
+    "pooled": 0.241,
+    "n_pooled": 286
+   },
+   "n_graded_total": 754
+  }
+ },
+ "drift_emergencies_only": {
+  "n": 144,
+  "agree": 0.924,
+  "kappa": 0.787,
+  "flips": {
+   "llama3": {
+    "july_yes_new_no": 4,
+    "july_no_new_yes": 0
+   },
+   "openhealth-doctor": {
+    "july_yes_new_no": 6,
+    "july_no_new_yes": 1
+   }
+  }
+ },
+ "kw_share_in_undertriage": {
+  "llama3": 0.183,
+  "openhealth-doctor": 0.89
+ },
+ "length_noretrieval": {
+  "llama3": {
+   "median_words_escalating": 77.0,
+   "median_words_undertriage": 67.0,
+   "n_esc": 21,
+   "n_under": 51,
+   "mannwhitney_p": 0.003
+  },
+  "openhealth-doctor": {
+   "median_words_escalating": 67.0,
+   "median_words_undertriage": 75.0,
+   "n_esc": 17,
+   "n_under": 55,
+   "mannwhitney_p": 0.054
+  }
+ },
+ "mcq": {
+  "medqa": {
+   "base": 0.542,
+   "ft": 0.557,
+   "n": 400,
+   "p_two_proportion": 0.722,
+   "note": "per-item answers not stored; unpaired test"
+  },
+  "pubmedqa": {
+   "base": 0.688,
+   "ft": 0.65,
+   "n": 400,
+   "p_two_proportion": 0.293,
+   "note": "per-item answers not stored; unpaired test"
+  }
+ },
+ "word_boundary_variant": {
+  "llama3": {
+   "kw_safe": 0.309,
+   "kappa": 0.671,
+   "p_under_given_safe": 0.326
+  },
+  "openhealth-doctor": {
+   "kw_safe": 0.889,
+   "kappa": 0.036,
+   "p_under_given_safe": 0.746
+  }
+ },
+ "best_threshold_kappa": {
+  "llama3": {
+   "best_threshold": 2,
+   "best_kappa": 0.748
+  },
+  "openhealth-doctor": {
+   "best_threshold": 3,
+   "best_kappa": 0.324
+  }
+ }
+}

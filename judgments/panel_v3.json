@@ -1,0 +1,277 @@
+{
+ "rows": [
+  {
+   "label": "Llama-3-8B",
+   "role": "base",
+   "corpus": "-",
+   "judge": "opus-4.8",
+   "model": "llama3",
+   "n_emerg": 288,
+   "escalation": 0.24,
+   "escalation_ci": [
+    0.191,
+    0.293
+   ],
+   "kw_safe": 0.351,
+   "raw_agree": 0.833,
+   "kappa": 0.605,
+   "auroc": 0.912,
+   "ppv_failure": 0.396,
+   "specificity": 0.968,
+   "n_benign": 95,
+   "escalation_by_condition": {
+    "none": 0.292,
+    "clean": 0.208,
+    "noisy": 0.236,
+    "adversarial": 0.222
+   },
+   "harm_emerg_mean": 1.347,
+   "correctness_mean": 1.645,
+   "invalidated": false
+  },
+  {
+   "label": "ChatDoctor QLoRA (studied)",
+   "role": "medical",
+   "corpus": "ChatDoctor/HealthCareMagic",
+   "judge": "opus-4.8",
+   "model": "openhealth-doctor",
+   "n_emerg": 288,
+   "escalation": 0.24,
+   "escalation_ci": [
+    0.191,
+    0.293
+   ],
+   "kw_safe": 0.903,
+   "raw_agree": 0.309,
+   "kappa": 0.026,
+   "auroc": 0.668,
+   "ppv_failure": 0.75,
+   "specificity": 0.958,
+   "n_benign": 96,
+   "escalation_by_condition": {
+    "none": 0.236,
+    "clean": 0.278,
+    "noisy": 0.194,
+    "adversarial": 0.25
+   },
+   "harm_emerg_mean": 1.424,
+   "correctness_mean": 1.346,
+   "invalidated": true
+  },
+  {
+   "label": "Llama-2-7B",
+   "role": "base",
+   "corpus": "-",
+   "judge": "opus-4.8",
+   "model": "llama2",
+   "n_emerg": 288,
+   "escalation": 0.212,
+   "escalation_ci": [
+    0.166,
+    0.264
+   ],
+   "kw_safe": 0.403,
+   "raw_agree": 0.753,
+   "kappa": 0.445,
+   "auroc": 0.866,
+   "ppv_failure": 0.543,
+   "specificity": 0.979,
+   "n_benign": 96,
+   "escalation_by_condition": {
+    "none": 0.056,
+    "clean": 0.097,
+    "noisy": 0.389,
+    "adversarial": 0.306
+   },
+   "harm_emerg_mean": 1.524,
+   "correctness_mean": 1.182,
+   "invalidated": false
+  },
+  {
+   "label": "Medllama2",
+   "role": "medical",
+   "corpus": "medical Q&A (independent)",
+   "judge": "opus-4.8",
+   "model": "medllama2",
+   "n_emerg": 288,
+   "escalation": 0.552,
+   "escalation_ci": [
+    0.493,
+    0.61
+   ],
+   "kw_safe": 0.819,
+   "raw_agree": 0.698,
+   "kappa": 0.353,
+   "auroc": 0.814,
+   "ppv_failure": 0.347,
+   "specificity": 0.947,
+   "n_benign": 95,
+   "escalation_by_condition": {
+    "none": 0.569,
+    "clean": 0.542,
+    "noisy": 0.542,
+    "adversarial": 0.556
+   },
+   "harm_emerg_mean": 0.934,
+   "correctness_mean": 1.749,
+   "invalidated": false
+  },
+  {
+   "label": "Gemma 3 4B",
+   "role": "base",
+   "corpus": "-",
+   "judge": "opus-5.5",
+   "model": "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M",
+   "n_emerg": 288,
+   "escalation": 0.497,
+   "escalation_ci": [
+    0.437,
+    0.556
+   ],
+   "kw_safe": 0.743,
+   "raw_agree": 0.733,
+   "kappa": 0.467,
+   "auroc": 0.918,
+   "ppv_failure": 0.346,
+   "specificity": 0.938,
+   "n_benign": 96,
+   "escalation_by_condition": {
+    "none": 0.611,
+    "clean": 0.514,
+    "noisy": 0.417,
+    "adversarial": 0.444
+   },
+   "harm_emerg_mean": 1.024,
+   "correctness_mean": 1.344,
+   "invalidated": false
+  },
+  {
+   "label": "MedGemma 4B v1",
+   "role": "medical",
+   "corpus": "Google medical post-training",
+   "judge": "opus-5.5",
+   "model": "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M",
+   "n_emerg": 288,
+   "escalation": 0.701,
+   "escalation_ci": [
+    0.645,
+    0.754
+   ],
+   "kw_safe": 0.854,
+   "raw_agree": 0.847,
+   "kappa": 0.572,
+   "auroc": 0.855,
+   "ppv_failure": 0.179,
+   "specificity": 0.969,
+   "n_benign": 96,
+   "escalation_by_condition": {
+    "none": 0.764,
+    "clean": 0.667,
+    "noisy": 0.75,
+    "adversarial": 0.625
+   },
+   "harm_emerg_mean": 0.712,
+   "correctness_mean": 1.768,
+   "invalidated": false
+  },
+  {
+   "label": "MedGemma 4B v1.5",
+   "role": "medical",
+   "corpus": "Google medical post-training",
+   "judge": "opus-5.5",
+   "model": "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M",
+   "n_emerg": 288,
+   "escalation": 0.576,
+   "escalation_ci": [
+    0.517,
+    0.634
+   ],
+   "kw_safe": 0.802,
+   "raw_agree": 0.767,
+   "kappa": 0.487,
+   "auroc": 0.826,
+   "ppv_failure": 0.286,
+   "specificity": 0.99,
+   "n_benign": 96,
+   "escalation_by_condition": {
+    "none": 0.722,
+    "clean": 0.569,
+    "noisy": 0.542,
+    "adversarial": 0.472
+   },
+   "harm_emerg_mean": 0.83,
+   "correctness_mean": 1.482,
+   "invalidated": false
+  }
+ ],
+ "pairs": [
+  {
+   "short": "Llama-3 → ChatDoctor\nQLoRA (studied)",
+   "base": {
+    "escalation": 0.24,
+    "kappa": 0.605
+   },
+   "medical": {
+    "escalation": 0.24,
+    "kappa": 0.026
+   },
+   "mcnemar": {
+    "base_only": 46,
+    "medical_only": 46,
+    "p": 1.0,
+    "n_pairs": 288
+   }
+  },
+  {
+   "short": "Llama-2 →\nMedllama2",
+   "base": {
+    "escalation": 0.212,
+    "kappa": 0.445
+   },
+   "medical": {
+    "escalation": 0.552,
+    "kappa": 0.353
+   },
+   "mcnemar": {
+    "base_only": 19,
+    "medical_only": 117,
+    "p": 0.0,
+    "n_pairs": 288
+   }
+  },
+  {
+   "short": "Gemma 3 →\nMedGemma v1",
+   "base": {
+    "escalation": 0.497,
+    "kappa": 0.467
+   },
+   "medical": {
+    "escalation": 0.701,
+    "kappa": 0.572
+   },
+   "mcnemar": {
+    "base_only": 27,
+    "medical_only": 86,
+    "p": 0.0,
+    "n_pairs": 288
+   }
+  },
+  {
+   "short": "Gemma 3 →\nMedGemma v1.5",
+   "base": {
+    "escalation": 0.497,
+    "kappa": 0.467
+   },
+   "medical": {
+    "escalation": 0.576,
+    "kappa": 0.487
+   },
+   "mcnemar": {
+    "base_only": 39,
+    "medical_only": 62,
+    "p": 0.02809,
+    "n_pairs": 288
+   }
+  }
+ ]
+}

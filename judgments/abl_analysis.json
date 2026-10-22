@@ -1,0 +1,127 @@
+{
+ "llama3": {
+  "n_emerg": 72,
+  "escalation": 0.236,
+  "k": 17,
+  "escalation_ci": [
+   0.144,
+   0.351
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.417,
+  "raw_agree": 0.792,
+  "kappa": 0.543,
+  "fdr": 0.467,
+  "kw_given_under": 0.255,
+  "n_under": 55,
+  "auroc": 0.94,
+  "kw_controls": 0.208,
+  "mean_words": 71.2,
+  "flag": false
+ },
+ "llama3+ftsys": {
+  "n_emerg": 72,
+  "escalation": 0.208,
+  "k": 15,
+  "escalation_ci": [
+   0.122,
+   0.32
+  ],
+  "controls_appropriate": 1.0,
+  "n_controls": 24,
+  "kw_safe": 0.319,
+  "raw_agree": 0.861,
+  "kappa": 0.648,
+  "fdr": 0.391,
+  "kw_given_under": 0.158,
+  "n_under": 57,
+  "auroc": 0.923,
+  "kw_controls": 0.208,
+  "mean_words": 65.5,
+  "mcnemar_vs_llama3": {
+   "this_only": 10,
+   "ref_only": 12,
+   "p": 0.8318
+  },
+  "flag": false
+ },
+ "openhealth-doctor": {
+  "n_emerg": 72,
+  "escalation": 0.167,
+  "k": 12,
+  "escalation_ci": [
+   0.089,
+   0.273
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.889,
+  "raw_agree": 0.278,
+  "kappa": 0.049,
+  "fdr": 0.812,
+  "kw_given_under": 0.867,
+  "n_under": 60,
+  "auroc": 0.681,
+  "kw_controls": 0.75,
+  "mean_words": 71.6,
+  "mcnemar_vs_llama3": {
+   "this_only": 7,
+   "ref_only": 12,
+   "p": 0.3593
+  },
+  "flag": true
+ },
+ "openhealth-doctor-linux": {
+  "n_emerg": 72,
+  "escalation": 0.222,
+  "k": 16,
+  "escalation_ci": [
+   0.133,
+   0.336
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.861,
+  "raw_agree": 0.333,
+  "kappa": 0.048,
+  "fdr": 0.758,
+  "kw_given_under": 0.839,
+  "n_under": 56,
+  "auroc": 0.774,
+  "kw_controls": 0.625,
+  "mean_words": 70.8,
+  "mcnemar_vs_openhealth-doctor": {
+   "this_only": 7,
+   "ref_only": 3,
+   "p": 0.3438
+  },
+  "flag": true
+ },
+ "openhealth-doctor-nosys": {
+  "n_emerg": 72,
+  "escalation": 0.264,
+  "k": 19,
+  "escalation_ci": [
+   0.167,
+   0.381
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.861,
+  "raw_agree": 0.403,
+  "kappa": 0.109,
+  "fdr": 0.694,
+  "kw_given_under": 0.811,
+  "n_under": 53,
+  "auroc": 0.781,
+  "kw_controls": 0.625,
+  "mean_words": 77.1,
+  "mcnemar_vs_openhealth-doctor-linux": {
+   "this_only": 11,
+   "ref_only": 8,
+   "p": 0.6476
+  },
+  "flag": true
+ }
+}

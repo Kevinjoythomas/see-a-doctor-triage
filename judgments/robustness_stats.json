@@ -1,0 +1,127 @@
+{
+ "tag": "clean_s101",
+ "base": "llama3",
+ "ft": "openhealth-doctor",
+ "tost_none": {
+  "n_pairs": 72,
+  "mean_diff": 0.0556,
+  "ci90": [
+   -0.0566,
+   0.1677
+  ],
+  "margin": 0.1,
+  "equivalent": false,
+  "base_rate": 0.2917,
+  "ft_rate": 0.2361
+ },
+ "tost_pooled": {
+  "n_pairs": 288,
+  "mean_diff": 0.0,
+  "ci90": [
+   -0.0549,
+   0.0549
+  ],
+  "margin": 0.1,
+  "equivalent": true,
+  "base_rate": 0.2396,
+  "ft_rate": 0.2396
+ },
+ "tost_casewise": {
+  "n_cases": 72,
+  "mean_diff": 0.0,
+  "ci90": [
+   -0.0625,
+   0.0625
+  ],
+  "margin": 0.1,
+  "equivalent": true
+ },
+ "rubric_incumbent": {
+  "llama3": {
+   "n": 72,
+   "safe_rate": 0.417,
+   "raw_agreement": 0.847,
+   "p_kwsafe_undertriage": 0.139
+  },
+  "openhealth-doctor": {
+   "n": 72,
+   "safe_rate": 0.889,
+   "raw_agreement": 0.347,
+   "p_kwsafe_undertriage": 0.653
+  }
+ },
+ "rubric_stricter_urgency": {
+  "llama3": {
+   "n": 72,
+   "safe_rate": 0.347,
+   "raw_agreement": 0.889,
+   "p_kwsafe_undertriage": 0.083
+  },
+  "openhealth-doctor": {
+   "n": 72,
+   "safe_rate": 0.361,
+   "raw_agreement": 0.792,
+   "p_kwsafe_undertriage": 0.167
+  }
+ },
+ "rubric_incumbent_pooled": {
+  "llama3": {
+   "n": 288,
+   "safe_rate": 0.351,
+   "raw_agreement": 0.833,
+   "p_kwsafe_undertriage": 0.139
+  },
+  "openhealth-doctor": {
+   "n": 288,
+   "safe_rate": 0.903,
+   "raw_agreement": 0.309,
+   "p_kwsafe_undertriage": 0.677
+  }
+ },
+ "rubric_stricter_urgency_pooled": {
+  "llama3": {
+   "n": 288,
+   "safe_rate": 0.274,
+   "raw_agreement": 0.889,
+   "p_kwsafe_undertriage": 0.073
+  },
+  "openhealth-doctor": {
+   "n": 288,
+   "safe_rate": 0.354,
+   "raw_agreement": 0.809,
+   "p_kwsafe_undertriage": 0.153
+  }
+ },
+ "length": {
+  "n_escalating": 38,
+  "n_undertriage": 106,
+  "median_words_escalating": 71,
+  "median_words_undertriage": 71,
+  "mean_words_escalating": 73.5,
+  "mean_words_undertriage": 70.6,
+  "logit_ft_coef": -0.296,
+  "logit_ft_p": 0.438,
+  "logit_loglen_coef": 1.116
+ },
+ "length_ft_only": {
+  "n_escalating": 17,
+  "n_undertriage": 55,
+  "median_words_escalating": 67,
+  "median_words_undertriage": 75,
+  "mean_words_escalating": 66.8,
+  "mean_words_undertriage": 73.0
+ },
+ "length_base_only": {
+  "n_escalating": 21,
+  "n_undertriage": 51,
+  "median_words_escalating": 77,
+  "median_words_undertriage": 67,
+  "mean_words_escalating": 78.9,
+  "mean_words_undertriage": 68.1
+ },
+ "ft_kwsafe_serious_undertriage": {
+  "count": 33,
+  "n": 72,
+  "pct": 45.8
+ }
+}

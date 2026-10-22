@@ -1,0 +1,34 @@
+{
+ "openhealth-doctor": {
+  "plain_agree_with_original": "93/96",
+  "gated_agree_with_original": "51/69",
+  "contradiction_agree": "63/69",
+  "plain_esc_mixed": "10/72",
+  "plain_esc_orig": "12/72",
+  "gated_contra_mixed": "48/69",
+  "gated_contra_orig": "50/69",
+  "e2e_esc_mixed": "38/72",
+  "e2e_esc_orig": "22/72",
+  "controls_mixed": "24/24",
+  "e2e_strict_mixed": "21/72",
+  "e2e_strict_orig": "19/72",
+  "contradicting_credited_mixed": "17/48",
+  "contradicting_credited_orig": "3/50"
+ },
+ "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+  "plain_agree_with_original": "92/96",
+  "gated_agree_with_original": "61/69",
+  "contradiction_agree": "63/69",
+  "plain_esc_mixed": "50/72",
+  "plain_esc_orig": "52/72",
+  "gated_contra_mixed": "8/69",
+  "gated_contra_orig": "12/69",
+  "e2e_esc_mixed": "65/72",
+  "e2e_esc_orig": "59/72",
+  "controls_mixed": "24/24",
+  "e2e_strict_mixed": "62/72",
+  "e2e_strict_orig": "58/72",
+  "contradicting_credited_mixed": "3/8",
+  "contradicting_credited_orig": "1/12"
+ }
+}

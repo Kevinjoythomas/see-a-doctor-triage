@@ -1,0 +1,40 @@
+{
+ "primary": {
+  "pair": "PRIMARY (our QLoRA)",
+  "base": "llama3",
+  "ft": "openhealth-doctor",
+  "esc_base_pooled": 0.24,
+  "esc_ft_pooled": 0.24,
+  "kwsafe_base": 0.351,
+  "kwsafe_ft": 0.903,
+  "rawagree_base": 0.833,
+  "rawagree_ft": 0.309,
+  "kappa_base": 0.605,
+  "kappa_ft": 0.026,
+  "auroc_base": 0.912,
+  "auroc_ft": 0.668,
+  "pkwsafe_under_base": 0.139,
+  "pkwsafe_under_ft": 0.677
+ },
+ "generalization": {
+  "pair": "GENERALIZATION (indep. med-FT)",
+  "base": "llama2",
+  "ft": "medllama2",
+  "esc_base_pooled": 0.212,
+  "esc_ft_pooled": 0.552,
+  "kwsafe_base": 0.403,
+  "kwsafe_ft": 0.819,
+  "rawagree_base": 0.753,
+  "rawagree_ft": 0.698,
+  "kappa_base": 0.445,
+  "kappa_ft": 0.353,
+  "auroc_base": 0.866,
+  "auroc_ft": 0.814,
+  "pkwsafe_under_base": 0.219,
+  "pkwsafe_under_ft": 0.285
+ },
+ "collapse_primary": true,
+ "collapse_generalization": false,
+ "gen_ft_escalation_gain": 0.34,
+ "interpretation": "collapse is corpus-specific; medllama2 improves triage and is not gamed"
+}

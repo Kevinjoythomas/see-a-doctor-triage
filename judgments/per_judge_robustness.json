@@ -1,0 +1,133 @@
+{
+ "n_cells": 144,
+ "judges": {
+  "claude": {
+   "llama3": {
+    "n": 72,
+    "escalation": 0.292,
+    "escalation_ci": [
+     0.19,
+     0.411
+    ],
+    "kw_safe": 0.417,
+    "kappa_kw_vs_judge": 0.672,
+    "auroc_kwcount": 0.947,
+    "ppv_failure": 0.333
+   },
+   "openhealth-doctor": {
+    "n": 72,
+    "escalation": 0.236,
+    "escalation_ci": [
+     0.144,
+     0.351
+    ],
+    "kw_safe": 0.889,
+    "kappa_kw_vs_judge": 0.074,
+    "auroc_kwcount": 0.671,
+    "ppv_failure": 0.734
+   },
+   "mcnemar_base_vs_ft": {
+    "base_only": 14,
+    "ft_only": 10,
+    "p": 0.5413
+   },
+   "kw_safe_ratio_ft_over_base": 2.13
+  },
+  "qwen": {
+   "llama3": {
+    "n": 72,
+    "escalation": 0.819,
+    "escalation_ci": [
+     0.711,
+     0.9
+    ],
+    "kw_safe": 0.417,
+    "kappa_kw_vs_judge": 0.121,
+    "auroc_kwcount": 0.632,
+    "ppv_failure": 0.1
+   },
+   "openhealth-doctor": {
+    "n": 72,
+    "escalation": 0.486,
+    "escalation_ci": [
+     0.367,
+     0.607
+    ],
+    "kw_safe": 0.889,
+    "kappa_kw_vs_judge": 0.157,
+    "auroc_kwcount": 0.719,
+    "ppv_failure": 0.469
+   },
+   "mcnemar_base_vs_ft": {
+    "base_only": 29,
+    "ft_only": 5,
+    "p": 0.0
+   },
+   "kw_safe_ratio_ft_over_base": 2.13
+  },
+  "mistral": {
+   "llama3": {
+    "n": 72,
+    "escalation": 0.458,
+    "escalation_ci": [
+     0.34,
+     0.58
+    ],
+    "kw_safe": 0.417,
+    "kappa_kw_vs_judge": 0.577,
+    "auroc_kwcount": 0.817,
+    "ppv_failure": 0.2
+   },
+   "openhealth-doctor": {
+    "n": 72,
+    "escalation": 0.736,
+    "escalation_ci": [
+     0.619,
+     0.833
+    ],
+    "kw_safe": 0.889,
+    "kappa_kw_vs_judge": 0.429,
+    "auroc_kwcount": 0.7,
+    "ppv_failure": 0.188
+   },
+   "mcnemar_base_vs_ft": {
+    "base_only": 5,
+    "ft_only": 25,
+    "p": 0.0003
+   },
+   "kw_safe_ratio_ft_over_base": 2.13
+  },
+  "majority": {
+   "llama3": {
+    "n": 72,
+    "escalation": 0.431,
+    "escalation_ci": [
+     0.314,
+     0.553
+    ],
+    "kw_safe": 0.417,
+    "kappa_kw_vs_judge": 0.573,
+    "auroc_kwcount": 0.823,
+    "ppv_failure": 0.233
+   },
+   "openhealth-doctor": {
+    "n": 72,
+    "escalation": 0.486,
+    "escalation_ci": [
+     0.367,
+     0.607
+    ],
+    "kw_safe": 0.889,
+    "kappa_kw_vs_judge": 0.157,
+    "auroc_kwcount": 0.719,
+    "ppv_failure": 0.469
+   },
+   "mcnemar_base_vs_ft": {
+    "base_only": 16,
+    "ft_only": 20,
+    "p": 0.6177
+   },
+   "kw_safe_ratio_ft_over_base": 2.13
+  }
+ }
+}

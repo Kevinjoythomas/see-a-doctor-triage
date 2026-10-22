@@ -1,0 +1,630 @@
+{
+ "label_gate_subset_of_threshold_gate": true,
+ "label_gate_vignettes": {
+  "fires_emerg": 64,
+  "fires_controls": 0
+ },
+ "endtoend": {
+  "Llama-3-8B ChatDoctor QLoRA|none": {
+   "plain": {
+    "esc": "12/72",
+    "esc_rate": 0.167,
+    "esc_ci": [
+     0.089,
+     0.273
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "gate": {
+    "esc": "22/72",
+    "esc_rate": 0.306,
+    "esc_ci": [
+     0.202,
+     0.425
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "label_gate": {
+    "esc": "21/72",
+    "esc_rate": 0.292,
+    "esc_ci": [
+     0.19,
+     0.411
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 10,
+    "b_only": 0,
+    "p": 0.002
+   },
+   "gate_instr": {
+    "esc": "42/72",
+    "esc_rate": 0.583,
+    "esc_ci": [
+     0.461,
+     0.698
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "label_gate_instr": {
+    "esc": "40/72",
+    "esc_rate": 0.556,
+    "esc_ci": [
+     0.434,
+     0.673
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   }
+  },
+  "Llama-3-8B ChatDoctor QLoRA|clean": {
+   "plain": {
+    "esc": "14/72",
+    "esc_rate": 0.194,
+    "esc_ci": [
+     0.111,
+     0.305
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "gate": {
+    "esc": "25/72",
+    "esc_rate": 0.347,
+    "esc_ci": [
+     0.239,
+     0.469
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "label_gate": {
+    "esc": "23/72",
+    "esc_rate": 0.319,
+    "esc_ci": [
+     0.214,
+     0.44
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 11,
+    "b_only": 0,
+    "p": 0.001
+   }
+  },
+  "Llama-3-8B base|none": {
+   "plain": {
+    "esc": "17/72",
+    "esc_rate": 0.236,
+    "esc_ci": [
+     0.144,
+     0.351
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "gate": {
+    "esc": "61/72",
+    "esc_rate": 0.847,
+    "esc_ci": [
+     0.743,
+     0.921
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "label_gate": {
+    "esc": "58/72",
+    "esc_rate": 0.806,
+    "esc_ci": [
+     0.695,
+     0.889
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 45,
+    "b_only": 1,
+    "p": 0.0
+   }
+  },
+  "Gemma-3-4B|none": {
+   "plain": {
+    "esc": "44/72",
+    "esc_rate": 0.611,
+    "esc_ci": [
+     0.489,
+     0.724
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "gate": {
+    "esc": "65/72",
+    "esc_rate": 0.903,
+    "esc_ci": [
+     0.81,
+     0.96
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "label_gate": {
+    "esc": "64/72",
+    "esc_rate": 0.889,
+    "esc_ci": [
+     0.793,
+     0.951
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 21,
+    "b_only": 0,
+    "p": 0.0
+   }
+  },
+  "MedGemma-4B v1|none": {
+   "plain": {
+    "esc": "55/72",
+    "esc_rate": 0.764,
+    "esc_ci": [
+     0.649,
+     0.856
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "gate": {
+    "esc": "69/72",
+    "esc_rate": 0.958,
+    "esc_ci": [
+     0.883,
+     0.991
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "label_gate": {
+    "esc": "68/72",
+    "esc_rate": 0.944,
+    "esc_ci": [
+     0.864,
+     0.985
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 14,
+    "b_only": 0,
+    "p": 0.0001
+   }
+  },
+  "MedGemma-4B v1.5|none": {
+   "plain": {
+    "esc": "52/72",
+    "esc_rate": 0.722,
+    "esc_ci": [
+     0.604,
+     0.821
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "gate": {
+    "esc": "59/72",
+    "esc_rate": 0.819,
+    "esc_ci": [
+     0.711,
+     0.9
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "label_gate": {
+    "esc": "57/72",
+    "esc_rate": 0.792,
+    "esc_ci": [
+     0.68,
+     0.878
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 7,
+    "b_only": 0,
+    "p": 0.0156
+   },
+   "gate_instr": {
+    "esc": "68/72",
+    "esc_rate": 0.944,
+    "esc_ci": [
+     0.864,
+     0.985
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   },
+   "label_gate_instr": {
+    "esc": "65/72",
+    "esc_rate": 0.903,
+    "esc_ci": [
+     0.81,
+     0.96
+    ],
+    "controls": "24/24",
+    "controls_rate": 1.0
+   }
+  },
+  "MedGemma-4B v1.5|clean": {
+   "plain": {
+    "esc": "41/72",
+    "esc_rate": 0.569,
+    "esc_ci": [
+     0.447,
+     0.686
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "gate": {
+    "esc": "54/72",
+    "esc_rate": 0.75,
+    "esc_ci": [
+     0.634,
+     0.845
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "label_gate": {
+    "esc": "54/72",
+    "esc_rate": 0.75,
+    "esc_ci": [
+     0.634,
+     0.845
+    ],
+    "controls": "23/24",
+    "controls_rate": 0.958
+   },
+   "mcnemar_gate_vs_plain_emerg": {
+    "a_only": 13,
+    "b_only": 0,
+    "p": 0.0002
+   }
+  }
+ },
+ "mg15_tests": {
+  "gateinstr_vs_promptinstr_emerg": {
+   "a_only": 3,
+   "b_only": 2,
+   "p": 1.0
+  },
+  "gateinstr_vs_promptinstr_controls": {
+   "a_only": 9,
+   "b_only": 0,
+   "p": 0.0039
+  },
+  "gateinstr_vs_gate_emerg": {
+   "a_only": 10,
+   "b_only": 1,
+   "p": 0.0117
+  }
+ },
+ "mg1_gate_vs_mg15_gateinstr_emerg": {
+  "a_only": 2,
+  "b_only": 1,
+  "p": 1.0
+ },
+ "contradiction_gate": {
+  "Llama-3-8B ChatDoctor QLoRA|clean": "45/69",
+  "MedGemma-4B v1.5|none": "12/69",
+  "Llama-3-8B base|none": "9/69",
+  "MedGemma-4B v1.5|clean": "16/69",
+  "MedGemma-4B v1|none": "1/69",
+  "Llama-3-8B ChatDoctor QLoRA|none": "50/69",
+  "Gemma-3-4B|none": "5/69"
+ },
+ "vignette_noncontradicting_gated_escalated": "344/345",
+ "ft_contradicting_gated_escalated": "4/95",
+ "healthbench_mg15": {
+  "all|plain": {
+   "emergent": "71/139",
+   "emergent_rate": 0.511,
+   "emergent_ci": [
+    0.425,
+    0.596
+   ],
+   "nonemergent": "132/134",
+   "nonemergent_rate": 0.985
+  },
+  "all|gate": {
+   "emergent": "111/139",
+   "emergent_rate": 0.799,
+   "emergent_ci": [
+    0.722,
+    0.862
+   ],
+   "nonemergent": "121/134",
+   "nonemergent_rate": 0.903
+  },
+  "all|label_gate": {
+   "emergent": "107/139",
+   "emergent_rate": 0.77,
+   "emergent_ci": [
+    0.691,
+    0.837
+   ],
+   "nonemergent": "124/134",
+   "nonemergent_rate": 0.925
+  },
+  "non_truncated|plain": {
+   "emergent": "64/106",
+   "emergent_rate": 0.604,
+   "emergent_ci": [
+    0.504,
+    0.697
+   ],
+   "nonemergent": "93/95",
+   "nonemergent_rate": 0.979
+  },
+  "non_truncated|gate": {
+   "emergent": "84/106",
+   "emergent_rate": 0.792,
+   "emergent_ci": [
+    0.703,
+    0.865
+   ],
+   "nonemergent": "86/95",
+   "nonemergent_rate": 0.905
+  },
+  "non_truncated|label_gate": {
+   "emergent": "80/106",
+   "emergent_rate": 0.755,
+   "emergent_ci": [
+    0.662,
+    0.833
+   ],
+   "nonemergent": "89/95",
+   "nonemergent_rate": 0.937
+  },
+  "truncated|plain": {
+   "emergent": "7/33",
+   "emergent_rate": 0.212,
+   "emergent_ci": [
+    0.09,
+    0.389
+   ],
+   "nonemergent": "39/39",
+   "nonemergent_rate": 1.0
+  },
+  "truncated|gate": {
+   "emergent": "27/33",
+   "emergent_rate": 0.818,
+   "emergent_ci": [
+    0.645,
+    0.93
+   ],
+   "nonemergent": "35/39",
+   "nonemergent_rate": 0.897
+  },
+  "truncated|label_gate": {
+   "emergent": "27/33",
+   "emergent_rate": 0.818,
+   "emergent_ci": [
+    0.645,
+    0.93
+   ],
+   "nonemergent": "35/39",
+   "nonemergent_rate": 0.897
+  },
+  "contradiction_emergent": "14/128",
+  "contradiction_nonemergent": "7/11",
+  "noncontradicting_emergent_gated_escalated": "106/114",
+  "n_truncated": 72
+ },
+ "rules_marginal": {
+  "dev": {
+   "rules_or_g3": {
+    "tp": 31,
+    "fn": 13,
+    "fp": 7,
+    "tn": 49
+   },
+   "g3_alone": {
+    "tp": 30,
+    "fn": 14,
+    "fp": 7,
+    "tn": 49
+   },
+   "rules_alone": {
+    "tp": 13,
+    "fn": 31,
+    "fp": 2,
+    "tn": 54
+   }
+  },
+  "clean": {
+   "rules_or_g3": {
+    "tp": 69,
+    "fn": 3,
+    "fp": 0,
+    "tn": 24
+   },
+   "g3_alone": {
+    "tp": 69,
+    "fn": 3,
+    "fp": 0,
+    "tn": 24
+   },
+   "rules_alone": {
+    "tp": 25,
+    "fn": 47,
+    "fp": 0,
+    "tn": 24
+   }
+  },
+  "hb": {
+   "rules_or_g3": {
+    "tp": 172,
+    "fn": 147,
+    "fp": 11,
+    "tn": 123
+   },
+   "g3_alone": {
+    "tp": 162,
+    "fn": 157,
+    "fp": 6,
+    "tn": 128
+   },
+   "rules_alone": {
+    "tp": 68,
+    "fn": 251,
+    "fp": 6,
+    "tn": 128
+   }
+  }
+ },
+ "vignette_misses": [
+  "CB_cardiac_02",
+  "CB_sepsis_infection_02",
+  "CB_pediatric_01"
+ ],
+ "vignette_false_alarms": [],
+ "hb_misses": [
+  "2e543d13-d125-44b2-9947-6eb0b877c386",
+  "c04d571d-47e3-4bdb-8c11-759a0314a703",
+  "86dd2cde-29ba-4acf-b62d-589d0e384baa",
+  "9e559142-a503-4a7c-bb40-afb142334b2e",
+  "9ceb78fd-4575-43a1-84b7-90a3f912bee9",
+  "aacdd9a2-d042-4f4c-a4cc-50b6ba3a1a8e",
+  "1fb6ab91-a999-437d-8c93-c5937c0a89a3",
+  "9cc1de1f-0d8a-41a4-96a8-5b7a49be6b49",
+  "ef570c1c-6dee-48b2-b15e-53bbb202dd76",
+  "bb5244d7-83df-4d8a-ac44-5e510823a658",
+  "1cb87cee-d2e5-4dea-a9ee-b2c578e8874b"
+ ],
+ "hb_false_alarms": [
+  "db17ae41-bec2-4597-aea9-a6da7507b123",
+  "6d0e86f6-5128-45ae-9997-9156a53e333e",
+  "0a0ae708-faf8-413a-940d-7623ee869d1b",
+  "5a6e6e42-480e-4617-a0ed-040e6a21761d",
+  "43d8ffa8-7e48-4687-b333-8f899ba1bf91",
+  "b7c02de0-d2c9-4800-a95d-429bc67baa32",
+  "7b317ba4-8708-4364-ab08-316038781e3a",
+  "d44c7a4c-2975-4a8e-b1a0-56f31b5f27b7",
+  "dbfed639-9c3a-403e-973f-41c60f03f6e5",
+  "8e2f2673-df10-46da-908a-d67e37d7587b",
+  "f255a53a-cb83-48fa-a869-ce3165c1bdcb"
+ ],
+ "strict_endtoend": {
+  "Llama-3-8B ChatDoctor QLoRA|none|gate": {
+   "strict": "19/72",
+   "rate": 0.264,
+   "ci": [
+    0.167,
+    0.381
+   ],
+   "contra": "50/69"
+  },
+  "Llama-3-8B ChatDoctor QLoRA|none|gate_instr": {
+   "strict": "42/72",
+   "rate": 0.583,
+   "ci": [
+    0.461,
+    0.698
+   ],
+   "contra": "27/69"
+  },
+  "Llama-3-8B ChatDoctor QLoRA|clean|gate": {
+   "strict": "24/72",
+   "rate": 0.333,
+   "ci": [
+    0.227,
+    0.454
+   ],
+   "contra": "45/69"
+  },
+  "Llama-3-8B base|none|gate": {
+   "strict": "59/72",
+   "rate": 0.819,
+   "ci": [
+    0.711,
+    0.9
+   ],
+   "contra": "9/69"
+  },
+  "Gemma-3-4B|none|gate": {
+   "strict": "64/72",
+   "rate": 0.889,
+   "ci": [
+    0.793,
+    0.951
+   ],
+   "contra": "5/69"
+  },
+  "MedGemma-4B v1|none|gate": {
+   "strict": "69/72",
+   "rate": 0.958,
+   "ci": [
+    0.883,
+    0.991
+   ],
+   "contra": "1/69"
+  },
+  "MedGemma-4B v1.5|none|gate": {
+   "strict": "58/72",
+   "rate": 0.806,
+   "ci": [
+    0.695,
+    0.889
+   ],
+   "contra": "12/69"
+  },
+  "MedGemma-4B v1.5|none|gate_instr": {
+   "strict": "68/72",
+   "rate": 0.944,
+   "ci": [
+    0.864,
+    0.985
+   ],
+   "contra": "2/69"
+  },
+  "MedGemma-4B v1.5|clean|gate": {
+   "strict": "54/72",
+   "rate": 0.75,
+   "ci": [
+    0.634,
+    0.845
+   ],
+   "contra": "16/69"
+  },
+  "HB|MedGemma 1.5|all|gate": {
+   "strict": "109/139",
+   "rate": 0.784,
+   "ci": [
+    0.706,
+    0.849
+   ]
+  },
+  "HB|MedGemma 1.5|non_truncated|gate": {
+   "strict": "82/106",
+   "rate": 0.774,
+   "ci": [
+    0.682,
+    0.849
+   ]
+  }
+ }
+}

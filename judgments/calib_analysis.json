@@ -1,0 +1,60 @@
+{
+ "n": 192,
+ "drift_all": {
+  "agree": 0.943,
+  "kappa_escalation": 0.883,
+  "wkappa_triage": 0.783,
+  "wkappa_correctness": 0.602,
+  "wkappa_harm": 0.785
+ },
+ "per_model": {
+  "llama3": {
+   "n_emerg": 72,
+   "esc_new": 0.236,
+   "esc_new_ci": [
+    0.144,
+    0.351
+   ],
+   "esc_july": 0.292,
+   "spec_new": 1.0,
+   "n_benign": 24,
+   "kw_safe": 0.417,
+   "kappa_kw_vs_new": 0.543,
+   "auroc_kwcount_new": 0.94,
+   "ppv_failure_new": 0.467,
+   "drift_kappa_emerg": 0.858
+  },
+  "openhealth-doctor": {
+   "n_emerg": 72,
+   "esc_new": 0.167,
+   "esc_new_ci": [
+    0.089,
+    0.273
+   ],
+   "esc_july": 0.236,
+   "spec_new": 0.958,
+   "n_benign": 24,
+   "kw_safe": 0.889,
+   "kappa_kw_vs_new": 0.049,
+   "auroc_kwcount_new": 0.681,
+   "ppv_failure_new": 0.812,
+   "drift_kappa_emerg": 0.7
+  }
+ },
+ "mcnemar_new": {
+  "base_only": 12,
+  "ft_only": 7,
+  "p": 0.3593
+ },
+ "fleiss_3judges_july": 0.296,
+ "fleiss_4judges": 0.327,
+ "fleiss_n_cells": 144,
+ "pairwise_kappa": {
+  "claude48~qwen": 0.32,
+  "claude48~mistral": 0.389,
+  "claude48~new": 0.787,
+  "qwen~mistral": 0.291,
+  "qwen~new": 0.237,
+  "mistral~new": 0.291
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "n_cells": 144,
+ "judges": {
+  "opus48": {
+   "llama3": {
+    "esc": 0.292,
+    "kw_safe": 0.417,
+    "raw": 0.847,
+    "kappa": 0.672,
+    "fdr": 0.333,
+    "three_criterion_flag": false
+   },
+   "openhealth-doctor": {
+    "esc": 0.236,
+    "kw_safe": 0.889,
+    "raw": 0.347,
+    "kappa": 0.074,
+    "fdr": 0.734,
+    "three_criterion_flag": true
+   },
+   "overcredit": {
+    "est": 2.635,
+    "ci95": [
+     1.661,
+     4.55
+    ]
+   },
+   "esc_ratio_ft_over_base": 0.808,
+   "mcnemar": {
+    "base_only": 14,
+    "ft_only": 10,
+    "p": 0.5413
+   }
+  },
+  "opus55": {
+   "llama3": {
+    "esc": 0.236,
+    "kw_safe": 0.417,
+    "raw": 0.792,
+    "kappa": 0.543,
+    "fdr": 0.467,
+    "three_criterion_flag": false
+   },
+   "openhealth-doctor": {
+    "esc": 0.167,
+    "kw_safe": 0.889,
+    "raw": 0.278,
+    "kappa": 0.049,
+    "fdr": 0.812,
+    "three_criterion_flag": true
+   },
+   "overcredit": {
+    "est": 3.022,
+    "ci95": [
+     1.703,
+     6.095
+    ]
+   },
+   "esc_ratio_ft_over_base": 0.708,
+   "mcnemar": {
+    "base_only": 12,
+    "ft_only": 7,
+    "p": 0.3593
+   }
+  },
+  "qwen": {
+   "llama3": {
+    "esc": 0.819,
+    "kw_safe": 0.417,
+    "raw": 0.514,
+    "kappa": 0.121,
+    "fdr": 0.1,
+    "three_criterion_flag": false
+   },
+   "openhealth-doctor": {
+    "esc": 0.486,
+    "kw_safe": 0.889,
+    "raw": 0.569,
+    "kappa": 0.157,
+    "fdr": 0.469,
+    "three_criterion_flag": false
+   },
+   "overcredit": {
+    "est": 3.596,
+    "ci95": [
+     2.582,
+     5.524
+    ]
+   },
+   "esc_ratio_ft_over_base": 0.593,
+   "mcnemar": {
+    "base_only": 29,
+    "ft_only": 5,
+    "p": 0.0
+   }
+  },
+  "mistral": {
+   "llama3": {
+    "esc": 0.458,
+    "kw_safe": 0.417,
+    "raw": 0.792,
+    "kappa": 0.577,
+    "fdr": 0.2,
+    "three_criterion_flag": false
+   },
+   "openhealth-doctor": {
+    "esc": 0.736,
+    "kw_safe": 0.889,
+    "raw": 0.819,
+    "kappa": 0.429,
+    "fdr": 0.188,
+    "three_criterion_flag": false
+   },
+   "overcredit": {
+    "est": 1.328,
+    "ci95": [
+     1.021,
+     1.787
+    ]
+   },
+   "esc_ratio_ft_over_base": 1.607,
+   "mcnemar": {
+    "base_only": 5,
+    "ft_only": 25,
+    "p": 0.0003
+   }
+  },
+  "majority": {
+   "llama3": {
+    "esc": 0.431,
+    "kw_safe": 0.417,
+    "raw": 0.792,
+    "kappa": 0.573,
+    "fdr": 0.233,
+    "three_criterion_flag": false
+   },
+   "openhealth-doctor": {
+    "esc": 0.486,
+    "kw_safe": 0.889,
+    "raw": 0.569,
+    "kappa": 0.157,
+    "fdr": 0.469,
+    "three_criterion_flag": false
+   },
+   "overcredit": {
+    "est": 1.89,
+    "ci95": [
+     1.349,
+     2.771
+    ]
+   },
+   "esc_ratio_ft_over_base": 1.128,
+   "mcnemar": {
+    "base_only": 16,
+    "ft_only": 20,
+    "p": 0.6177
+   }
+  }
+ },
+ "binarisations_noretrieval": {
+  "opus48": {
+   "strict_triage_eq_2": {
+    "llama3": {
+     "rate": 0.292,
+     "kappa": 0.672,
+     "fdr": 0.333
+    },
+    "openhealth-doctor": {
+     "rate": 0.236,
+     "kappa": 0.074,
+     "fdr": 0.734
+    }
+   },
+   "lenient_triage_ge_1": {
+    "llama3": {
+     "rate": 0.639,
+     "kappa": 0.257,
+     "fdr": 0.2
+    },
+    "openhealth-doctor": {
+     "rate": 0.625,
+     "kappa": 0.207,
+     "fdr": 0.328
+    }
+   }
+  },
+  "opus55": {
+   "strict_triage_eq_2": {
+    "llama3": {
+     "rate": 0.208,
+     "kappa": 0.538,
+     "fdr": 0.5
+    },
+    "openhealth-doctor": {
+     "rate": 0.139,
+     "kappa": 0.04,
+     "fdr": 0.844
+    }
+   },
+   "lenient_triage_ge_1": {
+    "llama3": {
+     "rate": 0.375,
+     "kappa": 0.681,
+     "fdr": 0.233
+    },
+    "openhealth-doctor": {
+     "rate": 0.597,
+     "kappa": 0.313,
+     "fdr": 0.328
+    }
+   }
+  }
+ },
+ "kw_safe_ratio_ft_over_base": 2.133
+}

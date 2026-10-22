@@ -1,0 +1,127 @@
+{
+ "generators": {
+  "Llama-3-8B base": {
+   "none": {
+    "escalation": 0.236,
+    "k": 17,
+    "n": 72,
+    "specificity": 1.0,
+    "n_benign": 24,
+    "harm_emerg": 1.54,
+    "correctness": 1.18
+   }
+  },
+  "Llama-3-8B LoRA": {
+   "none": {
+    "escalation": 0.167,
+    "k": 12,
+    "n": 72,
+    "specificity": 0.958,
+    "n_benign": 24,
+    "harm_emerg": 1.68,
+    "correctness": 0.85
+   },
+   "clean": {
+    "escalation": 0.194,
+    "k": 14,
+    "n": 72,
+    "specificity": 1.0,
+    "n_benign": 24,
+    "harm_emerg": 1.61,
+    "correctness": 0.85
+   }
+  },
+  "Gemma 3 4B": {
+   "none": {
+    "escalation": 0.611,
+    "k": 44,
+    "n": 72,
+    "specificity": 0.958,
+    "n_benign": 24,
+    "harm_emerg": 0.78,
+    "correctness": 1.53
+   },
+   "clean": {
+    "escalation": 0.514,
+    "k": 37,
+    "n": 72,
+    "specificity": 0.958,
+    "n_benign": 24,
+    "harm_emerg": 1.03,
+    "correctness": 1.42
+   },
+   "speed": {
+    "tok_per_s_median": 49.2,
+    "s_per_answer_median": 2.75,
+    "tokens_mean": 97.7,
+    "n": 384
+   }
+  },
+  "MedGemma 4B v1": {
+   "none": {
+    "escalation": 0.764,
+    "k": 55,
+    "n": 72,
+    "specificity": 1.0,
+    "n_benign": 24,
+    "harm_emerg": 0.51,
+    "correctness": 1.9
+   },
+   "clean": {
+    "escalation": 0.667,
+    "k": 48,
+    "n": 72,
+    "specificity": 0.958,
+    "n_benign": 24,
+    "harm_emerg": 0.86,
+    "correctness": 1.69
+   },
+   "speed": {
+    "tok_per_s_median": 47.0,
+    "s_per_answer_median": 2.71,
+    "tokens_mean": 87.3,
+    "n": 384
+   }
+  },
+  "MedGemma 4B v1.5": {
+   "none": {
+    "escalation": 0.722,
+    "k": 52,
+    "n": 72,
+    "specificity": 1.0,
+    "n_benign": 24,
+    "harm_emerg": 0.61,
+    "correctness": 1.74
+   },
+   "clean": {
+    "escalation": 0.569,
+    "k": 41,
+    "n": 72,
+    "specificity": 0.958,
+    "n_benign": 24,
+    "harm_emerg": 0.83,
+    "correctness": 1.53
+   },
+   "speed": {
+    "tok_per_s_median": 46.8,
+    "s_per_answer_median": 3.2,
+    "tokens_mean": 110.6,
+    "n": 384
+   }
+  }
+ },
+ "gate_latency": {
+  "gate_scores_llm_hf.co_unsloth_medgemma-4b-it-GGUF_Q4_K_M.json": {
+   "median_s": 2.127,
+   "n": 649
+  },
+  "gate_scores_llm_hf.co_unsloth_gemma-3-4b-it-GGUF_Q4_K_M.json": {
+   "median_s": 0.536,
+   "n": 496
+  },
+  "gate_scores_llm_hf.co_unsloth_medgemma-1.5-4b-it-GGUF_Q4_K_M.json": {
+   "median_s": 2.348,
+   "n": 649
+  }
+ }
+}
