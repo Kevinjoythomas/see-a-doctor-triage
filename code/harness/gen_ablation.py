@@ -6,6 +6,8 @@ clean-benchmark cases, no retrieval, seed 101, same inline prompt as every other
   base_ftsys  base Llama-3-8B-Instruct, given the fine-tune's model-file system prompt
   plain       any Ollama model as-is (used for the Q4_K_M base)
   chatml_raw  raw ChatML user turn with no system turn (the public chat-doctor fine-tune's training format)
+  noclarify_base / noclarify_ft  the deployed instruction without "Ask clarifying questions if needed." (base as-is;
+              fine-tune via its raw template, so no system prompt invites questions either)
 
 Usage: python gen_ablation.py <variant> <ollama_model> <key> <tag>
 Writes v3/results/<tag>.json as {key: {"<case>|none": cell}}
@@ -52,9 +54,11 @@ def main():
         if out[key].get(k, {}).get("answer"):
             continue
         prompt = build_prompt(c["question"])
+        if variant.startswith("noclarify"):  # reviewer test: does the clarifying-question permission shape the base model's failure?
+            prompt = prompt.replace("Ask clarifying questions if needed. ", "")
         kw = {"system": FT_SYSTEM} if variant == "base_ftsys" else {}
         try:
-            if variant == "ft_nosys":
+            if variant in ("ft_nosys", "noclarify_ft"):  # fine-tune without its model-file prompt (which also invites questions)
                 ans, secs = generate_raw(model, raw_llama3(prompt))
             elif variant == "chatml_raw":
                 ans, secs = generate_raw(model, raw_chatml(prompt))

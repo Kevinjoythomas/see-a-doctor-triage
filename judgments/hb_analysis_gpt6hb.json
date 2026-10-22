@@ -1,0 +1,48 @@
+{
+ "llama3": {
+  "n_emergent": 139,
+  "escalation": 0.468,
+  "escalation_ci": [
+   0.383,
+   0.554
+  ],
+  "n_nonemergent": 134,
+  "nonemergent_appropriate": 0.94,
+  "kw_safe_emergent": 0.604,
+  "raw": 0.806,
+  "kappa": 0.617,
+  "fdr": 0.274,
+  "kw_given_under": 0.311,
+  "kw_safe_nonemergent": 0.291,
+  "harm_emergent": 1.45,
+  "correctness": 1.4
+ },
+ "openhealth-doctor": {
+  "n_emergent": 139,
+  "escalation": 0.424,
+  "escalation_ci": [
+   0.341,
+   0.511
+  ],
+  "n_nonemergent": 134,
+  "nonemergent_appropriate": 0.888,
+  "kw_safe_emergent": 0.849,
+  "raw": 0.532,
+  "kappa": 0.154,
+  "fdr": 0.525,
+  "kw_given_under": 0.775,
+  "kw_safe_nonemergent": 0.761,
+  "harm_emergent": 1.52,
+  "correctness": 1.1
+ },
+ "mcnemar_base_vs_ft": {
+  "a_only": 25,
+  "b_only": 19,
+  "p": 0.4514
+ },
+ "agreement_with_hb3": {
+  "n": 546,
+  "agree": 0.925,
+  "kappa": 0.829
+ }
+}

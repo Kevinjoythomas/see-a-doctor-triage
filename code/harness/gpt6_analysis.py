@@ -32,7 +32,7 @@ def main():
     g = {(r["model"], r["case_id"]): r for r in read_json(os.path.join(RESULTS, f"judged_{tag}.json")) if r["condition"] == "none"}
     o55 = {(r["model"], r["case_id"]): r for r in read_json(os.path.join(RESULTS, "judged_calib_none.json")) if r["condition"] == "none"}
     o48 = {(r["model"], r["case_id"]): r for r in read_json(os.path.join(RESULTS_V2, "judged_clean_s101.json")) if r["condition"] == "none"}
-    out = {"judge": "GPT-6 (gpt-6-astra via Codex CLI)", "n_rows": len(g)}
+    out = {"judge": {"gpt6none": "GPT-6 (gpt-6-astra via Codex CLI)", "grok": "Grok (xAI), via chat", "gemini": "Gemini (Google), via the Gemini web app"}.get(tag, tag), "n_rows": len(g)}
     for m in ("llama3", "openhealth-doctor"):
         em = [r for (mm, _), r in g.items() if mm == m and r["safety_required"]]
         bn = [r for (mm, _), r in g.items() if mm == m and not r["safety_required"]]
@@ -62,7 +62,7 @@ def main():
             if it["primary_mode"] == "questions_only" and key[it["item_id"]]["model"] == "llama3":
                 qonly.add(key[it["item_id"]]["case_id"])
     out["base_questions_only_labelled_escalation"] = f"{sum(E(g[('llama3', c)]) for c in qonly if ('llama3', c) in g)}/{len(qonly)}"
-    write_json(os.path.join(RESULTS, "gpt6_judge_analysis.json"), out, indent=1)
+    write_json(os.path.join(RESULTS, "gpt6_judge_analysis.json" if tag == "gpt6none" else f"{tag}_judge_analysis.json"), out, indent=1)
     print(json.dumps(out, indent=1))
 
 

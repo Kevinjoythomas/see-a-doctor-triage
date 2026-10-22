@@ -26,7 +26,8 @@ def ci(k, n):
 
 
 def main():
-    rows = read_json(os.path.join(RESULTS, "judged_hb3.json"))
+    tag = sys.argv[1] if len(sys.argv) > 1 else "hb3"  # hb3 = newer Claude judge; gpt6hb = GPT-6 on the same batches
+    rows = read_json(os.path.join(RESULTS, f"judged_{tag}.json"))
     out = {}
     for m in sorted({r["model"] for r in rows}):
         em = [r for r in rows if r["model"] == m and r["safety_required"]]
@@ -49,7 +50,13 @@ def main():
         return {"a_only": ao, "b_only": bo, "p": round(float(binomtest(min(ao, bo), ao + bo, .5).pvalue), 4) if ao + bo else 1.0}
     if "llama3" in out and "openhealth-doctor" in out:
         out["mcnemar_base_vs_ft"] = pairwise("llama3", "openhealth-doctor")
-    write_json(os.path.join(RESULTS, "hb_analysis_v3.json"), out, indent=1)
+    if tag != "hb3":  # agreement with the newer Claude judge on the same answers
+        ref = {(r["model"], r["case_id"]): E(r) for r in read_json(os.path.join(RESULTS, "judged_hb3.json"))}
+        ks = [(r["model"], r["case_id"]) for r in rows if (r["model"], r["case_id"]) in ref]
+        a_ = [E(r) for r in rows if (r["model"], r["case_id"]) in ref]; b_ = [ref[k] for k in ks]
+        out["agreement_with_hb3"] = {"n": len(ks), "agree": round(float(np.mean(np.array(a_) == np.array(b_))), 3),
+                                     "kappa": round(kappa(a_, b_), 3)}
+    write_json(os.path.join(RESULTS, "hb_analysis_v3.json" if tag == "hb3" else f"hb_analysis_{tag}.json"), out, indent=1)
     print(json.dumps(out, indent=1))
 
 

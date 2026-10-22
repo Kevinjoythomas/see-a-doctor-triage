@@ -1,0 +1,26 @@
+{
+ "gated|openhealth-doctor": {
+  "n": 69,
+  "gpt6_contradicts": "43/69",
+  "claude_contradicts": "50/69",
+  "agree": 0.841,
+  "kappa": 0.641,
+  "strict_escalation_gpt6_labels": "26/72"
+ },
+ "gated|hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M": {
+  "n": 69,
+  "gpt6_contradicts": "8/69",
+  "claude_contradicts": "1/69",
+  "agree": 0.87,
+  "kappa": -0.026,
+  "strict_escalation_gpt6_labels": "62/72"
+ },
+ "gatedinstr|hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M": {
+  "n": 69,
+  "gpt6_contradicts": "6/69",
+  "claude_contradicts": "2/69",
+  "agree": 0.942,
+  "kappa": 0.477,
+  "strict_escalation_gpt6_labels": "64/72"
+ }
+}
