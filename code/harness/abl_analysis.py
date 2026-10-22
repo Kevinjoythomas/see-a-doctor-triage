@@ -20,7 +20,8 @@ from common import RESULTS, RESULTS_V2, SAFETY_KW, kw_safe, read_json, write_jso
 
 E = lambda r: (r["appropriate_escalation"].lower() in ("true", "yes", "1")) if isinstance(r["appropriate_escalation"], str) else bool(r["appropriate_escalation"])
 REF = {"openhealth-doctor-nosys": "openhealth-doctor-linux", "openhealth-doctor-linux": "openhealth-doctor", "llama3+ftsys": "llama3", "openhealth-doctor": "llama3",
-       "public-chat-doctor": "llama3-q4km", "llama3-q4km": "llama3"}
+       "public-chat-doctor": "llama3-q4km", "llama3-q4km": "llama3",
+       "openhealth-doctor-noclarify": "openhealth-doctor-nosys", "llama3-noclarify": "llama3"}  # instruction without the clarifying-question sentence
 
 
 def ci(k, n):

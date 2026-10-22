@@ -1,0 +1,96 @@
+{
+ "llama3": {
+  "n_emerg": 72,
+  "escalation": 0.236,
+  "k": 17,
+  "escalation_ci": [
+   0.144,
+   0.351
+  ],
+  "controls_appropriate": 1.0,
+  "n_controls": 24,
+  "kw_safe": 0.417,
+  "raw_agree": 0.792,
+  "kappa": 0.543,
+  "fdr": 0.467,
+  "kw_given_under": 0.255,
+  "n_under": 55,
+  "auroc": 0.94,
+  "kw_controls": 0.208,
+  "mean_words": 71.2,
+  "flag": false
+ },
+ "llama3-noclarify": {
+  "n_emerg": 72,
+  "escalation": 0.764,
+  "k": 55,
+  "escalation_ci": [
+   0.649,
+   0.856
+  ],
+  "controls_appropriate": 1.0,
+  "n_controls": 24,
+  "kw_safe": 0.889,
+  "raw_agree": 0.847,
+  "kappa": 0.482,
+  "fdr": 0.156,
+  "kw_given_under": 0.588,
+  "n_under": 17,
+  "auroc": 0.809,
+  "kw_controls": 0.375,
+  "mean_words": 77.5,
+  "mcnemar_vs_llama3": {
+   "this_only": 41,
+   "ref_only": 3,
+   "p": 0.0
+  },
+  "flag": false
+ },
+ "openhealth-doctor-noclarify": {
+  "n_emerg": 72,
+  "escalation": 0.194,
+  "k": 14,
+  "escalation_ci": [
+   0.111,
+   0.305
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.875,
+  "raw_agree": 0.319,
+  "kappa": 0.067,
+  "fdr": 0.778,
+  "kw_given_under": 0.845,
+  "n_under": 58,
+  "auroc": 0.803,
+  "kw_controls": 0.667,
+  "mean_words": 72.3,
+  "mcnemar_vs_openhealth-doctor-nosys": {
+   "this_only": 7,
+   "ref_only": 10,
+   "p": 0.6291
+  },
+  "flag": true
+ },
+ "openhealth-doctor-nosys": {
+  "n_emerg": 72,
+  "escalation": 0.236,
+  "k": 17,
+  "escalation_ci": [
+   0.144,
+   0.351
+  ],
+  "controls_appropriate": 0.958,
+  "n_controls": 24,
+  "kw_safe": 0.861,
+  "raw_agree": 0.375,
+  "kappa": 0.095,
+  "fdr": 0.726,
+  "kw_given_under": 0.818,
+  "n_under": 55,
+  "auroc": 0.802,
+  "kw_controls": 0.625,
+  "mean_words": 77.1,
+  "flag": true
+ }
+}
