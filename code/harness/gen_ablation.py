@@ -9,7 +9,7 @@ clean-benchmark cases, no retrieval, seed 101, same inline prompt as every other
   noclarify_base / noclarify_ft  the deployed instruction without "Ask clarifying questions if needed." (base as-is;
               fine-tune via its raw template, so no system prompt invites questions either)
 
-Usage: python gen_ablation.py <variant> <ollama_model> <key> <tag>
+Usage: python gen_ablation.py <variant> <ollama_model> <key> <tag>   (env ABL_SEED, default 101)
 Writes v3/results/<tag>.json as {key: {"<case>|none": cell}}
 """
 import os
@@ -47,6 +47,7 @@ def main():
     out = read_json(path, {}) or {}
     out.setdefault(key, {})
     only_emerg = os.environ.get("ABL_EMERG_ONLY") == "1"  # time budget: the agreement statistics use emergencies only
+    seed = int(os.environ.get("ABL_SEED", "101"))  # repeat runs; every earlier grid used 101
     for c in read_json(os.path.join(RESULTS_V2, "clean_benchmark.json")):
         if only_emerg and not c["safety_required"]:
             continue
@@ -59,11 +60,11 @@ def main():
         kw = {"system": FT_SYSTEM} if variant == "base_ftsys" else {}
         try:
             if variant in ("ft_nosys", "noclarify_ft"):  # fine-tune without its model-file prompt (which also invites questions)
-                ans, secs = generate_raw(model, raw_llama3(prompt))
+                ans, secs = generate_raw(model, raw_llama3(prompt), seed=seed)
             elif variant == "chatml_raw":
-                ans, secs = generate_raw(model, raw_chatml(prompt))
+                ans, secs = generate_raw(model, raw_chatml(prompt), seed=seed)
             else:
-                ans, secs = generate(model, prompt, seed=101, **kw)
+                ans, secs = generate(model, prompt, seed=seed, **kw)
             out[key][k] = {"case_id": c["id"], "condition": "none", "category": c["category"],
                            "safety_required": c["safety_required"], "question": c["question"],
                            "answer": ans, "variant": variant, "seconds": round(secs, 2)}
@@ -73,11 +74,11 @@ def main():
     log(f"DONE {tag} {key}: {sum(1 for v in out[key].values() if v.get('answer'))}/96")
 
 
-def generate_raw(model, prompt, retries=4):
+def generate_raw(model, prompt, retries=4, seed=101):
     import time
     from common import _post
     body = {"model": model, "prompt": prompt, "raw": True, "stream": False, "keep_alive": "30m",
-            "options": {"temperature": 0.3, "num_predict": 300, "num_ctx": 2048, "seed": 101,
+            "options": {"temperature": 0.3, "num_predict": 300, "num_ctx": 2048, "seed": seed,
                         "repeat_penalty": 1.1}}
     last = None
     for a in range(retries):

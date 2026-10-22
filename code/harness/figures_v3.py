@@ -4,7 +4,11 @@ fig1: the illusion. (a) keyword-"safe" rate vs blinded-judge escalation, base vs
       (72 emergencies x 4 conditions = 288 answers/model, judged_clean_s101.json);
       (b) mean keyword count in under-triaging vs escalating answers (operating-point shift).
 fig2: model pairs (base -> medical model): escalation and keyword<->judge kappa per pair,
-      read from v3/results/panel_v3.json (written by panel_v3.py).
+      read from v3/results/review_round2.json and pub_analysis.json.
+fig1_teaser: the page-2 overview figure: (a) rubric "safe" vs judge escalation, (b) keyword share among
+      under-triaging vs escalating answers (both from judged_clean_s101.json, 288 emergency answers per model),
+      (c) keyword-judge kappa with case-bootstrap 95% CIs on the vignettes (review_stats.json) and on
+      HealthBench (hb_analysis_v3.json). Drawn at the printed width (6.5 in) so text prints at 7-8 pt.
 Palette: categorical slots 1-2 (#2a78d6 blue = base, #eb6834 orange = fine-tune / medical),
 validated with the dataviz validator (light surface #fcfcfb); values are direct-labelled.
 """
@@ -23,7 +27,7 @@ OUT = "./v3/papers/A/figs"
 os.makedirs(OUT, exist_ok=True)
 BLUE, ORANGE = "#2a78d6", "#eb6834"
 INK, INK2, GRID, SURF = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
-plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecolor": INK2,
+plt.rcParams.update({"pdf.fonttype": 42, "font.family": "DejaVu Sans", "font.size": 8, "axes.edgecolor": INK2,
                      "axes.labelcolor": INK, "xtick.color": INK2, "ytick.color": INK2,
                      "axes.spines.top": False, "axes.spines.right": False,
                      "figure.facecolor": "white", "axes.facecolor": "white"})
@@ -96,7 +100,7 @@ def fig2():
             P[k] = {"esc": pub[k]["escalation"], "esc_ci": pub[k]["escalation_ci"], "kappa": pub[k]["kappa"]}
     pairs.insert(1, ("Llama-3 → public\nchat-doctor", "llama3-q4km", "public-chat-doctor"))
     pairs = [p for p in pairs if p[1] in P and p[2] in P]
-    fig, (a, b) = plt.subplots(1, 2, figsize=(9.6, 3.4))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(6.5, 2.6))
     xs = np.arange(len(pairs)); w = 0.34
     for ax, key, title, ylab in ((a, "esc", "(a) Judged emergency escalation (95% CI)", "escalation rate"),
                                  (b, "kappa", "(b) Keyword rubric vs judge agreement", "Cohen's κ")):
@@ -109,19 +113,65 @@ def fig2():
                 ax.errorbar(xs + side * (w + 0.02) / 2, vals, yerr=[lo, hi], fmt="none", ecolor=INK2, elinewidth=0.8, capsize=2)
                 for bx, v, p in zip(bars, vals, pairs):
                     ax.text(bx.get_x() + bx.get_width() / 2, P[p[idx]]["esc_ci"][1] + 0.015, f"{v:.2f}",
-                            ha="center", va="bottom", fontsize=7, color=INK)
+                            ha="center", va="bottom", fontsize=6.5, color=INK)
             else:
                 bar_labels(ax, bars, "{:.2f}")
-        ax.set_xticks(xs); ax.set_xticklabels([p[0] for p in pairs], fontsize=7)
-        ax.set_title(title, fontsize=9, loc="left", color=INK); ax.set_ylabel(ylab)
+        ax.set_xticks(xs); ax.set_xticklabels([p[0] for p in pairs], fontsize=6.5)
+        ax.set_title(title, fontsize=8, loc="left", color=INK); ax.set_ylabel(ylab)
         ax.yaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True); ax.axhline(0, color=INK2, lw=0.6)
         ax.set_ylim(0, 1.08)
-    a.legend(frameon=False, fontsize=8, loc="upper left")
+    a.legend(frameon=False, fontsize=7, loc="upper left")
     fig.tight_layout()
     save(fig, "fig2_pairs")
 
 
+def fig1_teaser():
+    rows = read_json(os.path.join(RESULTS_V2, "judged_clean_s101.json"))
+    em = [r for r in rows if r["safety_required"]]
+    esc = lambda r: r["appropriate_escalation"] in (True, "true", 1)
+    kw = lambda r: any(k in r["answer"].lower() for k in SAFETY_KW)
+    M = (("llama3", BLUE, "base model (Llama-3-8B-Instruct)"), ("openhealth-doctor", ORANGE, "fine-tune (ChatDoctor QLoRA)"))
+    st = {}
+    for m, _, _ in M:
+        s = [r for r in em if r["model"] == m]
+        st[m] = {"safe": np.mean([kw(r) for r in s]), "esc": np.mean([esc(r) for r in s]),
+                 "kw_under": np.mean([kw(r) for r in s if not esc(r)]), "kw_esc": np.mean([kw(r) for r in s if esc(r)])}
+    rs = read_json(os.path.join(RESULTS, "review_stats.json"))["bootstrap_pooled_288"]
+    hb = read_json(os.path.join(RESULTS, "hb_analysis_v3.json"))
+    kap = {m: [(rs[m]["kappa"]["est"], rs[m]["kappa"]["ci95"]),
+               (hb[m]["kappa"], hb["bootstrap_95"]["per_model"][m]["kappa"])] for m, _, _ in M}
+    fig, axs = plt.subplots(1, 3, figsize=(6.5, 2.15), gridspec_kw={"width_ratios": [1, 1, 1]})
+    x = np.arange(2); w = 0.36
+    for i, (m, col, lab) in enumerate(M):
+        off = (i - 0.5) * (w + 0.03)
+        b = axs[0].bar(x + off, [st[m]["safe"], st[m]["esc"]], w, color=col, label=lab, edgecolor="white", lw=0.8)
+        bar_labels(axs[0], b)
+        b = axs[1].bar(x + off, [st[m]["kw_under"], st[m]["kw_esc"]], w, color=col, edgecolor="white", lw=0.8)
+        bar_labels(axs[1], b)
+        vals = [v if v is not None else 0 for v, _ in kap[m]]
+        lo = [v - ci[0] for v, (_, ci) in zip(vals, kap[m])]; hi = [ci[1] - v for v, (_, ci) in zip(vals, kap[m])]
+        b = axs[2].bar(x + off, vals, w, color=col, edgecolor="white", lw=0.8)
+        axs[2].errorbar(x + off, vals, yerr=[lo, hi], fmt="none", ecolor=INK2, elinewidth=0.8, capsize=2)
+        for bx, v, (_, ci) in zip(b, vals, kap[m]):
+            axs[2].text(bx.get_x() + bx.get_width() / 2, max(ci[1], v) + 0.02, f"{v + 1e-9:.2f}", ha="center", va="bottom",
+                        fontsize=7, color=INK)
+    for ax, ticks, title, ylab in (
+            (axs[0], ['rubric:\n"safe"', "judge:\nescalates"], "(a) Rubric vs blinded judge", "share of 288 emergency answers"),
+            (axs[1], ["under-triaging", "escalating"], "(b) Answers with a rubric keyword", "share of answers"),
+            (axs[2], ["our vignettes", "HealthBench"], "(c) Rubric-judge agreement", "Cohen's $\\kappa$ (95% CI)")):
+        ax.set_xticks(x); ax.set_xticklabels(ticks, fontsize=7); ax.set_ylim(0, 1.12); ax.set_ylabel(ylab, fontsize=7)
+        ax.set_title(title, fontsize=8, loc="left", color=INK); ax.tick_params(axis="y", labelsize=7)
+        ax.yaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
+    axs[2].set_ylim(-0.06, 1.12); axs[2].axhline(0, color=INK2, lw=0.6)
+    h, l = axs[0].get_legend_handles_labels()
+    fig.legend(h, l, frameon=False, fontsize=7.5, loc="upper center", ncol=2, bbox_to_anchor=(0.5, 1.06))
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    save(fig, "fig1_teaser")
+    return st, kap
+
+
 if __name__ == "__main__":
+    print(fig1_teaser())
     s = fig1()
     print({m: {k: round(float(v), 3) for k, v in d.items()} for m, d in s.items()})
     fig2()
