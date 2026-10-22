@@ -25,6 +25,7 @@ Paths are relative to this release (`judgments/`, `outputs/`, `gate/`, `code/har
 | Per-judge Table 5: esc, raw, kappa, kw given under-triage, McNemar | see table | judgments/per_judge_v2.json, judgments/review_round3.json (kw_safe_given_under_triage) | code/harness/per_judge_v2.py, review_round3.py |
 | Open-judge face validity (4.5) | Qwen 32/41, Mistral 6/41, newer Claude 0/41 | judgments/review_round3.json (open_judge_face_validity) | code/harness/review_round3.py |
 | Mistral re-run with the full Claude rubric (4.5) | base 0.75 vs FT 0.88 esc; kappa 0.23 / 0.40; questions-only credited 25/41; kw given under-triage 0.17 vs 0.56 | judgments/judge_local_full_s101.json, judgments/judge_local_full_analysis.json | code/harness/judge_local_full.py |
+| GPT-6 judge (4.5, Table 5): base esc 0.26, kappa 0.49; FT esc 0.19, kappa 0.06, FDR 0.78, kw given under-triage 0.86; agreement with newer Claude judge 97.2% (kappa 0.92), with primary 91.0% (kappa 0.76); question-only credited 0/41 | | judgments/judged_gpt6none.json, judgments/gpt6_judge_analysis.json | code/harness/codex_judge.py, gpt6_analysis.py |
 | Newer-judge test-retest (3, App. G) | 190/192 = 99.0%, kappa 0.98 | judgments/review_round3.json (opus55_test_retest) | same |
 | Two binarisations (4.5) | lenient pooled 0.36->0.07; no-retrieval 0.26->0.21 (primary), 0.68->0.31 (newer) | judgments/format_robustness.json | code/harness/format_robustness.py |
 | Newer judge drift (4.5) | 92.4%, kappa 0.79 | judgments/review_stats.json, judgments/calib_analysis.json | review_stats.py, calib_analysis.py |
