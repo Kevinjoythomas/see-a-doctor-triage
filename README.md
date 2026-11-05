@@ -32,6 +32,11 @@ fine-tuned model in particular under-triages most emergencies.**
   from their original release. Statistics about them are given in the paper.
 - **HealthBench** conversations are referenced by id; download HealthBench from its official release (MIT licence)
   to reproduce.
+- **Contact details in model replies.** The public chat-doctor fine-tune sometimes signs off as a named doctor with
+  contact details. In 18 of its 240 replies, emails, phone numbers, a social handle, a Skype id and links to named
+  doctor pages are replaced with `[email removed]`, `[phone removed]`, `[handle removed]`, `[id removed]` and
+  `[link removed]` (`outputs/grid_public_pair.json`, `judgments/judged_pub.json`, `judgments/judged_gpt6pub.json`).
+  The judges saw the original replies; no keyword-rubric label changes.
 - **Model weights** are not redistributed here. The models used are listed in the papers; the commands below fetch
   them.
 
