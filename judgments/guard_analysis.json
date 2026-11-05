@@ -1,0 +1,749 @@
+{
+ "min_dev_spec": 0.85,
+ "guards": {
+  "lg_default": {
+   "dev_threshold": 0.9590083304865673,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.494,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.886,
+     "sens_ci": [
+      0.754,
+      0.962
+     ],
+     "spec": 0.143,
+     "spec_ci": [
+      0.064,
+      0.262
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 39,
+     "tn": 8
+    },
+    "median_secs": 0.21,
+    "dev_tuned": {
+     "sens": 0.114,
+     "sens_ci": [
+      0.038,
+      0.246
+     ],
+     "spec": 0.857,
+     "spec_ci": [
+      0.738,
+      0.936
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 5,
+     "tn": 48
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.355,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.708,
+     "sens_ci": [
+      0.589,
+      0.81
+     ],
+     "spec": 0.25,
+     "spec_ci": [
+      0.098,
+      0.467
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 51,
+     "tn": 6
+    },
+    "median_secs": 0.223,
+    "dev_tuned": {
+     "sens": 0.042,
+     "sens_ci": [
+      0.009,
+      0.117
+     ],
+     "spec": 0.792,
+     "spec_ci": [
+      0.578,
+      0.929
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 3,
+     "tn": 19
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.498,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.698,
+     "sens_ci": [
+      0.614,
+      0.773
+     ],
+     "spec": 0.336,
+     "spec_ci": [
+      0.257,
+      0.422
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 97,
+     "tn": 45,
+     "cond_emergent_fire_rate": 0.589,
+     "n_cond": 180
+    },
+    "median_secs": 0.21,
+    "dev_tuned": {
+     "sens": 0.144,
+     "sens_ci": [
+      0.09,
+      0.213
+     ],
+     "spec": 0.799,
+     "spec_ci": [
+      0.721,
+      0.863
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 20,
+     "tn": 107,
+     "cond_emergent_fire_rate": 0.161,
+     "n_cond": 180
+    }
+   }
+  },
+  "lg_custom": {
+   "dev_threshold": 0.9864476366336123,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.553,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.909,
+     "sens_ci": [
+      0.783,
+      0.975
+     ],
+     "spec": 0.107,
+     "spec_ci": [
+      0.04,
+      0.219
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 40,
+     "tn": 6
+    },
+    "median_secs": 0.236,
+    "dev_tuned": {
+     "sens": 0.227,
+     "sens_ci": [
+      0.115,
+      0.378
+     ],
+     "spec": 0.893,
+     "spec_ci": [
+      0.781,
+      0.96
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 10,
+     "tn": 50
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.546,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.861,
+     "sens_ci": [
+      0.759,
+      0.931
+     ],
+     "spec": 0.208,
+     "spec_ci": [
+      0.071,
+      0.422
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 62,
+     "tn": 5
+    },
+    "median_secs": 0.246,
+    "dev_tuned": {
+     "sens": 0.056,
+     "sens_ci": [
+      0.015,
+      0.136
+     ],
+     "spec": 0.917,
+     "spec_ci": [
+      0.73,
+      0.99
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 4,
+     "tn": 22
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.555,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.734,
+     "sens_ci": [
+      0.652,
+      0.805
+     ],
+     "spec": 0.306,
+     "spec_ci": [
+      0.229,
+      0.391
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 102,
+     "tn": 41,
+     "cond_emergent_fire_rate": 0.633,
+     "n_cond": 180
+    },
+    "median_secs": 0.238,
+    "dev_tuned": {
+     "sens": 0.173,
+     "sens_ci": [
+      0.114,
+      0.246
+     ],
+     "spec": 0.843,
+     "spec_ci": [
+      0.77,
+      0.9
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 24,
+     "tn": 113,
+     "cond_emergent_fire_rate": 0.117,
+     "n_cond": 180
+    }
+   }
+  },
+  "sg_default": {
+   "dev_threshold": 0.012444681226509238,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.787,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.023,
+     "sens_ci": [
+      0.001,
+      0.12
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.936,
+      1.0
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 1,
+     "tn": 56
+    },
+    "median_secs": 0.28,
+    "dev_tuned": {
+     "sens": 0.455,
+     "sens_ci": [
+      0.304,
+      0.612
+     ],
+     "spec": 0.857,
+     "spec_ci": [
+      0.738,
+      0.936
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 20,
+     "tn": 48
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.924,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.125,
+     "sens_ci": [
+      0.059,
+      0.224
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.858,
+      1.0
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 9,
+     "tn": 24
+    },
+    "median_secs": 0.302,
+    "dev_tuned": {
+     "sens": 0.639,
+     "sens_ci": [
+      0.517,
+      0.749
+     ],
+     "spec": 0.875,
+     "spec_ci": [
+      0.676,
+      0.973
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 46,
+     "tn": 21
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.855,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.058,
+     "sens_ci": [
+      0.025,
+      0.11
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.973,
+      1.0
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 8,
+     "tn": 134,
+     "cond_emergent_fire_rate": 0.0,
+     "n_cond": 180
+    },
+    "median_secs": 0.349,
+    "dev_tuned": {
+     "sens": 0.683,
+     "sens_ci": [
+      0.599,
+      0.76
+     ],
+     "spec": 0.881,
+     "spec_ci": [
+      0.813,
+      0.93
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 95,
+     "tn": 118,
+     "cond_emergent_fire_rate": 0.161,
+     "n_cond": 180
+    }
+   }
+  },
+  "sg_custom": {
+   "dev_threshold": 0.045473649201884514,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.835,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.159,
+     "sens_ci": [
+      0.066,
+      0.301
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.936,
+      1.0
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 7,
+     "tn": 56
+    },
+    "median_secs": 0.347,
+    "dev_tuned": {
+     "sens": 0.614,
+     "sens_ci": [
+      0.455,
+      0.756
+     ],
+     "spec": 0.875,
+     "spec_ci": [
+      0.759,
+      0.948
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 27,
+     "tn": 49
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.997,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.514,
+     "sens_ci": [
+      0.393,
+      0.633
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.858,
+      1.0
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 37,
+     "tn": 24
+    },
+    "median_secs": 0.398,
+    "dev_tuned": {
+     "sens": 0.958,
+     "sens_ci": [
+      0.883,
+      0.991
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.858,
+      1.0
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 69,
+     "tn": 24
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.973,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.54,
+     "sens_ci": [
+      0.453,
+      0.624
+     ],
+     "spec": 1.0,
+     "spec_ci": [
+      0.973,
+      1.0
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 75,
+     "tn": 134,
+     "cond_emergent_fire_rate": 0.022,
+     "n_cond": 180
+    },
+    "median_secs": 0.388,
+    "dev_tuned": {
+     "sens": 0.928,
+     "sens_ci": [
+      0.872,
+      0.965
+     ],
+     "spec": 0.918,
+     "spec_ci": [
+      0.858,
+      0.958
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 129,
+     "tn": 123,
+     "cond_emergent_fire_rate": 0.328,
+     "n_cond": 180
+    }
+   }
+  },
+  "lg8_default": {
+   "dev_threshold": 0.9473313674506467,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.744,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.818,
+     "sens_ci": [
+      0.673,
+      0.918
+     ],
+     "spec": 0.429,
+     "spec_ci": [
+      0.297,
+      0.568
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 36,
+     "tn": 24
+    },
+    "median_secs": 1.596,
+    "dev_tuned": {
+     "sens": 0.432,
+     "sens_ci": [
+      0.283,
+      0.59
+     ],
+     "spec": 0.857,
+     "spec_ci": [
+      0.738,
+      0.936
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 19,
+     "tn": 48
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.914,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.972,
+     "sens_ci": [
+      0.903,
+      0.997
+     ],
+     "spec": 0.708,
+     "spec_ci": [
+      0.489,
+      0.874
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 70,
+     "tn": 17
+    },
+    "median_secs": 2.421,
+    "dev_tuned": {
+     "sens": 0.403,
+     "sens_ci": [
+      0.289,
+      0.525
+     ],
+     "spec": 0.917,
+     "spec_ci": [
+      0.73,
+      0.99
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 29,
+     "tn": 22
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.654,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.784,
+     "sens_ci": [
+      0.706,
+      0.849
+     ],
+     "spec": 0.463,
+     "spec_ci": [
+      0.376,
+      0.551
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 109,
+     "tn": 62,
+     "cond_emergent_fire_rate": 0.5,
+     "n_cond": 180
+    },
+    "median_secs": 1.269,
+    "dev_tuned": {
+     "sens": 0.295,
+     "sens_ci": [
+      0.221,
+      0.378
+     ],
+     "spec": 0.843,
+     "spec_ci": [
+      0.77,
+      0.9
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 41,
+     "tn": 113,
+     "cond_emergent_fire_rate": 0.133,
+     "n_cond": 180
+    }
+   }
+  },
+  "lg8_custom": {
+   "dev_threshold": 0.9843138405100919,
+   "dev": {
+    "n": 100,
+    "errors": 0,
+    "auroc": 0.811,
+    "logprob_scores": 100,
+    "native": {
+     "sens": 0.909,
+     "sens_ci": [
+      0.783,
+      0.975
+     ],
+     "spec": 0.5,
+     "spec_ci": [
+      0.363,
+      0.637
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 40,
+     "tn": 28
+    },
+    "median_secs": 1.608,
+    "dev_tuned": {
+     "sens": 0.455,
+     "sens_ci": [
+      0.304,
+      0.612
+     ],
+     "spec": 0.875,
+     "spec_ci": [
+      0.759,
+      0.948
+     ],
+     "n_pos": 44,
+     "n_neg": 56,
+     "tp": 20,
+     "tn": 49
+    }
+   },
+   "clean": {
+    "n": 96,
+    "errors": 0,
+    "auroc": 0.98,
+    "logprob_scores": 96,
+    "native": {
+     "sens": 0.986,
+     "sens_ci": [
+      0.925,
+      1.0
+     ],
+     "spec": 0.833,
+     "spec_ci": [
+      0.626,
+      0.953
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 71,
+     "tn": 20
+    },
+    "median_secs": 1.659,
+    "dev_tuned": {
+     "sens": 0.819,
+     "sens_ci": [
+      0.711,
+      0.9
+     ],
+     "spec": 0.958,
+     "spec_ci": [
+      0.789,
+      0.999
+     ],
+     "n_pos": 72,
+     "n_neg": 24,
+     "tp": 59,
+     "tn": 23
+    }
+   },
+   "hb": {
+    "n": 453,
+    "errors": 0,
+    "auroc": 0.846,
+    "logprob_scores": 453,
+    "native": {
+     "sens": 0.957,
+     "sens_ci": [
+      0.908,
+      0.984
+     ],
+     "spec": 0.47,
+     "spec_ci": [
+      0.383,
+      0.558
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 133,
+     "tn": 63,
+     "cond_emergent_fire_rate": 0.689,
+     "n_cond": 180
+    },
+    "median_secs": 1.562,
+    "dev_tuned": {
+     "sens": 0.532,
+     "sens_ci": [
+      0.446,
+      0.617
+     ],
+     "spec": 0.873,
+     "spec_ci": [
+      0.805,
+      0.924
+     ],
+     "n_pos": 139,
+     "n_neg": 134,
+     "tp": 74,
+     "tn": 117,
+     "cond_emergent_fire_rate": 0.144,
+     "n_cond": 180
+    }
+   }
+  }
+ }
+}

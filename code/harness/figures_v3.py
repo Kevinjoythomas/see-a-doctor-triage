@@ -92,15 +92,16 @@ def fig2():
     P = rr["panel_noretrieval_opus55"]
     G3 = "hf.co/unsloth/gemma-3-4b-it-GGUF:Q4_K_M"; M1 = "hf.co/unsloth/medgemma-4b-it-GGUF:Q4_K_M"
     M15 = "hf.co/unsloth/medgemma-1.5-4b-it-GGUF:Q4_K_M"
-    pairs = [("Llama-3 →\nChatDoctor", "llama3", "openhealth-doctor"), ("Llama-2 →\nMedllama2", "llama2", "medllama2"),
-             ("Gemma 3 →\nMedGemma 1", G3, M1), ("Gemma 3 →\nMedGemma 1.5", G3, M15)]
+    # three short lines per label so the five pair labels never run into each other at print size
+    pairs = [("Llama-3\n→ Chat-\nDoctor", "llama3", "openhealth-doctor"), ("Llama-2\n→ Med-\nllama2", "llama2", "medllama2"),
+             ("Gemma 3\n→ Med-\nGemma 1", G3, M1), ("Gemma 3\n→ Med-\nGemma 1.5", G3, M15)]
     pub = read_json(os.path.join(RESULTS, "pub_analysis.json"), {}) or {}
     for k in ("llama3-q4km", "public-chat-doctor"):  # public chat-doctor pair, same judge, no retrieval
         if k in pub:
             P[k] = {"esc": pub[k]["escalation"], "esc_ci": pub[k]["escalation_ci"], "kappa": pub[k]["kappa"]}
-    pairs.insert(1, ("Llama-3 → public\nchat-doctor", "llama3-q4km", "public-chat-doctor"))
+    pairs.insert(1, ("Llama-3\n→ public\nchat-doctor", "llama3-q4km", "public-chat-doctor"))
     pairs = [p for p in pairs if p[1] in P and p[2] in P]
-    fig, (a, b) = plt.subplots(1, 2, figsize=(6.5, 2.6))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(6.5, 2.8))
     xs = np.arange(len(pairs)); w = 0.34
     for ax, key, title, ylab in ((a, "esc", "(a) Judged emergency escalation (95% CI)", "escalation rate"),
                                  (b, "kappa", "(b) Keyword rubric vs judge agreement", "Cohen's κ")):
@@ -116,7 +117,7 @@ def fig2():
                             ha="center", va="bottom", fontsize=6.5, color=INK)
             else:
                 bar_labels(ax, bars, "{:.2f}")
-        ax.set_xticks(xs); ax.set_xticklabels([p[0] for p in pairs], fontsize=6.5)
+        ax.set_xticks(xs); ax.set_xticklabels([p[0] for p in pairs], fontsize=6, linespacing=0.95)
         ax.set_title(title, fontsize=8, loc="left", color=INK); ax.set_ylabel(ylab)
         ax.yaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True); ax.axhline(0, color=INK2, lw=0.6)
         ax.set_ylim(0, 1.08)
@@ -170,7 +171,66 @@ def fig1_teaser():
     return st, kap
 
 
+def fig3_dose():
+    """Adapter-strength sweep: the retrained adapter applied to the base model at 0-125% strength, shortened
+    instruction, seeds 101 and 102. Points are the mean of the two seeds, bars span the two seeds' values.
+    (a) judged escalation (J2, J3) and keyword-"safe" on the 72 emergencies, with the original fine-tune's weights
+    at 100% for reference; (b) share of emergency answers with an urgency word vs a referral word.
+    Blue = escalation/urgency, grey = what the rubric counts."""
+    keys = ["s000", "s025", "s050", "s075", "s100", "s125"]
+    xs = np.array([0, 25, 50, 75, 100, 125])
+    da = read_json(os.path.join(RESULTS, "dose_analysis.json"))
+    grids = [read_json(os.path.join(RESULTS, f"grid_dose_s{s}.json")) for s in (101, 102)]
+    urg = ("emergency", "911", "ambulance", "urgent", "immediately")
+    ref = ("doctor", "consult")
+    share = lambda g, k, ws: np.mean([any(w in c["answer"].lower() for w in ws)
+                                      for c in g[k].values() if c["safety_required"]])
+    orig = {}
+    for tag, fs in (("J2", ("judged_noclarify.json", "judged_noclarify102.json")),
+                    ("J3", ("judged_gpt6noclarify.json", "judged_gpt6noclarify102.json"))):
+        vals = []
+        for f in fs:
+            r = [x for x in read_json(os.path.join(RESULTS, f)) if x["model"] == "openhealth-doctor-noclarify" and x["safety_required"]]
+            vals.append(np.mean([bool(x["appropriate_escalation"]) for x in r]))
+        orig[tag] = np.mean(vals)
+
+    def band(ax, per_seed, fmt, marker, color, label, dx=0):
+        v = np.array(per_seed)                      # shape (2 seeds, 6 strengths)
+        m = v.mean(0)
+        ax.errorbar(xs + dx, m, yerr=[m - v.min(0), v.max(0) - m], fmt=fmt, marker=marker, ms=4, lw=2,
+                    color=color, elinewidth=1, capsize=2, label=label)
+
+    fig, (a, b) = plt.subplots(1, 2, figsize=(6.5, 2.35))
+    band(a, [[da["dose101"][k]["esc_rate"] for k in keys], [da["dose102"][k]["esc_rate"] for k in keys]],
+         "-", "o", BLUE, "judge escalates (J2)", dx=-1.2)
+    band(a, [[da["gpt6dose101"][k]["esc_rate"] for k in keys], [da["gpt6dose102"][k]["esc_rate"] for k in keys]],
+         "--", "s", BLUE, "judge escalates (J3)", dx=1.2)
+    band(a, [[da["dose101"][k]["kw_rate"] for k in keys], [da["dose102"][k]["kw_rate"] for k in keys]],
+         "-", "^", INK2, 'keyword rubric: "safe"')
+    a.plot([100, 100], [orig["J2"], orig["J3"]], linestyle="none", marker="D", ms=5, mfc="white", mec=ORANGE,
+           mew=1.4, label="original fine-tune (J2, J3)")
+    a.set_title("(a) Escalation falls, the rubric does not", fontsize=8, loc="left", color=INK)
+    a.set_ylabel("share of 72 emergencies", fontsize=7)
+    a.legend(frameon=False, fontsize=6.3, loc="lower left")
+    band(b, [[share(g, k, urg) for k in keys] for g in grids], "-", "o", BLUE, "has an urgency word")
+    band(b, [[share(g, k, ref) for k in keys] for g in grids], "-", "^", INK2, "has a referral word")
+    b.set_title("(b) Urgency words give way to referral words", fontsize=8, loc="left", color=INK)
+    b.set_ylabel("share of 72 emergency answers", fontsize=7)
+    b.legend(frameon=False, fontsize=6.3, loc="upper center")
+    for ax in (a, b):
+        ax.set_xticks(xs); ax.set_xticklabels([f"{x}%" for x in xs], fontsize=7)
+        ax.set_xlabel("adapter strength (0% = base model)", fontsize=7)
+        ax.set_ylim(-0.02, 1.05); ax.tick_params(axis="y", labelsize=7)
+        ax.yaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
+    fig.tight_layout()
+    save(fig, "fig3_dose")
+    return orig
+
+
 if __name__ == "__main__":
+    if sys.argv[1:] == ["dose"]:
+        print(fig3_dose())
+        sys.exit()
     print(fig1_teaser())
     s = fig1()
     print({m: {k: round(float(v), 3) for k, v in d.items()} for m, d in s.items()})

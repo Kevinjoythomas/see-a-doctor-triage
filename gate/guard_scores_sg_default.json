@@ -1,0 +1,5200 @@
+{
+"dev": {
+"S1": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.018899186848863023,
+"score_from_logprobs": true,
+"secs": 5.522
+},
+"S2": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008930815556744371,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"S3": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004352178989243354,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"S4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007859208811888292,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"S5": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0037809253639093272,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"S6": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0016272639523072325,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"S7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.45172995714542574,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"S8": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.012444681226509238,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"S9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.009394275908309466,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"S10": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04602170236392619,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"S11": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.01021457712503189,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"S12": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0037573544777567344,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"S13": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0035910254578983784,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"S14": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04775266580197819,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"S15": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.002680499273429061,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"S16": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0023163675479243055,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"S17": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004745349472800342,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"S18": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.027978249555730073,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"S19": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.023422795949702143,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"S20": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0864933414230731,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"S21": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03039075252217412,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"S22": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.014010878439002152,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"S23": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.08685082248752772,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"S24": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0018372611494780363,
+"score_from_logprobs": true,
+"secs": 0.289
+},
+"S25": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.006403091710510906,
+"score_from_logprobs": true,
+"secs": 0.286
+},
+"G1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004629629547842333,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005998894680452787,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"G3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.010002104452752207,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"G4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.011452599308128421,
+"score_from_logprobs": true,
+"secs": 0.286
+},
+"G5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005486735546758122,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"G6": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001546743944992378,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G7": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006494602321784888,
+"score_from_logprobs": true,
+"secs": 0.272
+},
+"G8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0011007764076275967,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"G9": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003941440564131255,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"G10": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010326303834568458,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"G11": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006420220518832485,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"G12": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0025890619540402888,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G13": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.07637948905222863,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"G14": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.009482937396180726,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G15": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.000530060727121226,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"G16": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006717689191210463,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"G17": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007540100149257636,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G18": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.02821208650591571,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"G19": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0002656038981267465,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G20": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007813179337357975,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"G21": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0004704504224539173,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"G22": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001096503513455958,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"G23": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00032622611481075546,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"G24": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002643629725755604,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"G25": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0023812710185172007,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"G26": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.051199439095116345,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"G27": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0015192935526258233,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"G28": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004792977736730487,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"G29": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0021821332735186085,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"G30": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001920726882051232,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"G31": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001375302723633585,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"G32": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.010201012175859475,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"G33": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002225294266330925,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"G34": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0009240045273520479,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"G35": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0002630899855531694,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"C1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010728539812435453,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"C2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0021851633754786564,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"C3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005465088250582629,
+"score_from_logprobs": true,
+"secs": 0.291
+},
+"C4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008609020118647628,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"C5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.006907213876528586,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"C6": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004507691827469081,
+"score_from_logprobs": true,
+"secs": 0.287
+},
+"C7": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0011781174482465206,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"C8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0014295426320032336,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"C9": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.010430202814988234,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"C10": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.01616786471540432,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"C11": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.034139655491534186,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"C12": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004663434495313705,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"C13": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.002469982779109287,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"C14": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004618211384514544,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"C15": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006762403325843276,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"C16": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0014266497335300018,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"C17": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.28461016422874313,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"C18": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0033975136939550414,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"C19": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002813285690163526,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"C20": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0037931252815837833,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"E1": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.011336003580621676,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"E2": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02607930625221115,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"E3": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0031719967144518057,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"E4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002639532685152764,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"E5": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005137779287830355,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"E6": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.027310478875349674,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"E7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.022261868977460464,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"E8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.022445034931555096,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"E9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03379195683830355,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"E10": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0923393340782357,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"E11": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.003682648377640517,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"E12": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.003590516407042669,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"E13": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0037092771843588697,
+"score_from_logprobs": true,
+"secs": 0.287
+},
+"E14": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.029435444410573296,
+"score_from_logprobs": true,
+"secs": 0.287
+},
+"E15": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0024651454530688027,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"E16": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.026170436461780928,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"E17": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007451171493347839,
+"score_from_logprobs": true,
+"secs": 0.289
+},
+"E18": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.018260000817322753,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"E19": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.016276864506477837,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"E20": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.7172483683977869,
+"score_from_logprobs": true,
+"secs": 0.281
+}
+},
+"clean": {
+"CB_cardiac_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.006082328735472038,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_cardiac_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00150826149954072,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"CB_cardiac_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008084758292114339,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"CB_cardiac_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.035259476932299756,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"CB_cardiac_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005448885494314856,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_cardiac_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03620971275340242,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_cardiac_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.009010671094124458,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_cardiac_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001464109731206502,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"CB_neuro_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00923376166588741,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_neuro_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007598237099367098,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_neuro_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007086277819607108,
+"score_from_logprobs": true,
+"secs": 0.32
+},
+"CB_neuro_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004416377835787189,
+"score_from_logprobs": true,
+"secs": 0.321
+},
+"CB_neuro_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00799998945442757,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"CB_neuro_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05285925327954589,
+"score_from_logprobs": true,
+"secs": 0.314
+},
+"CB_neuro_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005209681566436884,
+"score_from_logprobs": true,
+"secs": 0.327
+},
+"CB_neuro_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.000982508709159029,
+"score_from_logprobs": true,
+"secs": 0.316
+},
+"CB_respiratory_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03913615680637389,
+"score_from_logprobs": true,
+"secs": 0.31
+},
+"CB_respiratory_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.015470700270942791,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"CB_respiratory_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007794897123828002,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_respiratory_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06151854199858129,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_respiratory_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.01976387299856937,
+"score_from_logprobs": true,
+"secs": 0.309
+},
+"CB_respiratory_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05836096251299902,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"CB_respiratory_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010512689436096906,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"CB_respiratory_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006016573250190771,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"CB_sepsis_infection_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00963018751505149,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"CB_sepsis_infection_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.019640490923198944,
+"score_from_logprobs": true,
+"secs": 0.309
+},
+"CB_sepsis_infection_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.015612433984800755,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"CB_sepsis_infection_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.016798439849151237,
+"score_from_logprobs": true,
+"secs": 0.307
+},
+"CB_sepsis_infection_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.009806755830679643,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"CB_sepsis_infection_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02424055813730585,
+"score_from_logprobs": true,
+"secs": 0.308
+},
+"CB_sepsis_infection_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0013439230796325422,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_sepsis_infection_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0014819745301466022,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_endocrine_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.25204435064399916,
+"score_from_logprobs": true,
+"secs": 0.309
+},
+"CB_endocrine_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004570217842140863,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"CB_endocrine_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.07026317018608551,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"CB_endocrine_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06561027241836212,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"CB_endocrine_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04002076976979668,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"CB_endocrine_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03605578344035663,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_endocrine_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.02442888784381507,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"CB_endocrine_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00021036503956322822,
+"score_from_logprobs": true,
+"secs": 0.31
+},
+"CB_allergy_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.01070293235192517,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"CB_allergy_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.010135941344605272,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_allergy_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09679423032015973,
+"score_from_logprobs": true,
+"secs": 0.311
+},
+"CB_allergy_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03236870906278004,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_allergy_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03255080222033736,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_allergy_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0555713802912165,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_allergy_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007409212430771406,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_allergy_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003747023112292007,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_gi_surgical_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.01893193641024894,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_gi_surgical_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.1568713167754872,
+"score_from_logprobs": true,
+"secs": 0.309
+},
+"CB_gi_surgical_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.009893827029506549,
+"score_from_logprobs": true,
+"secs": 0.305
+},
+"CB_gi_surgical_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02562352584830214,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"CB_gi_surgical_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06045810560173177,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"CB_gi_surgical_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.010233206861458434,
+"score_from_logprobs": true,
+"secs": 0.313
+},
+"CB_gi_surgical_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0023439161485773567,
+"score_from_logprobs": true,
+"secs": 0.331
+},
+"CB_gi_surgical_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005862706167844771,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_obstetric_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.011086654769902532,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"CB_obstetric_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.025421610609119724,
+"score_from_logprobs": true,
+"secs": 0.291
+},
+"CB_obstetric_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.009278753901858942,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"CB_obstetric_04": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.6253963741078505,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"CB_obstetric_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0787306417410176,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_obstetric_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04193115555209273,
+"score_from_logprobs": true,
+"secs": 0.308
+},
+"CB_obstetric_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0015624987267660315,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_obstetric_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0024261844402003693,
+"score_from_logprobs": true,
+"secs": 0.307
+},
+"CB_pediatric_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09431159424214165,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_pediatric_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.022580200212765647,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"CB_pediatric_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.012680027437661303,
+"score_from_logprobs": true,
+"secs": 0.291
+},
+"CB_pediatric_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.01162667067348183,
+"score_from_logprobs": true,
+"secs": 0.314
+},
+"CB_pediatric_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.024270641476520607,
+"score_from_logprobs": true,
+"secs": 0.289
+},
+"CB_pediatric_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005354246371999332,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"CB_pediatric_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012257899977196514,
+"score_from_logprobs": true,
+"secs": 0.32
+},
+"CB_pediatric_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002434537472688951,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_toxicology_01": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.9644353269679896,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"CB_toxicology_02": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.9609222347699712,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_toxicology_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0063812926995321755,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"CB_toxicology_04": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.6047516434862422,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_toxicology_05": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.8033572692801668,
+"score_from_logprobs": true,
+"secs": 0.31
+},
+"CB_toxicology_06": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.853406234277645,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_toxicology_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010634421274712744,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_toxicology_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.01248957121559993,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"CB_psychiatric_01": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.9669438140095623,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_psychiatric_02": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.9833478329183426,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"CB_psychiatric_03": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.7621987129104263,
+"score_from_logprobs": true,
+"secs": 0.312
+},
+"CB_psychiatric_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.20960526154796483,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"CB_psychiatric_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04750107632402435,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"CB_psychiatric_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.10007612047519751,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_psychiatric_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.04216450882745925,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"CB_psychiatric_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00240338273012271,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"CB_vascular_trauma_01": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004342896485302869,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"CB_vascular_trauma_02": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.015408196082484546,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"CB_vascular_trauma_03": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.011213934494761624,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"CB_vascular_trauma_04": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007082133952303778,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"CB_vascular_trauma_05": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02794730067051531,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"CB_vascular_trauma_06": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.010136891856096104,
+"score_from_logprobs": true,
+"secs": 0.305
+},
+"CB_vascular_trauma_07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012400587146706205,
+"score_from_logprobs": true,
+"secs": 0.308
+},
+"CB_vascular_trauma_08": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0019406959561045017,
+"score_from_logprobs": true,
+"secs": 0.301
+}
+},
+"hb": {
+"6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0026305496253630815,
+"score_from_logprobs": true,
+"secs": 0.292
+},
+"7ebc830a-8dbd-489b-9d61-4d8bacf0db8d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005549355936496097,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"c0dc053b-157b-4d13-9956-213b67ff6a36": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.05745186450628042,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"1fb6ab91-a999-437d-8c93-c5937c0a89a3": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0224960659203933,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"c653b6eb-f9b9-4626-b702-ff73d71e8253": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008859625691683129,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"cf09b209-5434-4317-aa2a-7b07537b475e": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007124750479473266,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"af62e0b8-bbd0-4dcc-b55c-cb4c7bbcfb2c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01189809295884324,
+"score_from_logprobs": true,
+"secs": 0.459
+},
+"8e447490-23cd-4d64-9e3a-b8ad46c76573": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.8497474680077599,
+"score_from_logprobs": true,
+"secs": 0.334
+},
+"5c1cf475-6fff-42e2-8508-7e1a14ea9f65": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02201711164811095,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"7b1d2983-ab41-48f2-bdcd-454cbf3f81b8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001120231919989442,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"129057dd-4bf4-472d-a8cf-a063dbed60ad": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.026115408239079707,
+"score_from_logprobs": true,
+"secs": 0.299
+},
+"be70739f-234a-4a0f-9b14-d15b8800577b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.010446009451603228,
+"score_from_logprobs": true,
+"secs": 0.292
+},
+"b97b1bae-b09f-4073-8e16-540bba766c60": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.007248005611820163,
+"score_from_logprobs": true,
+"secs": 0.462
+},
+"4670e6ac-fe05-4eae-a011-60c14ed4827c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0011394173056236724,
+"score_from_logprobs": true,
+"secs": 0.347
+},
+"2694a753-2f57-41eb-a7f9-8c4c7acdd2e8": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0896411952543935,
+"score_from_logprobs": true,
+"secs": 0.484
+},
+"ec8a941f-625a-4f02-8f9b-dbe33d4295a8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008698946182150991,
+"score_from_logprobs": true,
+"secs": 0.362
+},
+"0c808eda-eebe-4783-bc54-d6a873ef2e13": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.6120735639412754,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"d04a8f10-7d7a-4cab-a8ec-949c37afcd1e": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001871948096003994,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"c14135dd-131d-4577-b11c-8191fe97d268": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004158763454241644,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"9bab9a08-998f-402e-9a8b-c0875ed35428": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.012107274793537643,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"9a91098e-f8d3-4614-a665-71687c446dd3": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003933649199088693,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"e9b00212-c264-4f61-aed2-18ecc46197b6": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0005269971179863173,
+"score_from_logprobs": true,
+"secs": 0.268
+},
+"c04d571d-47e3-4bdb-8c11-759a0314a703": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09525498327145092,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"fe8e328b-55cc-4f37-9785-2b4d0704b9ae": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0010973778109636316,
+"score_from_logprobs": true,
+"secs": 0.268
+},
+"aacdd9a2-d042-4f4c-a4cc-50b6ba3a1a8e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.025662568891922314,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"5dd91019-3898-41d0-8481-450391a57091": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04155233423045087,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"ade10a6c-1f27-4038-a701-9f6f07b9f6e7": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0019515632823489707,
+"score_from_logprobs": true,
+"secs": 0.275
+},
+"815cd60a-f162-4fda-b055-5b6ba4716041": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0016668911307131358,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"6c3c1095-a69b-44d3-a40a-ff6871577245": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008163773441295404,
+"score_from_logprobs": true,
+"secs": 0.345
+},
+"e3b8a30b-3594-4919-a266-0dffcaa05287": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00029933193406569107,
+"score_from_logprobs": true,
+"secs": 0.322
+},
+"9e559142-a503-4a7c-bb40-afb142334b2e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.003427417252131778,
+"score_from_logprobs": true,
+"secs": 0.322
+},
+"5f45aff9-bed0-425f-aa8b-345524f13986": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005442880178722881,
+"score_from_logprobs": true,
+"secs": 0.29
+},
+"2cdfafc6-aeb6-46cc-bb11-cd8fc754bef4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.13025105706857773,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"cfeef1f6-03b3-4e41-b662-7ea728b427b8": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01904641287655023,
+"score_from_logprobs": true,
+"secs": 0.524
+},
+"1ca222ed-cc79-4e78-9ca3-3547e7b37e3a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003948594905141834,
+"score_from_logprobs": true,
+"secs": 0.394
+},
+"0d35086a-1c4d-4821-adc9-d245d71e450a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.007471413028450804,
+"score_from_logprobs": true,
+"secs": 0.279
+},
+"bae6ed19-e4a3-4469-98cf-bb341c283e4c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.13360416376734482,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"d3cbb579-70a5-46e8-95f6-72cc9afa4ba3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002199312197881277,
+"score_from_logprobs": true,
+"secs": 0.47
+},
+"28a81e8d-1830-49fe-9bc0-d867f72e4a18": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0003237685228434297,
+"score_from_logprobs": true,
+"secs": 0.362
+},
+"6faacc75-9126-4757-bf69-1c18dd22c824": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.014431756283941574,
+"score_from_logprobs": true,
+"secs": 0.325
+},
+"1132a8b3-a5e0-4535-aede-101d78ea87ad": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.013200652954636153,
+"score_from_logprobs": true,
+"secs": 0.341
+},
+"51433193-b0c3-4725-a3a8-9dd15e969b0c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.018588219585389868,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"55ab44de-5d18-4de9-98d7-15c3f45b97bf": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0018270168586661092,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"d9452848-c66f-408b-9dbf-9ec8ab140b1f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.11132171209560204,
+"score_from_logprobs": true,
+"secs": 0.37
+},
+"a1a8ce0d-9ccb-4960-8506-f7d750c98e74": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00020283014692185858,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"4b8b3134-2273-4fab-98a8-3510e2316c90": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003308275650349136,
+"score_from_logprobs": true,
+"secs": 0.266
+},
+"d0b8e1a7-1af7-4c7b-9dcb-7ee1c4b4754a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006056818179378825,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"15b80728-f476-4793-95ea-567cab354a46": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007099998478357709,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"c48aacbb-b4bc-47f5-8419-7851d8656723": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.019926201457451147,
+"score_from_logprobs": true,
+"secs": 0.39
+},
+"9cc1de1f-0d8a-41a4-96a8-5b7a49be6b49": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0033250537197125167,
+"score_from_logprobs": true,
+"secs": 0.305
+},
+"45d04695-7a99-409e-acd4-f3446daaebf6": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0019365954044934317,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"be7bbb3a-5d09-4303-80c8-e6bc9972a616": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09206832157383203,
+"score_from_logprobs": true,
+"secs": 0.392
+},
+"a0c7cfe4-93a2-49ca-8f5f-158ff026ab0f": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00040493253325509583,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"23797585-59c0-4dfe-ab25-162a9a03cfce": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.15302476114567812,
+"score_from_logprobs": true,
+"secs": 0.393
+},
+"545c4ecd-1e52-4ab2-8f5a-89f7bc1eeaea": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0016042482521423306,
+"score_from_logprobs": true,
+"secs": 0.295
+},
+"5b05fcac-cada-4ac1-b546-3ead42332592": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.011038585319955555,
+"score_from_logprobs": true,
+"secs": 0.286
+},
+"91e4e0c1-6821-4b0b-8a62-1ccb14f1f94d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.020239573575303656,
+"score_from_logprobs": true,
+"secs": 0.361
+},
+"978efae4-c660-4506-a490-8a3c0a6f73f2": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01247969437411389,
+"score_from_logprobs": true,
+"secs": 0.37
+},
+"680592ef-9533-42ce-8ed0-f5da804642d0": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0813839910874905,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"24873375-7d53-4caf-8483-88a5f041e600": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0010403073315968087,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"6affead6-a539-4f1f-a76e-ba8df0fa3039": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.18585360037962823,
+"score_from_logprobs": true,
+"secs": 0.396
+},
+"d366434d-8c66-41ff-aae6-5382f8d662b7": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005408857433969396,
+"score_from_logprobs": true,
+"secs": 0.313
+},
+"a86f39c9-dc61-4194-afa2-23ac4830908c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02401716775043592,
+"score_from_logprobs": true,
+"secs": 0.377
+},
+"f255a53a-cb83-48fa-a869-ce3165c1bdcb": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.006409730505315991,
+"score_from_logprobs": true,
+"secs": 0.504
+},
+"5a4ffd55-496d-4dde-aca9-ed4787d52be5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0037493556181124456,
+"score_from_logprobs": true,
+"secs": 0.423
+},
+"5fedda92-d595-4296-be17-d4ce37149e26": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005415970505021723,
+"score_from_logprobs": true,
+"secs": 0.328
+},
+"36b11a8c-8a54-4c7d-8cc0-49d5f2d6b541": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0011369336049411518,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"d96649e2-7c8d-419d-a579-56adb3952877": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.012144552441476041,
+"score_from_logprobs": true,
+"secs": 0.37
+},
+"180850a9-9af9-4c06-b603-dbfba2dc1a67": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005853836770925436,
+"score_from_logprobs": true,
+"secs": 0.478
+},
+"711b8b54-a5f2-4f49-aaac-e9ec171d3a81": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003953009183006877,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"92f96ead-9a8c-42ab-b4dc-f4d9d5e140ea": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01973411881678449,
+"score_from_logprobs": true,
+"secs": 0.322
+},
+"5a6cf2b0-e31c-41fc-b63e-b6554fb09aeb": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.006075712869189107,
+"score_from_logprobs": true,
+"secs": 0.388
+},
+"616e980f-7d80-4bd6-864e-6be62ac20d18": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006701225769044837,
+"score_from_logprobs": true,
+"secs": 0.306
+},
+"8c96d728-e8c9-45bf-b3ac-a06dd4801d85": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0041573161721784385,
+"score_from_logprobs": true,
+"secs": 0.319
+},
+"e22e9f0e-5f57-47ba-9910-7227766da7f2": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004340223707006337,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"0e7f9061-0399-461b-a13f-bb226a6fe195": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.025926111235606168,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"83e01721-d1ee-47d6-bf1e-afcf63e27b20": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0015581122596533836,
+"score_from_logprobs": true,
+"secs": 0.513
+},
+"bb5244d7-83df-4d8a-ac44-5e510823a658": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0020421272592550184,
+"score_from_logprobs": true,
+"secs": 0.351
+},
+"b6d14f9f-b5a0-4771-b4b0-088664282ce4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02061780283118098,
+"score_from_logprobs": true,
+"secs": 0.498
+},
+"9ceb78fd-4575-43a1-84b7-90a3f912bee9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0022917807370270607,
+"score_from_logprobs": true,
+"secs": 0.419
+},
+"5675c801-2005-4e8e-a9d3-bf81885fb468": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0019366150334473576,
+"score_from_logprobs": true,
+"secs": 0.486
+},
+"592aab7b-4125-427e-b8fe-8654dd561eda": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008716721387805973,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"f92bf0de-6e79-49f4-866d-9fd80953ec85": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.012030864915101563,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"d0d0a4bc-38df-4a47-8525-3d845ae046c2": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002098304991808611,
+"score_from_logprobs": true,
+"secs": 0.405
+},
+"1a37466e-0c74-4c40-9773-16df0c89e0d0": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.04193006990597056,
+"score_from_logprobs": true,
+"secs": 0.423
+},
+"4fe1119f-a00e-41ad-b6cf-4921c4c8337d": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00497920385113433,
+"score_from_logprobs": true,
+"secs": 0.476
+},
+"18474fe3-4fee-4a2f-9a8b-0786c26bb001": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.033776837975088195,
+"score_from_logprobs": true,
+"secs": 0.356
+},
+"84958b47-d15b-4073-adc6-d6af5affab5d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005554863699606348,
+"score_from_logprobs": true,
+"secs": 0.28
+},
+"8e2f2673-df10-46da-908a-d67e37d7587b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0065281733959854675,
+"score_from_logprobs": true,
+"secs": 0.365
+},
+"dec2b31a-ffa3-4b24-9a80-06b71330e6b5": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0005805521519931847,
+"score_from_logprobs": true,
+"secs": 0.338
+},
+"50d8dd1f-827b-43e3-8408-a8e4ee4a4f26": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0035475251815005587,
+"score_from_logprobs": true,
+"secs": 0.34
+},
+"cdf4beb0-ec01-4e70-a28c-6d44f8704e89": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.018226001800722105,
+"score_from_logprobs": true,
+"secs": 0.325
+},
+"c2fb9729-d1a2-46ea-875c-4b826fccae4e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.3471562412197113,
+"score_from_logprobs": true,
+"secs": 0.408
+},
+"53a885e8-1f55-45f0-8820-8b0b8c9834db": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.03732778675177545,
+"score_from_logprobs": true,
+"secs": 0.365
+},
+"49c8c1c7-1ce4-49cb-98be-140844f242cd": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00025390380504332653,
+"score_from_logprobs": true,
+"secs": 0.29
+},
+"3ea18618-e020-484a-a985-65add97d4f99": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0037097947808194106,
+"score_from_logprobs": true,
+"secs": 0.322
+},
+"a9c01797-f430-4833-b055-89305b09be23": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005552038695499408,
+"score_from_logprobs": true,
+"secs": 0.34
+},
+"ca93d7cb-9dca-4690-90ae-886ac19703d0": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00048191871385168373,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"c838f875-f885-4ebe-bb13-0fa02d82eb40": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003962317148740826,
+"score_from_logprobs": true,
+"secs": 0.45
+},
+"25469a87-6551-4bef-a529-11bca3c87605": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005408947041955759,
+"score_from_logprobs": true,
+"secs": 0.393
+},
+"d45f7c38-3cbe-4b89-a8c4-2f7dd0f2bea4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0013802718643405967,
+"score_from_logprobs": true,
+"secs": 0.357
+},
+"33b3ecdc-0071-4583-9897-eddde65e7359": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0009446539688380608,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"502d6eb6-2e46-4dee-8004-92ae2b190194": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.034116986207814344,
+"score_from_logprobs": true,
+"secs": 0.357
+},
+"5e972bec-6249-4852-912f-8c5ad6551a01": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0004454081439598512,
+"score_from_logprobs": true,
+"secs": 0.372
+},
+"dbc33bb2-90e7-4664-aef6-413113b53010": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00034633004508601207,
+"score_from_logprobs": true,
+"secs": 0.329
+},
+"d0a83d56-8787-4239-a92e-4c4af4b198ab": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0020516916049096914,
+"score_from_logprobs": true,
+"secs": 0.462
+},
+"72125034-4bd0-4418-a573-4baeaeadea6f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0567691202331281,
+"score_from_logprobs": true,
+"secs": 0.291
+},
+"0ce8ff10-262e-41d8-b290-19e76d337f1a": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.002090682966298695,
+"score_from_logprobs": true,
+"secs": 0.428
+},
+"a32522d5-e04d-4206-8dc1-e5476351f251": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004698295059330997,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"b15fe46f-983f-4f5b-bc4c-218f15916429": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0029757191421299688,
+"score_from_logprobs": true,
+"secs": 0.29
+},
+"d92d2e50-5f51-45af-a4fb-c6884b9e7fb1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.006481292570355142,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"1cb87cee-d2e5-4dea-a9ee-b2c578e8874b": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.001467047936677449,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"ab4319a2-0466-4f99-bac6-4ea19df3f379": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.027850416909076026,
+"score_from_logprobs": true,
+"secs": 0.355
+},
+"8db4b5e4-1c1e-43eb-a522-cb84cc52e5b5": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008089244271312928,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"41588961-5381-4c38-98b3-979674790681": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06726598738977572,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"fa0f919f-7b8e-4021-a84a-a35b5a410eb4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.059543101846011096,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"bbadc660-ba32-40ab-bd22-19e1df5e0221": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.014681158899481904,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"64ddf1d4-4987-44c4-b2a4-0bd38aa9702b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010333421809684475,
+"score_from_logprobs": true,
+"secs": 0.325
+},
+"40c03b3e-76f3-4218-9b84-9aa2b57b2aa5": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005727943314352932,
+"score_from_logprobs": true,
+"secs": 0.272
+},
+"f4b3a1c4-b158-4d0e-aa3f-46425cf37e3f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0025697072149436532,
+"score_from_logprobs": true,
+"secs": 0.458
+},
+"3e9358db-b5d8-43d5-bca3-4471ef771419": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.014544160271949517,
+"score_from_logprobs": true,
+"secs": 0.526
+},
+"20a34218-c24b-4fe0-9b69-5d3ed9faf801": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005673257968735422,
+"score_from_logprobs": true,
+"secs": 0.38
+},
+"e97272b1-ab4e-45e8-9727-5aabe9ca8c26": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.036054960511105655,
+"score_from_logprobs": true,
+"secs": 0.463
+},
+"50869e6e-1f0f-4f9e-aa9a-fc54b51582ad": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0003046078737472408,
+"score_from_logprobs": true,
+"secs": 0.324
+},
+"d12df41b-4191-4ead-bda4-369fb3439100": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006657354869887269,
+"score_from_logprobs": true,
+"secs": 0.329
+},
+"8ad348d3-eda0-4d05-b069-cc25d795ebd6": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006261252771826458,
+"score_from_logprobs": true,
+"secs": 0.267
+},
+"8da602cc-97a9-4b47-b5ce-06c68298ec07": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007575812100770917,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"32c85597-8f40-4c5d-8660-ae90fbcf53f1": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0032471331115331895,
+"score_from_logprobs": true,
+"secs": 0.287
+},
+"ceaf092b-aa46-4bb8-aca2-fffafd1bf34a": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04851534243672763,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"f036d626-8861-4a83-ad55-9e13c846be53": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0015590060378610803,
+"score_from_logprobs": true,
+"secs": 0.289
+},
+"1b2c6fe2-c05f-4355-bf3f-599c740220b8": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004814999311218241,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"49402832-bd26-499a-b883-3478d0d669ae": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0028812817744142865,
+"score_from_logprobs": true,
+"secs": 0.337
+},
+"da458227-fc02-454e-ad42-18a3e4642100": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.055303429716603375,
+"score_from_logprobs": true,
+"secs": 0.346
+},
+"837d80f8-4a4f-415b-9eac-ca3ef5b4c968": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.3000433607027604,
+"score_from_logprobs": true,
+"secs": 0.594
+},
+"cff1bbb3-cdbb-4777-aa2f-fca8cacdaa9e": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0024478374515762074,
+"score_from_logprobs": true,
+"secs": 0.421
+},
+"ff4fccf7-2e09-451f-9135-08afee5cad31": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004302307874085669,
+"score_from_logprobs": true,
+"secs": 0.307
+},
+"3ef4dd63-67e6-44d7-a95c-f23d397c7beb": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009794376286442006,
+"score_from_logprobs": true,
+"secs": 0.375
+},
+"8db4e3dc-b112-4c0a-94e4-1022b1b5f8a9": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.001690971133359866,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"a61cd927-f03e-4e73-9aef-2f7670c4e251": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.05866234268254149,
+"score_from_logprobs": true,
+"secs": 0.332
+},
+"b45de864-f102-4bde-9d5d-a21ed186ddba": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01210128557817701,
+"score_from_logprobs": true,
+"secs": 0.436
+},
+"5f54e2a8-1d69-4cae-a1e1-81697ebc124d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0004996603381943099,
+"score_from_logprobs": true,
+"secs": 0.326
+},
+"b96d6d40-0b9c-4525-a911-65acb6344af7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.001249136914471058,
+"score_from_logprobs": true,
+"secs": 0.425
+},
+"789ac668-fe78-4469-a43e-9abbc8997f31": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.6207798577030718,
+"score_from_logprobs": true,
+"secs": 0.439
+},
+"c5a2b1a2-8a35-4ffe-83d2-134ead00008d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.009837175427931548,
+"score_from_logprobs": true,
+"secs": 0.319
+},
+"714e74db-61e1-4795-89fc-2402c48b5c5a": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.010073878690584452,
+"score_from_logprobs": true,
+"secs": 0.354
+},
+"8130e6d8-8d96-46e2-a8de-973e971fd3fa": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.001671780769201667,
+"score_from_logprobs": true,
+"secs": 0.377
+},
+"59bc747b-09d2-4838-9f76-b34054ae37ff": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008643865360342662,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"2e543d13-d125-44b2-9947-6eb0b877c386": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05636675796309164,
+"score_from_logprobs": true,
+"secs": 0.468
+},
+"78c8db9d-f735-4c04-b9d8-c1e344c00b60": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0015787695795922625,
+"score_from_logprobs": true,
+"secs": 0.316
+},
+"2f859e40-ffc6-4765-98a2-8c645868057f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007094149299196279,
+"score_from_logprobs": true,
+"secs": 0.325
+},
+"a95c1682-e062-4832-9fb4-adac399fb34b": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012497895392745402,
+"score_from_logprobs": true,
+"secs": 0.295
+},
+"eb1d97c2-659f-4331-89df-5a24c40b1a09": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.1621805628123439,
+"score_from_logprobs": true,
+"secs": 0.364
+},
+"ca9307c4-6a12-4f71-8630-4d6284bab914": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005029822998720395,
+"score_from_logprobs": true,
+"secs": 0.5
+},
+"15eee613-6c48-4518-875f-f15df5a600cf": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05648122958470128,
+"score_from_logprobs": true,
+"secs": 0.524
+},
+"a33485e1-e1df-49b8-a892-d493083260b1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00045674687234884866,
+"score_from_logprobs": true,
+"secs": 0.314
+},
+"170e7b7e-4fdf-4dae-baf4-ad1ad6417755": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.005117359652036343,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"bcda6dfc-b4fa-42f1-96af-2e751fd1222f": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002651528371346578,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"25f62447-e53a-49e6-835f-cf5d91531166": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006859639897537867,
+"score_from_logprobs": true,
+"secs": 0.305
+},
+"b0ae4413-edaf-4a62-937f-0815805a6e67": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002859840581371894,
+"score_from_logprobs": true,
+"secs": 0.27
+},
+"3e5af183-665d-4cbd-93f8-8b8dff722a3c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00935299753989244,
+"score_from_logprobs": true,
+"secs": 0.332
+},
+"70ed8751-0221-41b9-84a5-6f3b3ccbc667": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009589559290874645,
+"score_from_logprobs": true,
+"secs": 0.332
+},
+"352832df-973e-4468-956b-13f2df962bb6": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0056332677110133705,
+"score_from_logprobs": true,
+"secs": 0.395
+},
+"e6668886-3485-412d-b894-e766639155d2": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004272571138717559,
+"score_from_logprobs": true,
+"secs": 0.384
+},
+"1b1a7c32-3342-4686-aeda-7857483ccca2": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.000859825759336666,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"647aa9f1-a549-47bb-8a4a-30c400f29f72": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0015854254456531948,
+"score_from_logprobs": true,
+"secs": 0.27
+},
+"2480a7d4-bfe9-410a-908d-676c01a403f9": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.8865875180313814,
+"score_from_logprobs": true,
+"secs": 0.309
+},
+"59d48130-8a2d-41a5-a01e-da85dbb8da10": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.1344579062856538,
+"score_from_logprobs": true,
+"secs": 0.386
+},
+"99f8c641-22a6-41a7-b172-823c8c900f6f": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.001121976966556216,
+"score_from_logprobs": true,
+"secs": 0.326
+},
+"d54a7c7d-dedc-43dd-8e9b-77891e76f131": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0038645449794104908,
+"score_from_logprobs": true,
+"secs": 0.313
+},
+"7f97be93-263d-413f-84fa-c434e02ac2ac": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0001808076985423323,
+"score_from_logprobs": true,
+"secs": 0.273
+},
+"8822394d-301f-4ae4-a230-e20081b2b863": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.010381773107306166,
+"score_from_logprobs": true,
+"secs": 0.31
+},
+"0f6ef443-59d7-4ef9-9f86-f1cec9ef9c8d": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002434667166129377,
+"score_from_logprobs": true,
+"secs": 0.341
+},
+"6edbd45b-4954-4661-b9d2-2af8a5498b88": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012942787065319537,
+"score_from_logprobs": true,
+"secs": 0.328
+},
+"bf6c713b-0bae-4a28-8c3e-611e87943b43": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.510820235472391,
+"score_from_logprobs": true,
+"secs": 0.426
+},
+"28a7c2fa-9035-4c50-a03a-b1174b689a8b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.001404162701818819,
+"score_from_logprobs": true,
+"secs": 0.422
+},
+"062e3a49-07e0-4b5c-a941-ceb8cc4111e4": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.007994203754156552,
+"score_from_logprobs": true,
+"secs": 0.37
+},
+"00e6749c-cf12-49a1-9c4c-d29da0e08b9f": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00740017868712967,
+"score_from_logprobs": true,
+"secs": 0.356
+},
+"192f9ca1-b95d-43e4-9046-2a61ebffc472": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004206423405842915,
+"score_from_logprobs": true,
+"secs": 0.292
+},
+"b66d1e1a-b296-4e80-966e-2e58b0b3ddd0": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.006836828146890101,
+"score_from_logprobs": true,
+"secs": 0.445
+},
+"229fdef0-70b6-401c-b538-6cf265692310": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.009089901813458347,
+"score_from_logprobs": true,
+"secs": 0.345
+},
+"2bccdca1-49bf-41cf-9caf-1df39fe8b0a4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00224169604861046,
+"score_from_logprobs": true,
+"secs": 0.543
+},
+"853c03cb-e699-41b5-91f6-c8b0c01dc664": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.03184069584597028,
+"score_from_logprobs": true,
+"secs": 0.397
+},
+"53726055-bbc8-4f45-a166-3a8f8e4394d6": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005667672028438565,
+"score_from_logprobs": true,
+"secs": 0.289
+},
+"4d569ecc-b63d-4e87-b5b8-51fbc648a21b": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05939558040609836,
+"score_from_logprobs": true,
+"secs": 0.425
+},
+"9c0c56ba-9d1f-4ca7-a1c2-c1536f7eff6c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0004764413680501119,
+"score_from_logprobs": true,
+"secs": 0.361
+},
+"b63c8d70-e75a-4f6c-93cf-b675ea2dffa2": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007520833334586801,
+"score_from_logprobs": true,
+"secs": 0.266
+},
+"830854ae-1800-4ee9-81c0-3e5190745340": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003909271939837164,
+"score_from_logprobs": true,
+"secs": 0.357
+},
+"b60473c9-efea-4bfb-890b-c6164f3ba2bc": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002016527987448847,
+"score_from_logprobs": true,
+"secs": 0.341
+},
+"87838e48-58bf-4046-a372-b2ba4c96e58d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.009657979866049098,
+"score_from_logprobs": true,
+"secs": 0.269
+},
+"38588d7d-e423-4cbc-9b50-9a32c0befca3": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.07809928732055678,
+"score_from_logprobs": true,
+"secs": 0.354
+},
+"0606a703-ec4c-4ca7-af34-bd2066a97610": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003830045637955182,
+"score_from_logprobs": true,
+"secs": 0.428
+},
+"bf14955f-2f9a-4f16-ab2f-6bf5c0ddf906": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.001784723797947459,
+"score_from_logprobs": true,
+"secs": 0.327
+},
+"b0067d70-8b26-49e4-9b6e-e6f500b2585f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.044358010809011535,
+"score_from_logprobs": true,
+"secs": 0.436
+},
+"f4bf2af8-2c01-4516-af88-bd3d382ead68": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0013152054724961662,
+"score_from_logprobs": true,
+"secs": 0.416
+},
+"5a84fbc0-eb74-47dc-979f-a32e9b082286": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003840905864694163,
+"score_from_logprobs": true,
+"secs": 0.333
+},
+"e5e4f052-ea9d-4439-b1c8-bcfb9bd3836d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.046780086593241246,
+"score_from_logprobs": true,
+"secs": 0.571
+},
+"c16c724a-6242-41b0-9f60-ae650f2009ec": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.295114033739659,
+"score_from_logprobs": true,
+"secs": 0.397
+},
+"dcfb7d00-28bd-49cf-8eec-6b15ddd67a1c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.1012011371564583,
+"score_from_logprobs": true,
+"secs": 0.336
+},
+"cbd8a2d5-9be9-41a8-b2ff-395a875a1195": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00025041792233278665,
+"score_from_logprobs": true,
+"secs": 0.385
+},
+"37fa0faa-a9bb-44ed-9492-8301fbbd4b6c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003320660704378851,
+"score_from_logprobs": true,
+"secs": 0.311
+},
+"f207ef58-d5f8-440a-b3bd-4a43215c6893": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.000601051433605654,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"6c3db661-d3f6-4211-8c6b-9edf84819890": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0035277694392965267,
+"score_from_logprobs": true,
+"secs": 0.322
+},
+"c5538fb1-91b8-45b9-b7d0-ac227eaba8ae": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003459045791783387,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"aee0ef96-ab3a-4254-b883-3b5a0cbb1e63": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01930335515639143,
+"score_from_logprobs": true,
+"secs": 0.429
+},
+"6e755721-3129-4b44-8716-091cc59dcaa9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.025356688576924403,
+"score_from_logprobs": true,
+"secs": 0.464
+},
+"db17ae41-bec2-4597-aea9-a6da7507b123": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.08970887515254422,
+"score_from_logprobs": true,
+"secs": 0.391
+},
+"61893a57-466e-4216-9265-009e2fd5d5a3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0022719308348507863,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"0148ec42-59ba-47d2-a1cb-3ea3ed5f5fa0": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0005758998855732664,
+"score_from_logprobs": true,
+"secs": 0.338
+},
+"ba0360c4-a12e-49bb-80eb-108ce4875372": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0528627337030849,
+"score_from_logprobs": true,
+"secs": 0.321
+},
+"5a115734-1080-4849-ae51-8566c98610af": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0015623699886632763,
+"score_from_logprobs": true,
+"secs": 0.295
+},
+"a83962af-1779-4d1e-a1f3-fe10f25afc33": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.000999159730440286,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"e09ef985-6340-4a4a-9d29-d8d9192af90b": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.6410829776375583,
+"score_from_logprobs": true,
+"secs": 0.346
+},
+"e4ff0702-95d1-46b4-bacf-7a58646e4a06": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.000900951984001033,
+"score_from_logprobs": true,
+"secs": 0.454
+},
+"94ee3dc0-66f3-4467-8521-0fe8ebc2a128": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.019333822709696715,
+"score_from_logprobs": true,
+"secs": 0.359
+},
+"6aa32c27-5661-494e-808c-6c59cefdcf82": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.8602992495892223,
+"score_from_logprobs": true,
+"secs": 0.291
+},
+"e5c02375-bbe8-4e2f-b1c8-0c0e2ee35914": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005136716924911456,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"7009a827-45dc-45f8-ad87-e220b90f59b7": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0026470375578928045,
+"score_from_logprobs": true,
+"secs": 0.272
+},
+"e2ef39f2-821f-4aa6-ab90-e30e6f78e08b": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012857216360368778,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"0d2931ab-bd6b-4152-9f69-393021528f48": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00029796032247045583,
+"score_from_logprobs": true,
+"secs": 0.334
+},
+"0963835e-2cc9-46bf-9db6-e452561d0acf": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.01123192172852208,
+"score_from_logprobs": true,
+"secs": 0.364
+},
+"7856c3c2-a439-4670-9da9-b473ad853e1d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05858748120160054,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"57d4ca13-ca43-4890-a934-8fbf5715b90e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06081374133376583,
+"score_from_logprobs": true,
+"secs": 0.38
+},
+"42a2ea69-bc92-4e14-97b8-028ea96a0a3d": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.3911146921464708,
+"score_from_logprobs": true,
+"secs": 0.324
+},
+"09b05b01-d701-4551-807a-9a4f54dc281d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.011655581694264987,
+"score_from_logprobs": true,
+"secs": 0.376
+},
+"a09824db-b25a-4491-80d9-b9ab2497abd7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0011294088515613407,
+"score_from_logprobs": true,
+"secs": 0.372
+},
+"8d934b0f-ea27-4136-acf2-26d77e248db5": {
+"label": 1,
+"raw": "Yes",
+"fired": true,
+"score": 0.5670540035922601,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"703ac9f6-500d-4bcb-9b96-b53aee834450": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0004579045177841195,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"8c23a064-30c0-4a34-b276-b606f455d47a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.001399619626193522,
+"score_from_logprobs": true,
+"secs": 0.288
+},
+"899d2872-5fb5-4e12-9bd5-db1552aa55c7": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.030675121139661986,
+"score_from_logprobs": true,
+"secs": 0.462
+},
+"26d137d9-7606-4b1c-9346-479cf65ec947": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009541747472697882,
+"score_from_logprobs": true,
+"secs": 0.452
+},
+"5545d584-a9bd-43bd-976f-03552e9fbaca": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005329138959952934,
+"score_from_logprobs": true,
+"secs": 0.321
+},
+"43d8ffa8-7e48-4687-b333-8f899ba1bf91": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003183453671047019,
+"score_from_logprobs": true,
+"secs": 0.305
+},
+"8057fdc6-12cf-4142-a299-af11940ac248": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010718043949483637,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"e86d2099-dcf7-4761-9feb-e16e0004952e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.016046156274799307,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"58cdf00a-7f2b-4904-8c39-af4aa1e21c06": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.008962254867516046,
+"score_from_logprobs": true,
+"secs": 0.353
+},
+"7bfd77f3-84af-48ad-845f-f9581f96a72b": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.014711874048352228,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"c2159b28-39e7-4664-92d6-431d72be9907": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0015296238527039354,
+"score_from_logprobs": true,
+"secs": 0.284
+},
+"90ed826c-2b75-4d26-858d-5942536fb53d": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0010230472425556815,
+"score_from_logprobs": true,
+"secs": 0.417
+},
+"784242ea-a78e-4334-84d6-63129366f0fc": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008042945884960948,
+"score_from_logprobs": true,
+"secs": 0.368
+},
+"eeffb36e-15f4-4c41-8402-547b61497aad": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005104517551866091,
+"score_from_logprobs": true,
+"secs": 0.387
+},
+"ef570c1c-6dee-48b2-b15e-53bbb202dd76": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0006683014860772504,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"b36d2432-a9cf-46e8-a947-e2d72f28f011": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.06940362594388202,
+"score_from_logprobs": true,
+"secs": 0.498
+},
+"65df9df8-3899-401b-bbd5-f5cf9a870231": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.006194252406688483,
+"score_from_logprobs": true,
+"secs": 0.433
+},
+"0a0b5810-a772-4b05-9056-e8c3c8418dd8": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.03725595135259665,
+"score_from_logprobs": true,
+"secs": 0.357
+},
+"6ea9becf-21ad-4c2c-92d2-31c54eeabac9": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00425366465693858,
+"score_from_logprobs": true,
+"secs": 0.376
+},
+"1b8c1d0e-4a52-4e3d-8199-db323d5f3167": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.009647411321277157,
+"score_from_logprobs": true,
+"secs": 0.304
+},
+"3e03a593-7363-4f98-84c6-767238420b90": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.013361304053275668,
+"score_from_logprobs": true,
+"secs": 0.331
+},
+"2f63bd91-9226-4005-8150-e4b77e52fb42": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.021959565201524263,
+"score_from_logprobs": true,
+"secs": 0.379
+},
+"99318b06-6059-42e8-b3ac-63e15b647b64": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002117885105669421,
+"score_from_logprobs": true,
+"secs": 0.463
+},
+"7b462c99-92ae-4972-85ca-b6078ee06a32": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0009823299896312464,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"4a8f0b1e-bdff-46cc-92d8-b26a5bd65dd9": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010670306927468734,
+"score_from_logprobs": true,
+"secs": 0.385
+},
+"baf0ea4e-e7fd-4bce-b78a-b910cb98d65c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.04732960210892894,
+"score_from_logprobs": true,
+"secs": 0.435
+},
+"84b4a8c9-c47c-4684-adbe-149c811cbab8": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00181886412947895,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"f0566609-0230-4abb-84af-6339938987f2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0020413493806979354,
+"score_from_logprobs": true,
+"secs": 0.458
+},
+"c929d475-162f-4568-9114-3be859d5d500": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.03479458551601625,
+"score_from_logprobs": true,
+"secs": 0.287
+},
+"23a11e58-b288-470c-9888-35d76aff6e93": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.03848958773572041,
+"score_from_logprobs": true,
+"secs": 0.366
+},
+"d44c7a4c-2975-4a8e-b1a0-56f31b5f27b7": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005717736820008372,
+"score_from_logprobs": true,
+"secs": 0.436
+},
+"b9b9dc17-7cf5-4279-8d04-9d4be133adcd": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.025755141875879163,
+"score_from_logprobs": true,
+"secs": 0.318
+},
+"8c05a4c4-ced0-4e60-bf45-5a5550974842": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.05117012256620404,
+"score_from_logprobs": true,
+"secs": 0.411
+},
+"5739ec74-2c3d-404b-a051-618e73592dc9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004310031122625855,
+"score_from_logprobs": true,
+"secs": 0.395
+},
+"9769ea1d-a87f-4560-bd64-e0d17478ca6a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.000935563787920864,
+"score_from_logprobs": true,
+"secs": 0.307
+},
+"7156195e-fe04-4eab-ba46-b19ac53e44a9": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005664059304149229,
+"score_from_logprobs": true,
+"secs": 0.377
+},
+"46451f92-5805-4f20-9bb6-f3973905075f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.003558483426566436,
+"score_from_logprobs": true,
+"secs": 0.334
+},
+"d45dedce-d0c8-4e03-962e-5b1184d9ac47": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005309353821943444,
+"score_from_logprobs": true,
+"secs": 0.33
+},
+"64cf45b1-c368-4a2d-ac6e-d07ab61c53d7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.2568081644062924,
+"score_from_logprobs": true,
+"secs": 0.593
+},
+"6d0e86f6-5128-45ae-9997-9156a53e333e": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0016144251844845403,
+"score_from_logprobs": true,
+"secs": 0.502
+},
+"8db5d356-c4ca-4a6b-8434-f8a2e2fd19a9": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09767848592253044,
+"score_from_logprobs": true,
+"secs": 0.491
+},
+"b603f797-58cc-45ea-9957-508f50b261f3": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0013330064469855866,
+"score_from_logprobs": true,
+"secs": 0.387
+},
+"bd28bfbe-22f7-4b41-96f9-7ef9f78382d5": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.10475431837532734,
+"score_from_logprobs": true,
+"secs": 0.394
+},
+"067823fe-7897-4572-8333-5c25855b7982": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.000436021318552154,
+"score_from_logprobs": true,
+"secs": 0.334
+},
+"985b64ca-fbee-4459-a22c-179e59243d8c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.05792909697509254,
+"score_from_logprobs": true,
+"secs": 0.33
+},
+"08d8042e-28e9-4922-85ad-1e7e4ad4785e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.027299331303761144,
+"score_from_logprobs": true,
+"secs": 0.433
+},
+"07ed45ab-d51a-4914-b836-5019168288a6": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00046489787648772824,
+"score_from_logprobs": true,
+"secs": 0.359
+},
+"140c95dc-4791-42a6-a1da-f52c7e525c48": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008784467202015358,
+"score_from_logprobs": true,
+"secs": 0.465
+},
+"f0335513-f052-4fb7-b121-2c059192e9af": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.02952928878336082,
+"score_from_logprobs": true,
+"secs": 0.493
+},
+"97cebb28-ce18-44b0-b4c6-93c1e70ad326": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.003258890642645908,
+"score_from_logprobs": true,
+"secs": 0.573
+},
+"b2e5424b-e649-43f7-9f74-4f1d71829796": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007244499237147962,
+"score_from_logprobs": true,
+"secs": 0.324
+},
+"05830ad3-f2f6-462b-b038-4e7535505002": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0034008017594213294,
+"score_from_logprobs": true,
+"secs": 0.414
+},
+"dd1e6151-cee7-422b-aa39-0e95588c3348": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.029176971335082083,
+"score_from_logprobs": true,
+"secs": 0.383
+},
+"6506aab0-355e-4ac7-9f48-e005747f73f1": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004465068137012986,
+"score_from_logprobs": true,
+"secs": 0.382
+},
+"02e7931f-4f15-45fa-843d-6d761b78c8c8": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.39008722782971317,
+"score_from_logprobs": true,
+"secs": 0.481
+},
+"247e6aab-8682-4634-ab3e-e07539305333": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0063841125439191085,
+"score_from_logprobs": true,
+"secs": 0.393
+},
+"bfd1bcc3-3e40-4a15-a554-d51983ed6122": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0011717543225564814,
+"score_from_logprobs": true,
+"secs": 0.488
+},
+"4d83a282-7bd0-4ed7-82f2-02edda688cac": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.1180311252471354,
+"score_from_logprobs": true,
+"secs": 0.42
+},
+"1174a07f-8df7-433f-a403-33cf773082c5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0010423887568054464,
+"score_from_logprobs": true,
+"secs": 0.283
+},
+"182a5b4d-3a6a-42ff-85b4-28f310812a63": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0032043129183833173,
+"score_from_logprobs": true,
+"secs": 0.303
+},
+"f6f9fb97-7a91-4f80-a4b7-924254914977": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0039624073930549985,
+"score_from_logprobs": true,
+"secs": 0.277
+},
+"1fa8194c-fb15-490e-82cb-b7740903b9a0": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0009227467580496649,
+"score_from_logprobs": true,
+"secs": 0.366
+},
+"c8e5100f-5ce4-4d76-a5be-7a0927f1ceda": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.15698536145513026,
+"score_from_logprobs": true,
+"secs": 0.4
+},
+"86dd2cde-29ba-4acf-b62d-589d0e384baa": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.00882985731373787,
+"score_from_logprobs": true,
+"secs": 0.302
+},
+"32b52fd0-d82a-4969-9393-f2b2d0ad1f58": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.007523509950104547,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"940b7d31-4c10-40a4-b0f9-0381698af8f9": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0029149836790644743,
+"score_from_logprobs": true,
+"secs": 0.349
+},
+"0b747a97-13b4-4554-85f9-b508f6142ec3": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012973400827814845,
+"score_from_logprobs": true,
+"secs": 0.337
+},
+"7fbf335a-08c3-4547-a6b5-5622d456c66e": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002114346983179076,
+"score_from_logprobs": true,
+"secs": 0.349
+},
+"f91a4f93-6d8a-4bb5-80a6-fde91835723c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.2349719021063139,
+"score_from_logprobs": true,
+"secs": 0.386
+},
+"3252691f-a91b-41d7-b9b4-3c8b8e5eac07": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.011352969967840167,
+"score_from_logprobs": true,
+"secs": 0.431
+},
+"b35df407-4fbe-4cbd-bbee-7822c2c8a5df": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.04080579216142956,
+"score_from_logprobs": true,
+"secs": 0.445
+},
+"b5e076a5-4112-4d84-b76c-076b11569c79": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0016659185196021967,
+"score_from_logprobs": true,
+"secs": 0.356
+},
+"2cf8c894-398d-4049-98aa-42244bec6f8e": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.12640548894584963,
+"score_from_logprobs": true,
+"secs": 0.713
+},
+"f5148d5a-a7cd-42c4-9b4d-11620548e340": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0004840765357206861,
+"score_from_logprobs": true,
+"secs": 0.482
+},
+"795a80e0-aea8-413d-b03a-0b2e9ebee6b2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012911628055356937,
+"score_from_logprobs": true,
+"secs": 0.427
+},
+"5a6e6e42-480e-4617-a0ed-040e6a21761d": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.012582897368962377,
+"score_from_logprobs": true,
+"secs": 0.369
+},
+"4d441d96-f214-46de-9f01-60bdfb8fcd4c": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.031241067532825077,
+"score_from_logprobs": true,
+"secs": 0.385
+},
+"579e601f-fa40-4c2a-9b16-b507000eeba2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012671286258998536,
+"score_from_logprobs": true,
+"secs": 0.363
+},
+"953cef9f-c626-4e66-b0ca-fc5828c25d56": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0025881185177597157,
+"score_from_logprobs": true,
+"secs": 0.391
+},
+"b842859d-b191-4170-8ab7-133be825cd6c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00021377422896142332,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"b038177a-36ac-4b70-bdb3-8bbb31e22668": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0005375699065520178,
+"score_from_logprobs": true,
+"secs": 0.349
+},
+"eb583b5c-e2d6-4e5d-8574-25af50a83bcf": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.04528706532990707,
+"score_from_logprobs": true,
+"secs": 0.567
+},
+"171c6868-b9da-4357-8c0a-7a26ee69a62f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.009993695175753606,
+"score_from_logprobs": true,
+"secs": 0.476
+},
+"6ab5eea3-a68e-446b-802f-dc3895097915": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009585151368189971,
+"score_from_logprobs": true,
+"secs": 0.396
+},
+"b5e84d8b-84d8-409c-a938-353c5ae8509e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.1281696350923553,
+"score_from_logprobs": true,
+"secs": 0.33
+},
+"d3e06bca-281b-4ecd-85a3-bea3698f6b71": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0245980693751757,
+"score_from_logprobs": true,
+"secs": 0.311
+},
+"da3a93e3-b78b-4e0c-a74e-87dbddce6246": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006641873169860341,
+"score_from_logprobs": true,
+"secs": 0.449
+},
+"636e76dc-dd03-442a-a3bc-96c720ea57aa": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0040028280372660695,
+"score_from_logprobs": true,
+"secs": 0.496
+},
+"5e0cfdaa-db5c-434d-b80e-07888b89dca6": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.007787318325015674,
+"score_from_logprobs": true,
+"secs": 0.609
+},
+"ace28a77-dfc9-4ce0-a842-ea7fcc8201e7": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.11488358748748269,
+"score_from_logprobs": true,
+"secs": 0.461
+},
+"3f66cff1-1525-467e-b591-9302bf8f159c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.012772473914530518,
+"score_from_logprobs": true,
+"secs": 0.312
+},
+"ec44dc18-c756-42e3-a20c-8a7e041dfe4f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0028592776279740746,
+"score_from_logprobs": true,
+"secs": 0.493
+},
+"ded5f2c5-9f79-49dc-abb1-9d24f0caaff9": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009446572703655017,
+"score_from_logprobs": true,
+"secs": 0.332
+},
+"ce0c4989-2395-4c5e-bfd2-40ccf55fc8c0": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.07655148452615516,
+"score_from_logprobs": true,
+"secs": 0.424
+},
+"e7c811dd-c0a6-4dc4-a873-c28bfbf8c42b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0014266299774595172,
+"score_from_logprobs": true,
+"secs": 0.449
+},
+"7a94ea1d-7951-4bc7-9d48-fa7fcbce63cc": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.038705141265876555,
+"score_from_logprobs": true,
+"secs": 0.433
+},
+"3298bc47-b2f2-4fbf-9e88-e7376488ddab": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.004810838002054717,
+"score_from_logprobs": true,
+"secs": 0.358
+},
+"fda3adea-8b6d-442e-bbed-65437101a724": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.015316386866424028,
+"score_from_logprobs": true,
+"secs": 0.368
+},
+"efa552c8-f0bc-413c-b516-936ab3120a87": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0428380327420783,
+"score_from_logprobs": true,
+"secs": 0.463
+},
+"4317e9c0-2c2b-4429-826b-d66f86632471": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007105351412167366,
+"score_from_logprobs": true,
+"secs": 0.823
+},
+"d1ec94d3-6e13-4e26-81e4-69ab26cea99b": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.004243549908231314,
+"score_from_logprobs": true,
+"secs": 0.274
+},
+"6a9d33e1-392a-430c-b7a5-b03c52311b3b": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003734532654023769,
+"score_from_logprobs": true,
+"secs": 0.405
+},
+"21fdda92-a80a-437d-a57d-053c411139e0": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008775160073509184,
+"score_from_logprobs": true,
+"secs": 0.444
+},
+"576e1777-b12b-48b6-b167-6005fb1066e1": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0027139327450355012,
+"score_from_logprobs": true,
+"secs": 0.349
+},
+"0a0ae708-faf8-413a-940d-7623ee869d1b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0023302300737269932,
+"score_from_logprobs": true,
+"secs": 0.4
+},
+"5a45b11c-6c3c-4a3e-8cae-5b7c4abe6e56": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009661356815855587,
+"score_from_logprobs": true,
+"secs": 0.315
+},
+"287d7b73-d8d5-4727-a094-fd7d778fc019": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03086185949099259,
+"score_from_logprobs": true,
+"secs": 0.344
+},
+"a335750b-0551-4535-bc75-1a36569bad4f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006710234902892131,
+"score_from_logprobs": true,
+"secs": 0.286
+},
+"b445504c-da13-4b98-9d5e-c0af00c36a81": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.007044986204679332,
+"score_from_logprobs": true,
+"secs": 0.368
+},
+"8f6622d5-501d-452e-9b5d-e9fc5c338511": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.19706573695228127,
+"score_from_logprobs": true,
+"secs": 0.378
+},
+"6f22e512-e47b-461d-9fcf-39abee4f14b5": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03889145698096484,
+"score_from_logprobs": true,
+"secs": 0.386
+},
+"e5c939b5-19f5-4449-ac00-6ee12efce648": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008541915625098146,
+"score_from_logprobs": true,
+"secs": 0.404
+},
+"1e7c944e-570d-449f-a576-59486784dd54": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.022491758037830562,
+"score_from_logprobs": true,
+"secs": 0.433
+},
+"0afb3e86-b400-4c4d-bc27-f96be8210496": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0010830139242220586,
+"score_from_logprobs": true,
+"secs": 0.344
+},
+"35f10e78-36b4-4771-8f4d-d158107c4e38": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0021364158475400807,
+"score_from_logprobs": true,
+"secs": 0.319
+},
+"e563bc55-64a3-4f23-9894-52d31295d4a3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012055160951985216,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"3a43f5c1-ff63-46da-ac50-87874b5ea7a2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0011211112552101164,
+"score_from_logprobs": true,
+"secs": 0.405
+},
+"bf107802-c038-4bc8-b8f2-f4dd09d38f6f": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007265066901447962,
+"score_from_logprobs": true,
+"secs": 0.383
+},
+"a12651bc-81fb-4c3f-bbab-d1edd8e5042e": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0033433793051813308,
+"score_from_logprobs": true,
+"secs": 0.394
+},
+"846e3e22-a5d3-466f-b7be-767f958e3265": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003469898721613338,
+"score_from_logprobs": true,
+"secs": 0.35
+},
+"35e54c82-65e9-4f2c-b9bb-5e341cc453f8": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008095740597379608,
+"score_from_logprobs": true,
+"secs": 0.32
+},
+"85754571-21c2-41d1-a412-270b53a107bf": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.023412788660879067,
+"score_from_logprobs": true,
+"secs": 0.349
+},
+"671dad2b-fb77-4b33-b10e-2f2cb8cad892": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007486438237332062,
+"score_from_logprobs": true,
+"secs": 0.338
+},
+"b6946587-63c0-4be2-996f-1992685aaa45": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00047582262787940617,
+"score_from_logprobs": true,
+"secs": 0.328
+},
+"971ea65b-75cb-4c55-8559-819e7a11f352": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0022992551116100043,
+"score_from_logprobs": true,
+"secs": 0.411
+},
+"1898b0df-6400-46ff-b22f-a328c2ba2c14": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.013087264508901499,
+"score_from_logprobs": true,
+"secs": 0.405
+},
+"24c9c43e-e917-441b-872c-8b31ea3aebdb": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002748532046575597,
+"score_from_logprobs": true,
+"secs": 0.35
+},
+"8c6266a6-28c9-4638-a8c9-4d4cec4c0353": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0018476661700909823,
+"score_from_logprobs": true,
+"secs": 0.408
+},
+"c56b9634-c615-4db6-8d9f-d793d6b005c4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.024048393143368433,
+"score_from_logprobs": true,
+"secs": 0.452
+},
+"d4651268-c5d6-4ffe-9de9-949ea588c53d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0023237237930763795,
+"score_from_logprobs": true,
+"secs": 0.37
+},
+"4eaee2b6-c260-4ca5-9491-425971ea778c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009054223159997683,
+"score_from_logprobs": true,
+"secs": 0.429
+},
+"87d03349-0f91-4607-a2c6-93391d356d0f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.31387669144457264,
+"score_from_logprobs": true,
+"secs": 0.359
+},
+"74a46b79-3df7-456f-ae92-f2d2e90f1cae": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.17204609287176484,
+"score_from_logprobs": true,
+"secs": 0.386
+},
+"79c72994-981e-465d-b608-d393bdf6361c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0014891862707074848,
+"score_from_logprobs": true,
+"secs": 0.281
+},
+"e59e94d7-7db3-402a-b205-e7bce596eb67": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0007220957662990689,
+"score_from_logprobs": true,
+"secs": 0.276
+},
+"579173ac-8f53-4f64-8354-4d733fb1c55b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008158181051161187,
+"score_from_logprobs": true,
+"secs": 0.272
+},
+"108fa967-dd8f-4d93-905e-751d953a184e": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012601416726855147,
+"score_from_logprobs": true,
+"secs": 0.387
+},
+"4e65e168-533e-44a5-bad6-db0c5276f8c0": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0012005343314517676,
+"score_from_logprobs": true,
+"secs": 0.341
+},
+"2a2c7d89-7931-4de9-bc96-ae5b96fafa5a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.09046062284702236,
+"score_from_logprobs": true,
+"secs": 0.664
+},
+"9469d02a-865c-4f0c-ac43-d73b444b7f40": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0028209701614557636,
+"score_from_logprobs": true,
+"secs": 0.473
+},
+"41142198-fabc-41e6-b780-8d79bcfaadc7": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02960290470553001,
+"score_from_logprobs": true,
+"secs": 0.514
+},
+"400d7c8b-dfaf-41f0-8be7-7d20cbefe324": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.023370672500445274,
+"score_from_logprobs": true,
+"secs": 0.549
+},
+"f86a45cb-3c3f-492f-bdf8-81d84ca66d67": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.13133516699635292,
+"score_from_logprobs": true,
+"secs": 0.419
+},
+"5eeb7b76-6a4a-4b89-9217-20ae9dfbb7db": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.003360844871196397,
+"score_from_logprobs": true,
+"secs": 0.436
+},
+"adbb1db8-5f20-486f-ad56-2b5c39b68013": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.10876115310095925,
+"score_from_logprobs": true,
+"secs": 0.4
+},
+"5622b7f1-2783-4349-9014-2c2e6cb2fba0": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005082738016093604,
+"score_from_logprobs": true,
+"secs": 0.371
+},
+"baca0235-86b4-4ddd-a3f3-fad6041fe96a": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005484294878567151,
+"score_from_logprobs": true,
+"secs": 0.351
+},
+"e9f3c108-dbd8-48af-843f-daa46bd201ed": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003028912074396849,
+"score_from_logprobs": true,
+"secs": 0.366
+},
+"18f19f4e-be64-4cff-b6ff-e21e18a6afd1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008416716702210227,
+"score_from_logprobs": true,
+"secs": 0.48
+},
+"eecdac7b-81a5-475e-9cb4-56af1c928216": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.008246995580437705,
+"score_from_logprobs": true,
+"secs": 0.557
+},
+"8b796b49-4385-4bd6-a71d-78fc7b71aadd": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.08273133763212037,
+"score_from_logprobs": true,
+"secs": 0.268
+},
+"b7c02de0-d2c9-4800-a95d-429bc67baa32": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0018720814613655179,
+"score_from_logprobs": true,
+"secs": 0.39
+},
+"1851e7fb-a53e-45b4-8666-03d248ae2d8f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0008300741903980854,
+"score_from_logprobs": true,
+"secs": 0.358
+},
+"facaefe8-e14a-4ae9-9395-21e555ad9eee": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.012478186703446083,
+"score_from_logprobs": true,
+"secs": 0.449
+},
+"7b317ba4-8708-4364-ab08-316038781e3a": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.010485257677151827,
+"score_from_logprobs": true,
+"secs": 0.392
+},
+"aa2f5031-b9c4-4e6d-a40d-4c4e3d756263": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.059152860054090164,
+"score_from_logprobs": true,
+"secs": 0.414
+},
+"c524be50-6442-4743-97b1-25e3b65bd591": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.000598778389964349,
+"score_from_logprobs": true,
+"secs": 0.316
+},
+"c6979a52-76fe-428d-a4b8-dc7f20a89635": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.012137673321949113,
+"score_from_logprobs": true,
+"secs": 0.29
+},
+"e895c74f-03a6-49a6-bb8b-0888377db411": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0021910792885083915,
+"score_from_logprobs": true,
+"secs": 0.282
+},
+"accca878-b18f-4b97-bcbc-24f42bb63cfb": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0013088414286341983,
+"score_from_logprobs": true,
+"secs": 0.272
+},
+"3f25fc8e-f04d-4620-b167-02e4e3570ec8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.014644686592547406,
+"score_from_logprobs": true,
+"secs": 0.268
+},
+"7eb3c617-5fdb-448a-979d-07aebf239fb1": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0019639259610610945,
+"score_from_logprobs": true,
+"secs": 0.334
+},
+"d2cbe136-0f37-4560-acbe-84356e977085": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.010086968846242944,
+"score_from_logprobs": true,
+"secs": 0.32
+},
+"06197faf-d2a4-4542-9070-c3e4f5d5e10f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0532255828128054,
+"score_from_logprobs": true,
+"secs": 0.352
+},
+"37b1e729-949d-49a3-909f-cf94428a20bf": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.09407775388561378,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"b8d197a7-6ae6-4b43-b4cf-b9eacabd72e6": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.006272619236697422,
+"score_from_logprobs": true,
+"secs": 0.336
+},
+"a8a8c765-211d-4ff4-98b3-262464a87db4": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0002726096677456607,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"19ee1ae4-7915-48ef-97dd-8267f66f090d": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.03311659243364567,
+"score_from_logprobs": true,
+"secs": 0.313
+},
+"83458f3a-d9bc-4585-8c4a-489a6ecaea9e": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0007527214568688027,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"ead8269b-c558-4265-bc88-fbd5ac735eea": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0027008234900373516,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"f5e1bc4b-a914-4fcc-9348-dd56b9976ab4": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.03382536163480897,
+"score_from_logprobs": true,
+"secs": 0.539
+},
+"e6a2fda5-1be7-4e9e-a7ac-50e11b0ca8c2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0021921546679554184,
+"score_from_logprobs": true,
+"secs": 0.424
+},
+"eed6fd67-04af-4f37-ad85-81d995264310": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005143314938673401,
+"score_from_logprobs": true,
+"secs": 0.412
+},
+"0171f86d-5f40-4215-8a47-4175235f8d8a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0006721113133961934,
+"score_from_logprobs": true,
+"secs": 0.468
+},
+"f5d17e38-6dbc-4e53-a9a9-483dcd423067": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.011367303990095544,
+"score_from_logprobs": true,
+"secs": 0.39
+},
+"e17443b7-83fc-4619-bc36-d9c68c154bb3": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0005617908027082576,
+"score_from_logprobs": true,
+"secs": 0.366
+},
+"917dc66b-1a87-433d-a2b1-2b66ce35b0cd": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.0017119556275627444,
+"score_from_logprobs": true,
+"secs": 0.278
+},
+"901d8f81-4a13-40b2-8431-d784b69c8f49": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0036405901172016984,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"20d791be-9094-4df1-bded-b026c3e1df66": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.023258904782870488,
+"score_from_logprobs": true,
+"secs": 0.363
+},
+"ea64ea3a-00ae-4685-90e6-bb0f9b73a9c4": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.015530018336968624,
+"score_from_logprobs": true,
+"secs": 0.298
+},
+"ce38d947-2e4b-4931-b27e-8819fae1c60a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.002034571843680942,
+"score_from_logprobs": true,
+"secs": 0.266
+},
+"b6a74ec0-2607-448e-982c-3d5ef01fcc0a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0037589177267032432,
+"score_from_logprobs": true,
+"secs": 0.294
+},
+"bfbb6aa4-c056-4377-97a9-d9e5e6cdfcf5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00044743048022042285,
+"score_from_logprobs": true,
+"secs": 0.293
+},
+"c1fb4daf-2a19-412b-8918-5f3258725cbc": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0015566371057894582,
+"score_from_logprobs": true,
+"secs": 0.285
+},
+"a0b5a4ef-6155-43c2-a6bb-5fdb68292ec9": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00034941742889437594,
+"score_from_logprobs": true,
+"secs": 0.271
+},
+"d37e44e5-f965-4e99-aeb2-9f8ac0d35967": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0020602369166362127,
+"score_from_logprobs": true,
+"secs": 0.321
+},
+"f69eacf1-cab6-408a-9297-1d5a9d045e24": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.02712961219471123,
+"score_from_logprobs": true,
+"secs": 0.462
+},
+"415f7ee3-6e3d-40b6-8cfe-4c83f38a78e1": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00041004852100151015,
+"score_from_logprobs": true,
+"secs": 0.394
+},
+"407bc3d0-47cf-471b-8d36-00bbbd890864": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.005727057787735471,
+"score_from_logprobs": true,
+"secs": 0.336
+},
+"0dc9b1a2-4d30-4c12-85e5-9866f1cbc563": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0005354298100250329,
+"score_from_logprobs": true,
+"secs": 0.413
+},
+"f6c1a209-621b-41b0-813c-7047196bffff": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.007559369749007744,
+"score_from_logprobs": true,
+"secs": 0.337
+},
+"aa3eddd7-7e12-4cc2-b840-1e2c0e2e5963": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.004279475612080955,
+"score_from_logprobs": true,
+"secs": 0.542
+},
+"fcc49a57-5dd7-480e-9a71-23ba653a7232": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006681277786006458,
+"score_from_logprobs": true,
+"secs": 0.34
+},
+"c8eeeb37-d62a-4e91-b548-5f50639300d8": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0009018541177267937,
+"score_from_logprobs": true,
+"secs": 0.529
+},
+"08407db0-caa2-4c9c-bfbb-8d4963999740": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0005778857648736331,
+"score_from_logprobs": true,
+"secs": 0.432
+},
+"3c8faf32-3ca1-4a67-b2fa-c2a25e3c1854": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00023853189321826836,
+"score_from_logprobs": true,
+"secs": 0.3
+},
+"6200a1cf-c242-4f51-b07c-baee07a91b3c": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.00014387574095066344,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"06759252-c705-4f2e-9c35-97ea0fd5f1f2": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.008710679538548495,
+"score_from_logprobs": true,
+"secs": 0.316
+},
+"132af28a-20fa-4aba-80e4-b7a4f946966c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.09538067747854813,
+"score_from_logprobs": true,
+"secs": 0.339
+},
+"d0c85e24-2775-4040-9f32-f1acca783725": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0028516564209059873,
+"score_from_logprobs": true,
+"secs": 0.356
+},
+"e503b0a5-f853-466b-b405-8771bbec524e": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0008517096873997814,
+"score_from_logprobs": true,
+"secs": 0.367
+},
+"dbfed639-9c3a-403e-973f-41c60f03f6e5": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0061170435549765725,
+"score_from_logprobs": true,
+"secs": 0.358
+},
+"80dbc49c-9ee8-4949-8f90-6bdc49cce536": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.029657305571941607,
+"score_from_logprobs": true,
+"secs": 0.472
+},
+"326118f6-0256-4de2-9273-7502837cd70c": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0020426554076600012,
+"score_from_logprobs": true,
+"secs": 0.401
+},
+"c6a5edee-e606-44b0-a716-195a389aba6f": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0006979994221851702,
+"score_from_logprobs": true,
+"secs": 0.296
+},
+"539820c9-7dba-4df2-988c-9fc560927c4a": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.005165868892200264,
+"score_from_logprobs": true,
+"secs": 0.422
+},
+"b4c38eb9-efcf-42e3-9429-dcd79c27199e": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.16831830318818403,
+"score_from_logprobs": true,
+"secs": 0.377
+},
+"2d4142f9-ef6f-48a0-852c-f5fce942a535": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0024372377230293817,
+"score_from_logprobs": true,
+"secs": 0.297
+},
+"b24e9dc2-7b4d-442b-b3c7-5191b034150a": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.041880436122723436,
+"score_from_logprobs": true,
+"secs": 0.6
+},
+"dd675c92-fe08-4be7-ab2f-cfdfe1cca263": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003090909619891148,
+"score_from_logprobs": true,
+"secs": 0.387
+},
+"c5f6bb12-a633-4ee4-b6a8-e6f9539472dc": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0012092422477484345,
+"score_from_logprobs": true,
+"secs": 0.363
+},
+"8c088547-4589-4858-914f-79b07fb31024": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.00021064282520464304,
+"score_from_logprobs": true,
+"secs": 0.325
+},
+"b4063150-8150-4a7d-ba7c-d9acba512dc2": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0023344038855662675,
+"score_from_logprobs": true,
+"secs": 0.333
+},
+"a2662c39-0978-433e-b0af-9f1aeb2ed13f": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.025139353353239993,
+"score_from_logprobs": true,
+"secs": 0.387
+},
+"366c49f5-f8bc-48e2-8079-74dcdf06955b": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0004727064432382326,
+"score_from_logprobs": true,
+"secs": 0.518
+},
+"bb786a04-2768-4e7b-b237-4985a6937a4b": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.12184657078349384,
+"score_from_logprobs": true,
+"secs": 0.333
+},
+"49511bde-e4d9-4ee8-83fd-74792a62c305": {
+"label": 0,
+"raw": "No",
+"fired": false,
+"score": 0.0032871320250714574,
+"score_from_logprobs": true,
+"secs": 0.463
+},
+"fa46afe1-d5ca-4d4e-9de5-b079c4f51a07": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.023525612692165142,
+"score_from_logprobs": true,
+"secs": 0.594
+},
+"d539a642-0ab5-4ed2-af54-1ed542320448": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0014491255637887085,
+"score_from_logprobs": true,
+"secs": 0.457
+},
+"a9c6de02-881b-4c2b-91e7-1a37433c2636": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.006479971630821428,
+"score_from_logprobs": true,
+"secs": 0.317
+},
+"a7d5738b-e518-4dee-9591-75ee1d915f37": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0009817480306071754,
+"score_from_logprobs": true,
+"secs": 0.301
+},
+"c99fa133-c551-4886-a096-30b5e0b72708": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0037630273844531472,
+"score_from_logprobs": true,
+"secs": 0.428
+},
+"c5e76d77-a8ed-4293-a984-59736a23ece3": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0010175346816867828,
+"score_from_logprobs": true,
+"secs": 0.357
+},
+"0548bd74-5484-484d-8777-d4051ef8ab65": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.0031887367008940418,
+"score_from_logprobs": true,
+"secs": 0.268
+},
+"b345a907-5980-4e4a-a1cb-a0005ffd5bda": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.016795633427018352,
+"score_from_logprobs": true,
+"secs": 0.454
+},
+"9a692845-528a-4c6e-b1f3-62b158a694be": {
+"label": 2,
+"raw": "No",
+"fired": false,
+"score": 0.003904218506205653,
+"score_from_logprobs": true,
+"secs": 0.336
+},
+"e1cf80cd-965e-4a64-b2e3-a9549735161a": {
+"label": 1,
+"raw": "No",
+"fired": false,
+"score": 0.31661461365112825,
+"score_from_logprobs": true,
+"secs": 0.278
+}
+}
+}
